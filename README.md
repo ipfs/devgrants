@@ -3,12 +3,10 @@ Draft of IPFS Grant Platform repository (private, to be moved to ipfs org upon s
 
 ## Grant Types
 
-### Micogrant
-Use this template if you are: an independent developer, small business, studio, non-profit, academic
-Deliverable:
-  - if successful: documentation on implemented feature
-  - if unsuccessful: retro describing experience building integration
-Funding Source: PL/IPFS
-Amount: <$1k
+### Adoption Micogrant
 
-[Apply](https://github.com/protocol/ipfs-grants/issues/new?assignees=parkan&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E)
+### Bounty
+
+### RFP
+
+### Open Grant
