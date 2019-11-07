@@ -16,7 +16,7 @@ To see open RFPs and learn more about the proposal process see [RFPs](rfps). RFP
 ### Open Grants
 Do you have an idea for pushing the IPFS ecosystem forward not already covered by an RFP? 
 
-To read more about creating an Open Grant proposal, see [OPEN GRANTS](open grants).
+To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grants).
 
 ### Adoption Micogrant
 These are small grants intended to help stimulate experimentation with and adoption of IPFS across a wide range of fields. The application and reporting requirements are more relaxed, but the monetary awards are smaller as well (max $1k).
