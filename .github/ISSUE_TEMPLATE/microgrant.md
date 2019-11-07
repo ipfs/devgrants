@@ -1,5 +1,5 @@
 ---
-name: Microgrant
+name: Microgrant Application
 about: Adoption Microgrant Program
 title: "[MICROGRANT] <Your Title Here>"
 labels: type:microgrant
