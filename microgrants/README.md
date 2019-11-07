@@ -7,7 +7,7 @@ The IPFS Adoption Microgrants are intended to encourage experimentation with and
 ### Intended Audience
 These grants are intended for independent developers, small studios, non-profits, activists, and researchers. The ideal candidate is a domain expert exploring integrating decentralized technologies into their work, particularly broadly used tools or frameworks. Open Source work is preferred, but exceptions can be made on a case-by-case basis.
 
-Additionally, each quarter we will announce a theme (such as offline use, GIS, digital democracy, etc). Projects in this field will be given preference.
+Additionally, each quarter we will announce a theme (such as offline use, GIS, digital democracy, etc). Projects in this field will be given first consideration.
 
 ### Award
 The grants are awarded in the amount of **$1000**. Approximately 10 grants are awarded every quarter.
