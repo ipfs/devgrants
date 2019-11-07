@@ -13,7 +13,7 @@ Additionally, each quarter we will announce a theme (such as offline use, GIS, d
 The grants are awarded in the amount of **$1000**. 10 grants are awarded every quarter.
 
 ### Applying and Reporting
-The microgrants are intended to be easy to apply for, evaluate, and administer. The [application](#apply) includes a brief description of your current practice, and the intended IPFS integration project, as well as some biographical info.
+The microgrants are intended to be easy to apply for, evaluate, and administer. The [application](#apply) consists of a brief description of your current practice and the intended IPFS integration project, plus some biographical info.
 
 The principal condition of receiving the award is that the entire amount be used to support work related to integrating IPFS, such as developer time, hosting services, relevant hardware such as a raspberry pi, etc. We may ask for documentation of how the money was spent. 
 
