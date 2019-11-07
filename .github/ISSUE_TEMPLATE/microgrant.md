@@ -1,6 +1,6 @@
 ---
 name: Microgrant
-about: IPFS Adoption [Microgrant](../microgrant.md) Program
+about: Adoption Microgrant Program
 title: "[MICROGRANT] <Your Title Here>"
 labels: type:microgrant
 assignees: parkan
