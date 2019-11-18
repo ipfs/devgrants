@@ -26,7 +26,7 @@ Do you have an idea for pushing the IPFS ecosystem forward not already covered b
 
 To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grants).
 
-[**See Existing Open Grants**](open-grants) • [**See Completed Open Grants**](open-grants/completed) • [**Apply for an Open Grant**](open-grants/README.md) • [Read More](open-grants/README.md)
+[**See Proposed Open Grants**](open-grants) • [**See Completed Open Grants**](open-grants/completed) • [**Apply for an Open Grant**](open-grants/README.md) • [Read More](open-grants/README.md)
 
 ---
 
