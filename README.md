@@ -1,6 +1,9 @@
 # ipfs-grants
 Draft of IPFS Grant Platform repository (private, to be moved to ipfs org upon shipping)
 
+## Beta Notice
+This is a _beta version_ of the grant platform. Grant specifications, process, and tooling are all subject to change. Please email ipfs-grants@protocol.ai with any concerns.
+
 ## Grant Types
 
 ### Bounty
