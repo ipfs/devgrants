@@ -22,7 +22,7 @@ To see open RFPs and learn more about the proposal process see [RFPs](rfps). RFP
 ---
 
 ### Open Grant
-Do you have an idea for pushing the IPFS ecosystem forward not already covered by an RFP? Propose a
+Do you have an idea for pushing the IPFS ecosystem forward not already covered by an RFP? Propose an open grant for consideration by the IPFS community.
 
 To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grants).
 
