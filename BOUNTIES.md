@@ -5,7 +5,7 @@ Bounties are simply _incentives for closing (fixing) issues_. Issues with bounti
 
 Bounties are a good fit for simpler tasks like fixing minor bugs, adding test cases, updating or translating documentation, or building small, well-specified features. Projects with good test coverage and automated CI make it much easier for bounty hunters to do their job.
 
-If your task is larger in scope, ambiguous in specification, or requires a lot of rebasing, it may be better to specify it as an [RFP](../rfps). 
+If your task is larger in scope, ambiguous in specification, or requires a lot of rebasing, it may be better to specify it as an [RFP](rfps). 
 
 Issues tagged ["help wanted"](https://github.com/ipfs/docs/labels/help%20wanted) often make good bounty subjects.
 
