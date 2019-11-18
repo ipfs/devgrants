@@ -6,9 +6,9 @@ Draft of IPFS Grant Platform repository (private, to be moved to ipfs org upon s
 ### Bounty
 The bounty challenges are simply issues in IPFS-related repos that have a monetary reward associated with them. You don't need to propose a solution or spec out the work for these challenges⁠—simply submit a patch addressing the issue and you can claim the bounty once the PR is merged.
 
-For a list of issues eligible for Bounties, award amounts, and more details see [BOUNTIES](bounties)
+For a list of issues eligible for Bounties, award amounts, and more details see [BOUNTIES](BOUNTIES.md)
 
-[**CLAIM A BOUNTY**](bounties) • [**START A BOUNTY**](bounties) • [Read More](bounties)
+[**LIST OF BOUNTIES**](../../projects/1) • [**CLAIM A BOUNTY**](BOUNTIES.md#how-to-collect) • [**START A BOUNTY**](BOUNTIES.md#how-to-propose) • [Read More](BOUNTIES.md)
 
 ---
 
@@ -22,7 +22,7 @@ To see open RFPs and learn more about the proposal process see [RFPs](rfps). RFP
 ---
 
 ### Open Grant
-Do you have an idea for pushing the IPFS ecosystem forward not already covered by an RFP? 
+Do you have an idea for pushing the IPFS ecosystem forward not already covered by an RFP? Propose a
 
 To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grants).
 
