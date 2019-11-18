@@ -1,7 +1,7 @@
 # Welcome to IPFS Bounties!
 
 ## Definition
-Bounties are simply _incentives for closing (fixing) issues_. Issues with bounties attached to them are listed on the [Bounties project board](../../projects/1). When the original issue is closed by a PR, the author of that PR is considered eligible for the bounty.
+Bounties are simply _incentives for closing (fixing) issues_. Issues with bounties attached to them are listed on the [Bounties project board](../../projects/1). When the original issue is closed by a PR, the author of that PR is considered eligible for the bounty. Bounty rewards typically range from **$50** to **$1000**.
 
 Bounties are a good fit for simpler tasks like fixing minor bugs, adding test cases, updating or translating documentation, or building small, well-specified features. Projects with good test coverage and automated CI make it much easier for bounty hunters to do their job.
 
