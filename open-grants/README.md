@@ -14,7 +14,7 @@ Once the proposal is accepted, a tracking issue will be opened to discuss and co
 (NOTE: If you are uncertain of the suitability of your proposal, it may be best to open a draft PR with limited detail to gauge community interest)
 
 ### Funding
-Accepted grant PRs are available for funding by the community. You should include organizations that are likely to be interested in supporting your project (for example, Protocol Labs, Web3 Foundation, etc) in the proposal (see template). Funding organizations may request further clarification or modification to your proposal.
+Accepted grant PRs are available for funding by the community. You should include [organizations](../FUNDING.md) that are likely to be interested in supporting your project (for example, Protocol Labs, Web3 Foundation, etc) in the proposal (see template). Funding organizations may request further clarification or modification to your proposal.
 
 Proposals that do not receive funding within 3 months of submission will be archived.
 
