@@ -9,7 +9,7 @@ If your organization intends to back multiple grants in the IPFS ecosystem, plea
 
 ### Protocol Labs
 
-**Description:** Protocol Labs is a research, development, and deployment institution for improving Internet technology. Stewards of IPFS, Filecoin, IPLD, and more.
+**Description:** [Protocol Labs](https://protocol.ai) is a research, development, and deployment institution for improving Internet technology. Stewards of IPFS, Filecoin, IPLD, and more.
 
 **Invoicing:** after your grant is approved, email bills@protocol.ai with a link to the issue
 
