@@ -18,6 +18,9 @@ Accepted grant PRs are available for funding by the community. You should includ
 
 Proposals that do not receive funding within 3 months of submission will be archived.
 
+## Cadence
+Grants are currently evaluated for acceptance and funding on a rolling basis. We may switch to quarterly cohorts depending on the application volume.
+
 ## How To
 ### Propose
 ### Fund
