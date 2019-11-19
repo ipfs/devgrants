@@ -5,6 +5,10 @@ RFPs (Requests For Proposals) are detailed descriptions of a technical problem s
 
 A successful RFP grant requires a detailed problem statement with well-defined acceptance criteria and budget, as well as a Proposal describing the implementation plan and clear deliverables.
 
+If you're interested in a smaller grant with simpler application and reporting requirements, take a look at the [microgrants](../MICROGRANTS.md).
+
+If you have a detailed proposal for a project that will broadly benefit the IPFS community that doesn't answer a particular RFP, you may want to try an [open grant proposal](../open-grants).
+
 ## How To Propose
 ### Intended Audience
 You're a developer or development team that can complete the work described in an RFP within the budget and up to spec.
