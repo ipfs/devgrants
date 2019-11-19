@@ -15,4 +15,4 @@ If your organization intends to back multiple grants in the IPFS ecosystem, plea
 
 ---
 
-**Add Your Foundation Here!**
+**[Add Your Foundation Here!](https://github.com/protocol/ipfs-grants/edit/master/FUNDING.md)**
