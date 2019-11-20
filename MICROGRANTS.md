@@ -10,7 +10,7 @@ These grants are intended for independent developers, small studios, non-profits
 Additionally, each quarter we will announce a theme (such as offline use, GIS, digital democracy, etc). Projects in this field will be given first consideration.
 
 ### Award
-The grants are awarded in the amount of **$1000**. Approximately 10 grants are awarded every quarter.
+The grants are awarded in the amount of **$2000**. Approximately 10 grants are awarded every quarter.
 
 ### Applying and Reporting
 The microgrants are intended to be easy to apply for, evaluate, and administer. The [application](../../issues/new?assignees=parkan&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E) consists of a brief description of your current practice and the intended IPFS integration project, plus some biographical info.
