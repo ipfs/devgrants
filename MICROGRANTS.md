@@ -15,9 +15,9 @@ The grants are awarded in the amount of **$2000**. Approximately 10 grants are a
 ### Applying and Reporting
 The microgrants are intended to be easy to apply for, evaluate, and administer. The [application](../../issues/new?assignees=parkan&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E) consists of a brief description of your current practice and the intended IPFS integration project, plus some biographical info.
 
-The principal condition of receiving the award is that the entire amount be used to support work related to integrating IPFS, such as developer time, hosting services, relevant hardware such as a raspberry pi, etc. We may ask for documentation of how the money was spent. 
+The principal condition of receiving the award is that the entire amount be used to support work related to integrating or improving IPFS, such as developer time, hosting services, relevant hardware such as a raspberry pi, etc. We may ask for documentation of how the money was spent. 
 
-One month after the grant is awarded, or once your project is complete (whichever comes first), you'll be required to provide a report describing your experience building on IPFS, including details of any technical or documentation shortcomings encountered. If your project is successful, we may contact you out about promoting the resulting work, including coverage on [the IPFS Blog](https://blog.ipfs.io/) or social media.
+One month after the grant is awarded, or once your project is complete (whichever comes first), you'll be required to provide a report describing your experience building on IPFS, including details of any technical or documentation shortcomings encountered. If your project is successful, we may contact you about promoting the resulting work, including coverage on [the IPFS Blog](https://blog.ipfs.io/) or social media.
 
 
 ### Cadence
