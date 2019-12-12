@@ -30,4 +30,4 @@ assignees: ''
 <!-- Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds -->
 
 ### Team Details
-<!-- Please describe your team background and expertise that makes you a good fit for completing this RFP including relevant links, past work, and existing repositories -->
+<!-- Please describe your team background and expertise (including who specifically will be working on this RFP) and what makes you a good fit for completing this RFP including relevant links, past work, and existing repositories -->
