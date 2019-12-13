@@ -46,4 +46,10 @@ What are the acceptance criteria for each milestone and for the final deliverabl
 
 ## Resources
 
-Please link any resources that might be helpful for a proposer/implementer who is working on this project.
+Link any resources that might be helpful for an implementer who is working on this project.
+
+## Support and Funding
+
+Who is backing this project? How will they pay the implementers? If you have not already added your information to [FUNDING](../FUNDING.md), you can do so now and link it here. Include a legal entity name if possible.
+
+Any other organizations that choose to add their support to this RFP will do so in this section.
