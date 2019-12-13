@@ -14,7 +14,7 @@ If you have a detailed proposal for a project that will broadly benefit the IPFS
 You're a developer or development team that can complete the work described in an RFP within the budget and up to spec.
 
 ### How To
-1. Select an open RFP from [this list](..). 
+1. Select an open RFP from [this list](.). 
 2. [Open an issue](https://github.com/protocol/ipfs-grants/issues/new?assignees=&labels=&template=rfp-proposal.md&title=RFP+Proposal%3A+%3CYour+Project+Title%3E) with your proposal, following the template. Be sure to tag the original poster of the RFP to let them know about your proposal.
 
 ## How To Create RFP
@@ -22,7 +22,7 @@ You're a developer or development team that can complete the work described in a
 You're an organization looking to solicit technical contributions for a well-defined project. You have the necessary technical or product expertise to specify the work, evaluate proposals, and determine the correctness of the result.
 
 ### How to
-1. Open a PR based on the [RFP template](../../../issues/new?assignees=&labels=&template=rfp-proposal.md&title=RFP+Proposal%3A+%3CYour+Project+Title%3E) (don't forget to change the file name). Tag your RFP appropriately to help applicants find projects that fit their skills and interests.
+1. Open a PR based on the [RFP template](rfp-template.md) (don't forget to change the file name). Tag your RFP appropriately to help applicants find projects that fit their skills and interests.
 2. Watch for new issues referencing your RFP
 3. Evaluate and select the proposal best suited to your requirements
 4. Once you've affirmatively selected a proposal, we will close any other issues and mark your RFP as "In Progress"
