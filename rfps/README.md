@@ -34,6 +34,6 @@ Remember: writing a high quality RFP is a lot of work. It's your responsibility 
 You're interested in accelerating the development of a specific feature, or perhaps broadly supporting IPFS work as a foundation or private donor.
 
 ### How To
-Simply add your additional pledge to the document describing the RFP, or submit it in the comments of the PR if it is not yet merged.
+Simply add your additional pledge to the document describing the RFP (under "Support and Funding"), or add it in comments of the PR if it is not yet merged.
 
 It may also be a good idea to add invoicing/payment information for your organization to [FUNDING](../FUNDING.md) to make the disbursement process easier.
