@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Unsure what to choose?
-    url: https://github.com/protocol/ipfs-grants/blob/master/README.md
+    url: https://github.com/ipfs/devgrants/blob/master/README.md
     about: Read more about grant templates here
