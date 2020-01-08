@@ -123,7 +123,7 @@ As such, we'd expect a launchable application to be ready roughly 12 weeks from 
 
 ## Maintenance and Upgrade Plans
 
-We'll be using it internally (free hosting for a client is huge!) so we'll ensure it's always in working order as a necessity.
+We'll be using it internally (instant rollbacks and cheap hosting is huge) so we'll ensure it's always in working order as a necessity.
 
 However, we would like to grow this product into a profitable offering for hosting static assets. We'd love to eventually offer some additional services like free SSL via LetsEncrypt, on the fly serverside rendering, and perhaps some CDN integrations. In order to be able to do this work, we'd first need a profit generating product so that we can afford to commit development time to it.
 
