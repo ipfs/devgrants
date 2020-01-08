@@ -18,7 +18,7 @@ This section should be 2-3 paragraphs long.
 
 ## Value
 
-Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions:
+Please describe in more detail why this proposal is valuable for the IPFS ecosystem. Answer the following questions:
 - What are the benefits to getting this right?
 - What are the risks if you don't get it right?
 - What are the risks that will make executing on this project difficult?
