@@ -194,7 +194,6 @@ Our definition of done aims to be as robust as our KPI is simple. Each command w
     3. Rustdoc tests are passing on all code-level comments
     4. Differences between Rust’s implementation and Go or JS are explained
 6. There are passing conformance tests, approved by Protocol Labs
-7. There is an updated version of the library published to https://crates.io
 
 ### Out of Scope
 
