@@ -106,7 +106,7 @@ to best of their ability and within any financial constraints that exist.
 
 Much like we will build upon community efforts, we will also enable and encourage others
 to build upon our work. This will be a twofold effort that includes both permissive
-licencing and community outreach:  onboarding as many new contributors as possible,
+licensing and community outreach:  onboarding as many new contributors as possible,
 mapping the work out into issues of different levels of difficulty, and providing mentorship.
 
 ### Figure 1. Risk Assessment
