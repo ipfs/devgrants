@@ -220,8 +220,8 @@ The following commands are experimental:
 * `ipfs filestore { dups, ls, verify }`
 * `ipfs urlstore { add }`
 
-The following commands are deprecated
-* `ipfs files ls`
+The following commands are or will be deprecated:
+* `ipfs file { ls }`
 * `ipfs object { data, diff, ... }`
 
 Additionally:
