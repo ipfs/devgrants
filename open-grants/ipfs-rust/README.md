@@ -3,9 +3,9 @@
 
 Rust, the programming language, has enjoyed a recent spike in popularity. This is due both to
 its inclusive community, and also being a safe systems language with performance comparable to
-C and C++. It would seem that an IPFS implementation written in Rust would make sense.
+C and C++. An IPFS implementation written in Rust only makes sense.
 
-The IPFS community seems to agree, and since then has created an astonishing amount of output.
+The IPFS community agrees, and since then has created an astonishing amount of output.
 David Craven’s “rust-ipfs”, the work of the multiformats team, and of course Parity’s rust-libp2p. Our aim is to build upon this work, forking only when necessary, and carry the torch across the finish line.
 
 If funded, the IPFS implementation detailed in this proposal would be a properly stewarded Rust
