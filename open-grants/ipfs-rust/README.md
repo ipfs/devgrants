@@ -10,7 +10,7 @@ David Craven’s “rust-ipfs”, the work of the multiformats team, and of cour
 
 If funded, the IPFS implementation detailed in this proposal would be a properly stewarded Rust
 codebase that could stand alongside its Go and JS siblings, and be used successfully in a
-variety of contexts: either as a “crate,” or via its familiar HTTP API.
+variety of contexts: either as a “crate,” a command line interface, or via its familiar HTTP API.
 
 At the very least, we hope that our effort in scoping and planning is useful to any others who
 might want to continue - and hopefully complete - this work.
