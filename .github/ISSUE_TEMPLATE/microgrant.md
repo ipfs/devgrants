@@ -1,7 +1,7 @@
 ---
 name: Microgrant Application
 about: Adoption Microgrant Program
-title: "[MICROGRANT] <Your Title Here>"
+title: 'MIcrogrant: <Your Title Here>'
 labels: type:microgrant
 assignees: parkan
 
