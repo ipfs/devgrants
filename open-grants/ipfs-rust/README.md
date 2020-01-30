@@ -344,6 +344,7 @@ an IPFS node to do so.
     * `ipfs stats bw`
     * `ipfs version deps`
 2. Flagship Rust IPFS Public Gateway Production Deployment
+3. Performance and resource utilization tuning for resource-constrained devices like the Pi Zero
 3. Final Project Report
 
 ### Figure 4: Implementation Schedule
