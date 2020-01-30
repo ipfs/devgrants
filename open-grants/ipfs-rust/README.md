@@ -32,7 +32,7 @@ MIT/Apache-2.0 license, allowing licensees to choose either at their option._
     * [Implementation Details](#implementation-details)
         * [IPLD](#ipld)
         * [libp2p](#libp2p)
-    * [Metric: Number of CLI Commands Implemented](#metric-number-of-cli-commands-implemented)
+    * [Metric: Number of HTTP Endpoints Implemented](#metric-number-of-http-endpoints-implemented)
     * [Definition of Done](#definition-of-done)
     * [Out of Scope](#out-of-scope)
     * [Phase 1.1 IPLD Foundations](#phase-11-ipld-foundations)
@@ -169,15 +169,19 @@ Many functions that IPFS rely on are wrappers around libp2p functions. These are
 * `ipfs swarm *`
 * `ipfs pubsub *`
 
-### Metric: Number of CLI Commands Implemented
+### Metric: Number of HTTP Endpoints Implemented
 
-There are roughly 153 CLI commands and subcommands that a typical IPFS implementation exposes.
+There are roughly 153 HTTP API endpoints that a typical IPFS implementation exposes.
 While there are a number of other metrics we could choose to suitably track progress, “How
-many commands have been implemented in Rust so far?” is an easy question to ask.
+many endpoints have been implemented in Rust so far?” is an easy question to ask.
 
 This proposal covers about 80 commands, with a number being deemed out of scope. See Figure 4
 at the end of the document for a breakdown of which commands fall under which project phase,
 and Out of Scope Commands for a list out of scope commands.
+
+**Note:** Throughout the proposal, we will refer to commands using either the URL path or the
+CLI represntation of the command, and they should be thought of as interchangable. For example
+`/api/v0/add` will be referred to as `ipfs add` or simply `add`.
 
 ### Definition of Done
 
@@ -186,7 +190,7 @@ Our definition of done aims to be as robust as our KPI is simple. Each command w
 1. There is a working Rust implementation of the command’s functionality
     1. Code is “linted” i.e. code formatting via rustfmt and language idioms via clippy
 2. There is an HTTP binding for said command exposed via the IPFS daemon
-3. There is a CLI command that utilizes either the Rust APIs or the HTTP APIs
+3. (Optional) There is a CLI command that utilizes either the Rust APIs or the HTTP APIs
 4. There are functional and/or unit tests written, and they are passing
 5. There is suitable documentation. In our case, this means:
     1. Each command has a usage example and API specification
@@ -201,7 +205,6 @@ The commands listed below are deemed out of scope for this proposal, and will no
 included as part of the Rust IPFS implementation work done within.
 
 The following commands are simply not required by our use case:
-* `ipfs bitswap { ledger, reprovide, stat, wantlist }`
 * `ipfs cid`
 * `ipfs diag cmds`
 * `ipfs files *`
@@ -281,6 +284,10 @@ support via Rust crate functions, the HTTP API, as well as CLI commands.
 #### Deliverables
 
 1. Definition of Done for:
+    * `ipfs bitswap ledger`
+    * `ipfs bitswap reprovide`
+    * `ipfs bitswap stat`
+    * `ipfs bitswap wantlist`
     * `ipfs pubsub ls`
     * `ipfs pubsub peers`
     * `ipfs pubsub pub`
@@ -294,7 +301,7 @@ support via Rust crate functions, the HTTP API, as well as CLI commands.
 
 #### Development Schedule
 
-Development will take place over an estimated 5 weeks of development. The following chart
+Development will take place over an estimated 6 weeks of development. The following chart
 assumes a week 13 start date (Feb 25).
 
 ##### Figure 2. Phase 1.2 Gantt Chart
@@ -305,7 +312,7 @@ assumes a week 13 start date (Feb 25).
 
 |  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
 | --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 424 hours | 120€ | 50,880€ | $56,066.20 |
+| Software Development and Project Management | 488 hours | 120€ | 58,560€ | $64,432.40 |
 
 ### Phase 2 and Onward
 
