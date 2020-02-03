@@ -85,18 +85,10 @@ The IPFS and Rust communities together have done an astounding job putting toget
 these projects. We diligently went through and performed initial outreach to the authors,
 and here is what we found to be some of the top projects on this list.
 
-* https://github.com/ipfs-rust/rust-ipfs
-    * This is likely the furthest along in terms of a Rust IPFS implementation. It contains implementations of the block, dag, ipns and a few other APIs. However, there are no CLI or HTTP bindings as of this writing
-* https://github.com/libp2p/rust-libp2p
-    * Parity’s implementation of libp2p in Rust, which includes their own in-tree versions of rust-multihash and rust-multiaddr. The next two items on the list would capture the requirements not covered, i.e. cid and multicodec
 * https://github.com/multiformats/rust-cid
 * https://github.com/mudlee/rust-multicodec
-* https://github.com/ipfs-rust/rust-ipld
-    * Most advanced IPLD library with support for protobuf, cbor, and json
 * https://docs.rs/ipfs-api/0.6.0-rc/ipfs_api/
     * HTTP Bindings for Rust to call the standard IPFS HTTP API
-* https://github.com/vmx/rust-ipld/
-    * Protocol Labs internal work on rust-ipld.
 
 #### rust-libp2p
 
