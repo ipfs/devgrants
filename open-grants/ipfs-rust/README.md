@@ -87,10 +87,10 @@ and here is what we found to be some of the top projects on this list.
 
 #### rust-libp2p
 
-* secio: fast moving, even this week `ed25519` compatbile PeerId inlining was merged
+* secio: fast moving, recently `ed25519` compatible [PeerId inlining was merged](https://github.com/libp2p/rust-libp2p/pull/1413)
 * protocol selection with yamux or mplex multiplexing
 * dht: cannot comment  at this time on completeness or interoperability
-* floodsub should now be compatible, gossipub was merged in the last weeks
+* floodsub [should now be compatible](https://github.com/libp2p/rust-libp2p/pull/1395), [gossipub was merged in recently](https://github.com/libp2p/rust-libp2p/pull/898)
 * ongoing work on QUIC support, probably out of scope for now but something to keep an eye on
 * swarm management, id, ping and support for building bitswap, as demonstrated
   by @dvc94ch's work on [rust-ipfs](https://github.com/ipfs-rust/rust-ipfs/)
