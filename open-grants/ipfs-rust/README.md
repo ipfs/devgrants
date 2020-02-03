@@ -151,8 +151,10 @@ future.
 
 #### Bitswap
 
-* The only found implementation is in rust-ipfs by, again, @dvc94ch, which has
+* The only found implementation is in [rust-ipfs] by, again, @dvc94ch, which has
   been tested to exchange block with go-ipfs 0.4.22 and an older rust-libp2p
+
+[rust-ipfs]: https://github.com/ipfs-rust/rust-ipfs/
 
 #### HTTP
 
