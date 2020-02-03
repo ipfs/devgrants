@@ -92,23 +92,45 @@ and here is what we found to be some of the top projects on this list.
 * dht: cannot comment  at this time on completeness or interoperability
 * floodsub should now be compatible, gossipub was merged in the last weeks
 * ongoing work on QUIC support, probably out of scope for now but something to keep an eye on
-* swarm management, id, ping and support for building bitswap, as demonstrated by @dvc94ch's work on [rust-ipfs](https://github.com/ipfs-rust/rust-ipfs/)
-* [implementation differences in aes-ctr](https://github.com/libp2p/rust-libp2p/issues/1242) ([PR pending](https://github.com/RustCrypto/stream-ciphers/pull/75))
+* swarm management, id, ping and support for building bitswap, as demonstrated
+  by @dvc94ch's work on [rust-ipfs](https://github.com/ipfs-rust/rust-ipfs/)
+* [implementation differences in aes-ctr] ([pending PR])
 
 Action item: learn more about status of DHT implementation in rust-libp2p.
 
+[implementation differences in aes-ctr]: https://github.com/libp2p/rust-libp2p/issues/1242
+[pending PR]: https://github.com/RustCrypto/stream-ciphers/pull/75
+
 #### IPFS DAG / IPLD
 
-* [rust-ipfs] includes Merkledag (dag-pb) and dag-cbor over an unifying abstraction on top of [rust-protobuf] and [custom version of `cbor`](https://github.com/dvc94ch/rust-cbor) crate
-* [rust-ipld] includes dag-cbor on top of custom encoder and decoder, even multiblock types in a separate project [rust-ipld-collections]
-* protobuf encoding and decoding are mature and there exists at least three solutions for the project needs with different trade-offs ([rust-protobuf], [quick-protobuf], [prost!])
-* [cbor encoding and decoding for serde](https://github.com/pyfisch/cbor) has existed for a while, but the main crate only [recently added support for tagged values](https://github.com/pyfisch/cbor/pull/172), something which has been missing a while at least from the larger `serde` community, which the is the core crate for dealing with json alike formats
-    * supporting tags has been discussed for a while but problematic as they appear in formats which are essentially a superset of JSON, like CBOR
-    * there is ongoing work at [vmx/rust-ipld] on top of recently enabled [serde_cbor](https://github.com/pyfisch/cbor) tag support
+* [rust-ipfs] includes Merkledag (dag-pb) and dag-cbor over an unifying
+  abstraction on top of [rust-protobuf] and [custom version of
+  `cbor`](https://github.com/dvc94ch/rust-cbor) crate
+* [rust-ipld] includes dag-cbor on top of custom encoder and decoder, even
+  multiblock types in a separate project [rust-ipld-collections]
+* protobuf encoding and decoding are mature and there exists at least three
+  solutions for the project needs with different trade-offs ([rust-protobuf],
+  [quick-protobuf], [prost!])
+* [cbor encoding and decoding for serde](https://github.com/pyfisch/cbor) has
+  existed for a while, but the main crate only [recently added support for
+  tagged values](https://github.com/pyfisch/cbor/pull/172), something which has
+  been missing a while at least from the larger `serde` community, which the is
+  the core crate for dealing with json alike formats
+    * supporting tags has been discussed for a while but problematic as they
+      appear in formats which are essentially a superset of JSON, like CBOR
+    * there is ongoing work at [vmx/rust-ipld] on top of recently enabled
+      [serde_cbor](https://github.com/pyfisch/cbor) tag support
 * JSON format support can be considered mature with [serde_json]
     * supporting IPLD dag-json documents will need work
 
-What is definitely missing is support for IPLD selectors on one account of their [spec](https://github.com/ipld/specs/blob/master/selectors/selectors.md) is still in draft status. The functionality required by `ipfs dag get` has been at least partially implemented already in [rust-ipfs]. The existing attempts are expected to evolve and will be considered to be used and extended, which ever looks most promising at the start of the project. Our understanding is that @vmx intends to implement the more advanced features of IPLD in the near future.
+What is definitely missing is support for IPLD selectors on one account of
+their [spec](https://github.com/ipld/specs/blob/master/selectors/selectors.md)
+is still in draft status. The functionality required by `ipfs dag get` has been
+at least partially implemented already in [rust-ipfs]. The existing attempts
+are expected to evolve and will be considered to be used and extended, which
+ever looks most promising at the start of the project. Our understanding is
+that @vmx intends to implement the more advanced features of IPLD in the near
+future.
 
 [rust-ipfs]: https://github.com/ipfs-rust/rust-ipfs/
 [rust-protobuf]: https://github.com/stepancheg/rust-protobuf
@@ -121,20 +143,26 @@ What is definitely missing is support for IPLD selectors on one account of their
 
 #### IPFS Blockstore
 
-* Multiple existing key-value store solutions randing from wrappers of databases written in different languages to fully rust solutions
+* Multiple existing key-value store solutions randing from wrappers of
+  databases written in different languages to fully rust solutions
 * Initial filesystem and rocksdb based stores in [rust-ipfs] by @dvc94ch
 
 [rust-ipfs]: https://github.com/ipfs-rust/rust-ipfs/
 
 #### Bitswap
 
-* The only found implementation is in rust-ipfs by, again, @dvc94ch, which has been tested to exchange block with go-ipfs 0.4.22 and an older rust-libp2p
+* The only found implementation is in rust-ipfs by, again, @dvc94ch, which has
+  been tested to exchange block with go-ipfs 0.4.22 and an older rust-libp2p
 
 #### HTTP
 
-The "async story" of Rust enabling for example high performance web services is still evolving at great speed but there exists some longer running projects enabling the building of HTTP API as is required to enable testing  such as [warp](https://github.com/seanmonstar/warp).
+The "async story" of Rust enabling for example high performance web services is
+still evolving at great speed but there exists some longer running projects
+enabling the building of HTTP API as is required to enable testing  such as
+[warp](https://github.com/seanmonstar/warp).
 
-[ferriseng/rust-ipfs-api](https://docs.rs/ipfs-api/0.6.0-rc/ipfs_api/) provides HTTP API bindings in Rust.
+[ferriseng/rust-ipfs-api](https://docs.rs/ipfs-api/0.6.0-rc/ipfs_api/) provides
+HTTP API bindings in Rust.
 
 ### Maintenance and Upgrade Plan
 
