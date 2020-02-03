@@ -24,6 +24,11 @@ MIT/Apache-2.0 license, allowing licensees to choose either at their option._
     * [Summary](#summary)
     * [Value](#value)
     * [Survey of Community Efforts](#survey-of-community-efforts)
+        * [libp2p + pubsub](#libp2p--pubsub)
+        * [IPFS DAG / IPLD](#ipfs-dag--ipld)
+        * [IPFS Blockstore](#ipfs-blockstore)
+        * [HTTP](#http)
+        * [What is missing?](#what-is-missing)
     * [Maintenance and Upgrade Plan](#maintenance-and-upgrade-plan)
     * [Figure 1. Risk Assessment](#figure-1-risk-assessment)
     * [Project Team](#project-team)
@@ -131,7 +136,7 @@ of time and money while fostering community morale and inclusion.
 
 
 
-### What is missing?
+#### What is missing?
 
 - What is definitely missing is support for IPLD selectors on one account of
 their [spec](https://github.com/ipld/specs/blob/master/selectors/selectors.md)
