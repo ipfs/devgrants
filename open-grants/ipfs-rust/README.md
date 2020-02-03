@@ -85,11 +85,6 @@ The IPFS and Rust communities together have done an astounding job putting toget
 these projects. We diligently went through and performed initial outreach to the authors,
 and here is what we found to be some of the top projects on this list.
 
-* https://github.com/multiformats/rust-cid
-* https://github.com/mudlee/rust-multicodec
-* https://docs.rs/ipfs-api/0.6.0-rc/ipfs_api/
-    * HTTP Bindings for Rust to call the standard IPFS HTTP API
-
 #### rust-libp2p
 
 * secio: fast moving, even this week `ed25519` compatbile PeerId inlining was merged
@@ -138,6 +133,8 @@ What is definitely missing is support for IPLD selectors on one account of their
 #### HTTP
 
 The "async story" of Rust enabling for example high performance web services is still evolving at great speed but there exists some longer running projects enabling the building of HTTP API as is required to enable testing  such as [warp](https://github.com/seanmonstar/warp).
+
+[ferriseng/rust-ipfs-api](https://docs.rs/ipfs-api/0.6.0-rc/ipfs_api/) provides HTTP API bindings in Rust.
 
 ### Maintenance and Upgrade Plan
 
