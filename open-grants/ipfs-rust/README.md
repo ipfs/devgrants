@@ -34,24 +34,25 @@ MIT/Apache-2.0 license, allowing licensees to choose either at their option._
     * [Project Team](#project-team)
 * [Project Plan](#project-plan)
     * [Summary](#summary)
+        * [Q1 2020](#q1-2020)
+        * [Q2 2020](#q2-2020)
     * [Implementation Details](#implementation-details)
         * [IPLD](#ipld)
         * [libp2p](#libp2p)
     * [Metric: Number of HTTP Endpoints Implemented](#metric-number-of-http-endpoints-implemented)
     * [Definition of Done](#definition-of-done)
     * [Out of Scope](#out-of-scope)
-    * [Phase 1.1 IPLD Foundations](#phase-11-ipld-foundations)
+    * [Phase 1.0 Interoperability Baseline](#phase-10-interoperability-baseline)
         * [Deliverables](#deliverables)
         * [Development Schedule](#development-schedule)
-            * [Figure 2: Phase 1.1 Gantt Chart](#figure-2-phase-11-gantt-chart)
-        * [Estimated Budget (Phase 1.1)](#estimated-budget-phase-11)
-    * [Phase 1.2: IPLD Application Support](#phase-12-ipld-application-support)
+            * [Figure 2: Phase 1.0 Gantt Chart](#figure-2-phase-10-gantt-chart)
+        * [Estimated Budget (Phase 1.0)](#estimated-budget-phase-10)
+    * [Phase 1.1: Blockstore](#phase-12-blockstore)
         * [Deliverables](#deliverables-1)
         * [Development Schedule](#development-schedule-1)
-            * [Figure 3: Phase 1.2 Gantt Chart](#figure-3-phase-12-gantt-chart)
-        * [Estimated Budget (Phase 1.2)](#estimated-budget-phase-12)
+            * [Figure 3: Phase 1.1 Gantt Chart](#figure-3-phase-11-gantt-chart)
+        * [Estimated Budget (Phase 1.1)](#estimated-budget-phase-11)
     * [Phase 2 and Onward](#phase-2-and-onward)
-    * [Figure 4: Implementation Schedule](#figure-4-implementation-schedule)
 
 ## Project Description
 
@@ -65,22 +66,23 @@ which pieces of IPFS functionality to tackle first, we focused on a pair of end 
 
 In preparation for this, the team researched the existing community contributions and, by
 way of a diligent gap analysis, have charted out the path to delivery. During execution,
-the team will use a very simple metric to report progress: the number of API commands implemented.
+the team will use a very simple metric to report progress: the number of HTTP endpoints
+implemented.
 
 After development is complete, Equilibrium Labs has offered to steward the project, which
-will provide stability to the project, and survive the previous work of others. This should
+will provide necessary stability, and survive the previous work of others. This should
 significantly boost community morale.
 
 ### Value
 
-The Rust programming language has a dual value in both its feature set, and community.
+The Rust programming language has a dual value in both its feature set and its community.
 
 A viable Rust implementation of IPFS would:
 
 * Bring greater exposure to IPFS within the Rust community
     * Publicity opportunities at Rust-themed events such as conferences and meetups
     * Exposure to C and other APIs via Foreign Function Interfaces (FFIs)
-* Enable additional opportunities in both the embedded firmware space which opens the door to things like IoT, automotive, industrial, and wearable devices
+* Enable additional opportunities in the embedded firmware and resource constrained spaces, which opens the door to things like IoT, automotive, industrial, and wearable devices
     * See the [Awesome Embedded Rust](https://github.com/rust-embedded/awesome-embedded-rust) list for some examples
 * Enable additional opportunities in the WebAssembly space
 
@@ -189,14 +191,42 @@ mapping the work out into issues of different levels of difficulty, and providin
 ### Summary
 
 We propose a phased approach, with each deliverable building on the last while still
-itself being comprehensive, usable software  that the community can build upon and
-continue to build.
+itself being comprehensive, usable software that the community can build upon and
+continue to build. The phases are designed to fit cleanly within quarters of the year,
+starting partway through Q1 2020.
 
-1. Phase 1 is the shortest path to enabling IPLD applications to be written in Rust
-    1. Phase 1.1 sets up the project and lays the groundwork (Blockstore, IPLD, Swarm)
-    2. Phase 1.2 implements Bitswap, Pubsub to complete support for IPLD applications
-2. Phase 2 enables IPFS Gateway functionality, allowing for swarming and content sharing. This
-phase's planning and estimation is largely left TBD due to a rapidly changing ecosystem
+#### Q1 2020
+
+Phase 1.0:
+
+- Initial Interoperability Report
+- HTTP endpoint scaffolding (with 501 not implemented default)
+
+This quick phase sets the baseline for interoperability testing. At this point we expect
+that most, if not all, tests will fail with a `501 NOT IMPLEMENTED` error. This will become
+the key metric of progress on the project.
+
+Phase 1.1:
+
+- Blockstore implementation
+- HTTP endpoints for at least blockstore and pubsub
+
+From there, we will begin the shortest path to enabling IPLD applications to be written in Rust.
+Choosing and building (or building upon) a blockstore implementation, followed by enabling several
+HTTP endpoints.
+
+Existing community work will be extremely beneficial to this stage, as many HTTP endpoints
+can likely be enabled by writing simple wrapper code around existing crates.
+
+#### Q2 2020
+
+Phase 2.0:
+
+- TBD
+
+The goal of Phase 2, at the time of this writing, is IPFS Gateway functionality, allowing for
+swarming and content sharing. We've marked this phase highly TBD due to a rapidly changing
+ecosystem.
 
 ### Implementation Details
 
@@ -290,51 +320,40 @@ Additionally:
 * ipfs update will likely be handled by cargo install
 * Private network support via a swarm key is out of scope.
 
-### Phase 1.1 IPLD Foundations
+### Phase 1.0 Interoperability Baseline
 
-Phase as a whole would enable the minimum functionality for higher-level abstractions and
-tools to be built upon rust-ipfs, or to be accessed via an HTTP API that rust-ipfs exposes.
-
-Phase 1.1 covers project setup, implementations of groundwork ipfs commands (which includes
-conformance testing), and the resultant grant report to be submitted to Protocol Labs.
+Phase 1.0 covers project setup, and a baseline conformance test / interoperability report.
 
 #### Deliverables
 
-1. Project Setup: Git, CI/CD, Protocol Labs conformance testing, etc.
-2. Definition of Done for:
-    * `ipfs block`
-    * `ipfs block get`
-    * `ipfs block put`
-    * `ipfs block rm`
-    * `ipfs block stat`
-    * `ipfs daemon`
-    * `ipfs dag`
-    * `ipfs dag get`
-    * `ipfs dag put`
-    * `ipfs swarm connect`
-    * `ipfs swarm disconnect`
-    * `ipfs swarm peers`
-    * `ipfs version`
-    * `ipfs id`
-3. Block storage implementation
-4. Conformance testing via js-ipfsd-ctl, interface-js-ipfs-core
-5. Project Milestone Report
+1. Project Setup
+    1. Git Repository Setup
+    2. Crate + Subcrate Structures
+    3. CI/CD
+2. Conformance testing via js-ipfsd-ctl, interface-js-ipfs-core
+    1. Conformance Report
+3. Interoperability testing via ipfs/interop
+    1. Interop Report
+4. Project Milestone Report
 
 #### Development Schedule
 
-Development will take place over an estimated 8 weeks of development. The following chart
-assumes a week 7 start date (Feb 10). We can be flexible in terms of start dates, however
+Development will take place over an estimated 3-4 weeks of development. The following chart
+assumes a week 8 start date (Feb 17). We can be flexible in terms of start dates, however
 starting as soon as possible is preferable due to the above risk assessment.
 
-##### Figure 2. Phase 1.1 Gantt Chart
 
-![Phase 1.1 Gantt Chart](./media/phase-1-1-gantt.png)
+##### Figure 2. Phase 1.0 Gantt Chart
 
-#### Estimated Budget (Phase 1.1)
+![Phase 1.0 Gantt Chart](./media/phase-1-0-gantt.png)
+
+_All figures are estimates._
+
+#### Estimated Budget (Phase 1.0)
 
 |  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
 | --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 480 hours | 120€ | 57,600€ | $63,449.28 |
+| Software Development and Project Management | 164 hours | 120€ | 19,680€ | $21,832.01 |
 
 ### Phase 1.2: IPLD Application Support
 
@@ -343,70 +362,55 @@ support via Rust crate functions, the HTTP API, as well as CLI commands.
 
 #### Deliverables
 
-1. Definition of Done for:
-    * `ipfs bitswap ledger`
-    * `ipfs bitswap reprovide`
-    * `ipfs bitswap stat`
-    * `ipfs bitswap wantlist`
-    * `ipfs pubsub ls`
-    * `ipfs pubsub peers`
-    * `ipfs pubsub pub`
-    * `ipfs pubsub sub`
-    * `ipfs refs`
-    * `ipfs refs local`
-    * `ipfs init`
-2. CLI commands from 1.1 that were only implemented in HTTP API
-3. Benchmarking report comparing OrbitDB performance on go-ipfs, rust-ipfs, and js-ipfs
-4. Bitswap testing and bug fixes
+1. Blockstore Implementation 
+2. Bitswap testing and bug fixes
+3. [Definition of Done](#definition-of-done) for:
+    1. `/pubsub/*`
+    2. `/swarm/*`
+    3. `/version`
+    4. `/id`
+    5. `/block/*`
+    6. `/dag/*`
+    7. `/refs/*`
+    8. `/bitswap/*`
+4. Project Milestone Report
+    1. Updated Conformance Tests
+    2. Updated Interop Tests
+
+Here, the community work will have its chance to shine - `libp2p` and `rust-ipld` in particular.
 
 #### Development Schedule
 
-Development will take place over an estimated 6 weeks of development. The following chart
-assumes a week 13 start date (Feb 25).
+Development will take place over an estimated 4 weeks of development. The following chart
+assumes a week 9 start date (Feb 24).
 
-##### Figure 2. Phase 1.2 Gantt Chart
+##### Figure 2. Phase 1.1 Gantt Chart
 
-![Phase 1.2 Gantt Chart](./media/phase-1-2-gantt.png)
+![Phase 1.1 Gantt Chart](./media/phase-1-1-gantt.png)
+
+_All figures are estimates._
 
 #### Estimated Budget (Phase 1.2)
 
 |  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
 | --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 488 hours | 120€ | 58,560€ | $64,432.40 |
+| Software Development and Project Management | 224 hours | 120€ | 26,880€ | $29,819.33 |
 
 ### Phase 2 and Onward
 
-_**Note:** At this point, it's likely that the landscape will have changed such that we can't sufficiently
+At this point, it's likely that the landscape will have changed such that we can't sufficiently
 scope or estimate work meaningfully. We'd like to treat Phase 2 and onward as TBD, with the
 intent of scoping and estimating the following work over time, as we move through Phase 1
-and Phase 2._
+and Phase 2.
 
 That being said: This phase would contain the minimum viable feature set within rust-ipfs to
-allow it to peer with, and get data from, an existing go-ipfs or js-ipfs node. In order for
-an IPFS node to do so.
+allow it to peer and share data with an existing go-ipfs or js-ipfs node, or perhaps even a
+public gateway.
 
-#### Deliverables
+#### Potential Deliverable Ideas
 
-1. Definition of Done for:
-    * `ipfs add`
-    * `ipfs cat`
-    * `ipfs commands`
-    * `ipfs config { edit, show }`
-    * `ipfs dht { findpeer, findprovs, get, provide, put, query }`
-    * `ipfs diag sys`
-    * `ipfs dns`
-    * `ipfs ls`
-    * `ipfs name { publish, pubsub, resolve, data }`
-    * `ipfs pin { add, ls, rm, update, verify }`
-    * `ipfs ping`
-    * `ipfs repo { gc, stat, verify, version }`
-    * `ipfs resolve`
-    * `ipfs stats bw`
-    * `ipfs version deps`
-2. Flagship Rust IPFS Public Gateway Production Deployment
-3. Performance and resource utilization tuning for resource-constrained devices like the Pi Zero
-3. Final Project Report
-
-### Figure 4: Implementation Schedule
-
-![Rust IPFS Implementation Schedule](./media/fig2-ipfs-rust-implementation-schedule.png)
+1. Definition of Done for remaining endpoints
+2. CLI bindings
+3. Flagship Rust IPFS Public Gateway Production Deployment
+4. Performance and resource utilization tuning for resource-constrained devices like the Pi Zero
+5. Benchmarking using existing IPLD projects such as OrbitDB
