@@ -89,8 +89,8 @@ A viable Rust implementation of IPFS would:
 ### Survey of Community Efforts
 
 The IPFS and Rust communities together have done an astounding job putting together
-these projects. We diligently went through and performed initial outreach to the authors,
-and here is what we found to be some of the top projects on this list.
+these projects. By thoroughly leveraging these community efforts we can save some
+of time and money while fostering community morale and inclusion.
 
 #### rust-libp2p
 
