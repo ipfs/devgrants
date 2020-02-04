@@ -24,7 +24,7 @@ MIT/Apache-2.0 license, allowing licensees to choose either at their option._
     * [Summary](#summary)
     * [Value](#value)
     * [Survey of Community Efforts](#survey-of-community-efforts)
-        * [libp2p + pubsub](#libp2p--pubsub)
+        * [libp2p + pubsub](#libp2p-1)
         * [IPFS DAG / IPLD](#ipfs-dag--ipld)
         * [IPFS Blockstore](#ipfs-blockstore)
         * [HTTP](#http)
@@ -38,7 +38,7 @@ MIT/Apache-2.0 license, allowing licensees to choose either at their option._
         * [Q2 2020](#q2-2020)
     * [Implementation Details](#implementation-details)
         * [IPLD](#ipld)
-        * [libp2p](#libp2p)
+        * [libp2p](#libp2p-2)
     * [Metric: Number of HTTP Endpoints Implemented](#metric-number-of-http-endpoints-implemented)
     * [Definition of Done](#definition-of-done)
     * [Out of Scope](#out-of-scope)
@@ -92,7 +92,7 @@ The IPFS and Rust communities together have done an astounding job putting toget
 these projects. By thoroughly leveraging these community efforts we can save some
 of time and money while fostering community morale and inclusion.
 
-#### LibP2P + Pubsub
+#### libP2P
 
 | Feature | Implemented? If so, where? | Notes |
 | ---- | --------- | ------- |
