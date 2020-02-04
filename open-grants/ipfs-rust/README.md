@@ -89,67 +89,55 @@ A viable Rust implementation of IPFS would:
 ### Survey of Community Efforts
 
 The IPFS and Rust communities together have done an astounding job putting together
-these projects. By thoroughly leveraging these community efforts we can save some
-of time and money while fostering community morale and inclusion.
+these projects. We diligently went through and performed initial outreach to the authors,
+and here is what we found to be some of the top projects on this list.
 
-#### libP2P
+#### rust-libp2p
 
-| Feature | Implemented? If so, where? | Notes |
-| ---- | --------- | ------- |
-| secio | [rust-libp2p #1413](https://github.com/libp2p/rust-libp2p/pull/1413) | Fast moving, recently ed25519 compatible |
-| protocol selection: yamux or mplex multiplexing | [rust-libp2p](https://github.com/libp2p/rust-libp2p/tree/master/muxers) | | 
-| DHT | [rust-libp2p](https://github.com/libp2p/rust-libp2p/tree/master/protocols/kad) | cannot comment  at this time on completeness or interoperability |
-| floodsub | [rust-libp2p #1395](https://github.com/libp2p/rust-libp2p/pull/1395) | |
-| gossipsub | [rust-libp2p #898](https://github.com/libp2p/rust-libp2p/pull/898) | |
-| QUIC Support | Ongoing |[rust-libp2p #1334](https://github.com/libp2p/rust-libp2p/pull/1334) | 
-| swarm management (id, ping) | [rust-ipfs](https://github.com/ipfs-rust/rust-ipfs/) | |
-| differences in aes-ctr | [rust-libp2p #1242](https://github.com/libp2p/rust-libp2p/pull/1242) | [Pending PR](https://github.com/RustCrypto/stream-ciphers/pull/75) |
+* secio: fast moving, recently `ed25519` compatible [PeerId inlining was merged](https://github.com/libp2p/rust-libp2p/pull/1413)
+* protocol selection with yamux or mplex multiplexing
+* dht: cannot comment  at this time on completeness or interoperability
+* floodsub [should now be compatible](https://github.com/libp2p/rust-libp2p/pull/1395), [gossipub was merged in recently](https://github.com/libp2p/rust-libp2p/pull/898)
+* ongoing work on QUIC support, probably out of scope for now but something to keep an eye on
+* swarm management, id, ping and support for building bitswap, as demonstrated
+  by @dvc94ch's work on [rust-ipfs](https://github.com/ipfs-rust/rust-ipfs/)
+* [implementation differences in aes-ctr] ([pending PR])
 
+Action item: learn more about status of DHT implementation in rust-libp2p.
+
+[implementation differences in aes-ctr]: https://github.com/libp2p/rust-libp2p/issues/1242
+[pending PR]: https://github.com/RustCrypto/stream-ciphers/pull/75
 
 #### IPFS DAG / IPLD
 
-| Feature | Implemented? If so, where? | Notes |
-| ---- | --------- | ------- |
-| dag-pb + dag-cbor | Custom version of [`rust-cbor`](https://github.com/dvc94ch/rust-cbor) crate | Implements a unifying abstraction on top of [rust-protobuf] and [rust-ipld]. |
-| protobuf encoding and decoding | [rust-protobuf], [quick-protobuf], [prost!] | very mature |
-| JSON serialization / deserialization | [pyfisch/cbor](https://github.com/pyfisch/cbor), with issues. (See next item) | Can be considered mature with [serde_json], yet supporting dag-json will still need work |
-| CBOR tag Support | Ongoing | Problematic as tags appear in formats which are essentially a supersets of JSON, like CBOR. However, [pyfisch/cbori #172](https://github.com/pyfisch/cbor/pull/172) was recently merged, which @vmx is building off of |
-| IPLD Selectors | Missing | Our understanding is that @vmx intends to implement the more advanced features of IPLD in the near future. | 
+* [rust-ipfs] includes Merkledag (dag-pb) and dag-cbor over an unifying
+  abstraction on top of [rust-protobuf] and [custom version of
+  `cbor`](https://github.com/dvc94ch/rust-cbor) crate
+* [rust-ipld] includes dag-cbor on top of custom encoder and decoder, even
+  multiblock types in a separate project [rust-ipld-collections]
+* protobuf encoding and decoding are mature and there exists at least three
+  solutions for the project needs with different trade-offs ([rust-protobuf],
+  [quick-protobuf], [prost!])
+* [cbor encoding and decoding for serde](https://github.com/pyfisch/cbor) has
+  existed for a while, but the main crate only [recently added support for
+  tagged values](https://github.com/pyfisch/cbor/pull/172), something which has
+  been missing a while at least from the larger `serde` community, which the is
+  the core crate for dealing with json alike formats
+    * supporting tags has been discussed for a while but problematic as they
+      appear in formats which are essentially a superset of JSON, like CBOR
+    * there is ongoing work at [vmx/rust-ipld] on top of recently enabled
+      [serde_cbor](https://github.com/pyfisch/cbor) tag support
+* JSON format support can be considered mature with [serde_json]
+    * supporting IPLD dag-json documents will need work
 
-#### IPFS Blockstore
-
-| Feature | Implemented? If so, where? | Notes |
-| ---- | --------- | ------- |
-| Rocksdb + filesystem based store | [rust-ipfs](https://github.com/ipfs-rust/rust-ipfs/) | Working |
-| Other / Pluggable store | n/a | Multiple existing key-value store solutions randing from wrappers of databases written in different languages to fully rust solutions |
-
-#### Bitswap
-
-| Feature | Implemented? If so, where? | Notes |
-| ---- | --------- | ------- |
-| Bitswap | [rust-ipfs](https://github.com/ipfs-rust/rust-ipfs/) | This been tested to exchange block with go-ipfs 0.4.22 and an older rust-libp2p but may need updates to comply with spec |
-
-
-#### HTTP
-
-| Feature | Implemented? If so, where? | Notes |
-| ---- | --------- | ------- |
-| HTTP Bindings | Not implemented. | The "async story" of Rust enabling for example high performance web services is still evolving at great speed but there exists some longer running projects enabling the building of HTTP API as is required to enable testing such as [warp](https://github.com/seanmonstar/warp). | 
-
-
-
-#### What is missing?
-
-- What is definitely missing is support for IPLD selectors on one account of
+What is definitely missing is support for IPLD selectors on one account of
 their [spec](https://github.com/ipld/specs/blob/master/selectors/selectors.md)
 is still in draft status. The functionality required by `ipfs dag get` has been
 at least partially implemented already in [rust-ipfs]. The existing attempts
 are expected to evolve and will be considered to be used and extended, which
-ever looks most promising at the start of the project. 
-- HTTP Bindings
-    - [ferriseng/rust-ipfs-api](https://docs.rs/ipfs-api/0.6.0-rc/ipfs_api/) provides an HTTP API _client_ in Rust, but no server yet exists.
-- Pluggable blockstore (sled, lmdb, etc)
-- Bitswap up to spec
+ever looks most promising at the start of the project. Our understanding is
+that @vmx intends to implement the more advanced features of IPLD in the near
+future.
 
 [rust-ipfs]: https://github.com/ipfs-rust/rust-ipfs/
 [rust-protobuf]: https://github.com/stepancheg/rust-protobuf
@@ -160,6 +148,31 @@ ever looks most promising at the start of the project.
 [vmx/rust-ipld]: https://github.com/vmx/rust-ipld
 [serde_json]: https://github.com/serde-rs/json
 
+#### IPFS Blockstore
+
+* Multiple existing key-value store solutions randing from wrappers of
+  databases written in different languages to fully rust solutions
+* Initial filesystem and rocksdb based stores in [rust-ipfs] by @dvc94ch
+
+[rust-ipfs]: https://github.com/ipfs-rust/rust-ipfs/
+
+#### Bitswap
+
+* The only found implementation is in [rust-ipfs] by, again, @dvc94ch, which has
+  been tested to exchange block with go-ipfs 0.4.22 and an older rust-libp2p
+
+[rust-ipfs]: https://github.com/ipfs-rust/rust-ipfs/
+
+#### HTTP
+
+The "async story" of Rust enabling for example high performance web services is
+still evolving at great speed but there exists some longer running projects
+enabling the building of HTTP API as is required to enable testing  such as
+[warp](https://github.com/seanmonstar/warp).
+
+[ferriseng/rust-ipfs-api](https://docs.rs/ipfs-api/0.6.0-rc/ipfs_api/) provides
+HTTP API bindings in Rust.
+
 ### Maintenance and Upgrade Plan
 
 We want to make a codebase that will last into the future. Equilibrium Labs and MRH.io,
@@ -167,7 +180,7 @@ along with the support of the community, pledge to continue to maintain the Rust
 to best of their ability and within any financial constraints that exist.
 
 Much like we will build upon community efforts, we will also enable and encourage others
-to build upon our work. This will be a two-fold effort that includes both permissive
+to build upon our work. This will be a twofold effort that includes both permissive
 licensing and community outreach:  onboarding as many new contributors as possible,
 mapping the work out into issues of different levels of difficulty, and providing mentorship.
 
@@ -362,7 +375,7 @@ support via Rust crate functions, the HTTP API, as well as CLI commands.
 
 #### Deliverables
 
-1. Blockstore Implementation 
+1. Blockstore Implementation
 2. Bitswap testing and bug fixes
 3. [Definition of Done](#definition-of-done) for:
     1. `/pubsub/*`
