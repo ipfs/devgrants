@@ -31,7 +31,7 @@ Do you have an idea for pushing the IPFS ecosystem forward not already covered b
 
 To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grants).
 
-[**See Proposed Open Grants**](open-grants) • [**See Completed Open Grants**](open-grants/completed) • [**Apply for an Open Grant**](open-grants/README.md) • [Read More](open-grants/README.md)
+[**See Proposed Open Grants**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Aopen-grant+) • [**See Completed Open Grants**](open-grants/completed) • [**Apply for an Open Grant**](open-grants/README.md) • [Read More](open-grants/README.md)
 
 ---
 
@@ -40,8 +40,14 @@ These are small grants intended to help stimulate experimentation with and adopt
 
 To read more about Adoption Microgrants see [MICROGRANTS](MICROGRANTS.md). Adoption Microgrants are funded by Protocol Labs.
 
-[**APPLY FOR A MICROGRANT**](MICROGRANTS.md#Apply) • [**See Open Microgrant Proposals**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Amicrogrant+) • [Read More](MICROGRANTS.md)
+[**APPLY FOR A MICROGRANT**](MICROGRANTS.md#Apply) • [**See Microgrant Proposals**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Amicrogrant+) • [Read More](MICROGRANTS.md)
 
+---
+
+### Targeted Grant
+These are grants negotiated directly with a recepient, rather than going through the usual RFP/open grant process. Targeted Grants are currently made by Protocol Labs.
+
+[**See In-Progress Targeted Grants**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Atargeted-grant) • [**See Completed Targeted Grants**](targeted-grants/completed)
 
 ---
 
