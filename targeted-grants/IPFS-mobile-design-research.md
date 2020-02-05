@@ -1,11 +1,11 @@
 # Open Grant Proposal: IPFS mobile design research
 
-** Name of Project:**
+**Name of Project:**
 
 **Issuer:** @autonome  
-** Proposer:** `jkosem`
+**Proposer:** `jkosem`
 
-** Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
 
 # Project Description
 
