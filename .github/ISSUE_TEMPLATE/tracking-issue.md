@@ -7,6 +7,6 @@ assignees: parkan
 
 ---
 
-<!-- don't forget to tag this with the grant type -->
+<!-- don't forget to tag this with the grant type + add to Grant Lifecycle project -->
 
 Tracking for <GRANT PROPOSAL PATH IN THIS REPO>
