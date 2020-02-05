@@ -34,7 +34,7 @@ Investigation of any networking or libp2p issues, including pub-sub.
 
 ## Total Budget Requested
 
-Up to \$8,775 for 2 weeks of work, starting Monday February 3rd to Friday February 14th, 2020. If the investigation is finished early, a prorated amount will be paid.
+Up to \$8,775 for 1.5 weeks of work, starting Wednesday February 5th to Friday February 14th, 2020. If the investigation is finished early, a prorated amount will be paid.
 
 ## Maintenance and Upgrade Plans
 
