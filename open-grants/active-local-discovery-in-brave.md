@@ -1,10 +1,11 @@
-# RFP 001: Active local discovery in Brave
+# Targeted Grant: Active local discovery in Brave
 
-**Issuer:** @lidel and @autonome
+**Issuer:** @lidel and @autonome  
+**Recipient:** @RangerMauve
 
 ## Project Description
 
-<!-- Please fill in details about what you're trying to build. What is the purpose/context? What are the high-level requirements? 
+<!-- Please fill in details about what you're trying to build. What is the purpose/context? What are the high-level requirements?
 
 This section should be 2-3 paragraphs long. -->
 
@@ -12,13 +13,13 @@ This section should be 2-3 paragraphs long. -->
 
 Part of this will be to find out what isn’t working in the current implementation and/or [mDNS spec](https://github.com/libp2p/specs/blob/master/discovery/mdns.md) and to fix it, or propose changes that will enable discovery to work in decentralized fashion.
 
-Secondary goal is to test and refine the RFP process.
+Secondary goal is to test and refine the Targeted Grant process.
 
 ## Value
 
-<!-- Please describe why the work that will come out of this RFP is valuable for the IPFS ecosystem. -->
+<!-- Please describe why the work that will come out of this Targeted Grant is valuable for the IPFS ecosystem. -->
 
-This work enables browser-to-browser IPFS connections in local networks, a powerful expression of offline and local collaboration use-cases of IPFS technology. 
+This work enables browser-to-browser IPFS connections in local networks, a powerful expression of offline and local collaboration use-cases of IPFS technology.
 
 It will lay the groundwork for interoperable local network discovery between browser and non-browser nodes and also providers a low-barrier way for people to experience the true power of IPFS without installing separate daemon software.
 
@@ -31,16 +32,16 @@ It will also proof-check our existing specs related to mDNS local discovery, mak
 - Local discovery between two JS-IPFS nodes running in Brave is merged to ipfs-companion.
 - Upstream fixes to `js-libp2p-mdns`, `libp2p/specs` (if needed)
 
-## Recommended Team
+## Team
 
 <!-- List the skills and experience you are looking for. Teams with this background might be a better fit for this project.-->
 
-Someone experienced with
-- creating solutions across multiple runtime contexts
-- developing browser extensions with WebExtension APIs
-    - nice to haves: familiarity with polyfilling Nodejs APIs, Chrome Apps / OS APIs
-- distributed/p2p systems
-    - nice to haves: use of mDNS broadcasts for local discovery
+- [@RangerMauve](https://github.com/RangerMauve) - (Grant recipient) Active member of the dweb community.
+   Done multiple grants with DAT and are key member in team that set up the DAT Foundation.
+
+- @lidel - (Protocol Labs) Technical advisor
+
+- @autonome - (Protocol Labs) Grant advisor
 
 ## Detailed Requirements & Constraints
 <!-- You can use this section to detail requirements that the deliverables must include.
@@ -65,13 +66,15 @@ It is unknown if existing mdns discovery spec can be used in environment with `c
 
 **Total Funding Amount:**  $3600 <!-- List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL)-->
 
-**Milestones:** <!-- Make sure that the values in the Funding column add up to the Total Funding Amount listed above.-->
+**Milestones:** (working 10 hours a week)<!-- Make sure that the values in the Funding column add up to the Total Funding Amount listed above.-->
 
 | Milestone No. | Milestone Description | Funding | Estimated Timeframe |
 | --- | --- | --- | --- |
-| 1 | Research relevant libraries specs and available APIs and prepare a standalone PoC | $1200 | ~1 week  |
-| 2 | Submit PR changes to respective specs, libraries and projects | $1100 | ~1 week |
-| 3 | Addressing reviews | $1000 | ~1 week |
+| 1 | Research relevant libraries specs and available APIs and prepare a standalone PoC | $1200 | ~35h  |
+| 2 | Submit PR changes to respective specs, libraries and projects | $1200 | ~20h |
+| 3 | Addressing reviews, all PRs are merged | $1200 | ~10h |
+
+
 
 ## Acceptance Criteria
 
@@ -99,7 +102,7 @@ It is unknown if existing mdns discovery spec can be used in environment with `c
 
 <!-- Who is backing this project? How will they pay the implementers? If you have not already added your information to [FUNDING](../FUNDING.md), you can do so now and link it here. Include a legal entity name if possible.
 
-Any other organizations that choose to add their support to this RFP will do so in this section.
+Any other organizations that choose to add their support to this Targeted Grant will do so in this section.
 -->
 
 This grant is funded by Protocol Labs.  
