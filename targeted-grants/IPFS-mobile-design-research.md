@@ -31,11 +31,11 @@ The following is the two phase IPFS Mobile Design Guidelines plan. All of the re
 
 **Phase 1: User research and analysis**
 
-3 Feb 2020: Proposed date to start
-7 Feb 2020: Workhop, recruitment kick-off and audit
-21 Feb 2020: Interviews concluded
-28 Feb 2020: Analysis
-3 Mar 2020: Estimated date to finish
+- 3 Feb 2020: Proposed date to start
+- 7 Feb 2020: Workhop, recruitment kick-off and audit
+- 21 Feb 2020: Interviews concluded
+- 28 Feb 2020: Analysis
+- 3 Mar 2020: Estimated date to finish
 
 Detailed programme of work
 
