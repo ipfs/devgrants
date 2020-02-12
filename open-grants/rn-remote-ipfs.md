@@ -24,13 +24,13 @@ A spec that outlines the optimal solution(s) to the problem. We plan to use this
 
 ## Development Roadmap
 
-Investigation of multipart/form-data issues that the js-ipfs-http-client lib throws errors when first configured in a React Native env. We need to figure out if this problem can/should be handled natively or in JavaScript.
-Documenting proper babel config for async iterator support
-Documenting work-arounds for fetch to support streams in React Native (Open PR against js-ipfs-http-client and `@stardazed/streams-polyfill`)
-Investigation of viability of `rn-fetch-blob` as an alternative fetch implementation
-Investigation of any other newer browser APIs used in js-ipfs-http-client that are not supported in React Native.
-Documenting which of the outstanding issues can be mitigated when the IPFS core team moves away from their use of ky and ky-universal as their fetch abstraction
-Investigation of any networking or libp2p issues, including pub-sub.
+* Investigation of multipart/form-data issues that the js-ipfs-http-client lib throws errors when first configured in a React Native env. We need to figure out if this problem can/should be handled natively or in JavaScript.
+* Documenting proper babel config for async iterator support
+* Documenting work-arounds for fetch to support streams in React Native (Open PR against js-ipfs-http-client and `@stardazed/streams-polyfill`)
+* Investigation of viability of `rn-fetch-blob` as an alternative fetch implementation
+* Investigation of any other newer browser APIs used in js-ipfs-http-client that are not supported in React Native.
+* Documenting which of the outstanding issues can be mitigated when the IPFS core team moves away from their use of ky and ky-universal as their fetch abstraction
+* Investigation of any networking or libp2p issues, including pub-sub.
 
 ## Total Budget Requested
 
