@@ -47,11 +47,16 @@ MIT/Apache-2.0 license, allowing licensees to choose either at their option._
         * [Development Schedule](#development-schedule)
             * [Figure 2: Phase 1.0 Gantt Chart](#figure-2-phase-10-gantt-chart)
         * [Estimated Budget (Phase 1.0)](#estimated-budget-phase-10)
-    * [Phase 1.1: Blockstore](#phase-12-blockstore)
+    * [Phase 1.1: Blockstore, etc](#phase-11-blockstore-etc)
         * [Deliverables](#deliverables-1)
         * [Development Schedule](#development-schedule-1)
             * [Figure 3: Phase 1.1 Gantt Chart](#figure-3-phase-11-gantt-chart)
         * [Estimated Budget (Phase 1.1)](#estimated-budget-phase-11)
+    * [Phase 1.2 Bitswap, etc](#phase-12-bitswap-etc)
+        * [Deliverables](#deliverables-2)
+        * [Development Schedule](#development-schedule-2)
+            * [Figure 4: Phase 1.2 Gantt Chart](#figure-4-phase-12-gantt-chart)
+        * [Estimated Budget (Phase 1.2)](#estimated-budget-phase-12)
     * [Phase 2 and Onward](#phase-2-and-onward)
 
 ## Project Description
@@ -222,11 +227,17 @@ the key metric of progress on the project.
 Phase 1.1:
 
 - Blockstore implementation
-- HTTP endpoints for at least blockstore and pubsub
+- Node Instantiation and Identity
+- HTTP endpoints for /pubsub/, /swarm, /version, /id
 
 From there, we will begin the shortest path to enabling IPLD applications to be written in Rust.
 Choosing and building (or building upon) a blockstore implementation, followed by enabling several
 HTTP endpoints.
+
+Phase 1.2:
+
+- Bitswap testing and fixes
+- HTTP endpoints for /block, /dag, /refs, /bitswap
 
 Existing community work will be extremely beneficial to this stage, as many HTTP endpoints
 can likely be enabled by writing simple wrapper code around existing crates.
@@ -333,7 +344,7 @@ Additionally:
 * ipfs update will likely be handled by cargo install
 * Private network support via a swarm key is out of scope.
 
-### Phase 1.0 Interoperability Baseline
+### Phase 1.0: Interoperability Baseline
 
 Phase 1.0 covers project setup, and a baseline conformance test / interoperability report.
 
@@ -352,7 +363,7 @@ Phase 1.0 covers project setup, and a baseline conformance test / interoperabili
 #### Development Schedule
 
 Development will take place over an estimated 3-4 weeks of development. The following chart
-assumes a week 8 start date (Feb 17). We can be flexible in terms of start dates, however
+assumes a week 10 start date (Mar 2). We can be flexible in terms of start dates, however
 starting as soon as possible is preferable due to the above risk assessment.
 
 
@@ -368,34 +379,27 @@ _All figures are estimates._
 | --- | ---- | ---- | ---- | --- |
 | Software Development and Project Management | 164 hours | 120€ | 19,680€ | $21,832.01 |
 
-### Phase 1.2: IPLD Application Support
+### Phase 1.1: Blockstore and LibP2P
 
-Phase 1.2 will complete the work started in Phase 1.1, fully enabling IPLD application
+Phase 1.1 will complete the work started in Phase 1.0, fully enabling IPLD application
 support via Rust crate functions, the HTTP API, as well as CLI commands.
 
 #### Deliverables
 
 1. Blockstore Implementation
-2. Bitswap testing and bug fixes
 3. [Definition of Done](#definition-of-done) for:
     1. `/pubsub/*`
     2. `/swarm/*`
     3. `/version`
     4. `/id`
-    5. `/block/*`
-    6. `/dag/*`
-    7. `/refs/*`
-    8. `/bitswap/*`
 4. Project Milestone Report
     1. Updated Conformance Tests
     2. Updated Interop Tests
 
-Here, the community work will have its chance to shine - `libp2p` and `rust-ipld` in particular.
-
 #### Development Schedule
 
-Development will take place over an estimated 4 weeks of development. The following chart
-assumes a week 9 start date (Feb 24).
+Development will take place over an estimated 2-3 weeks of development. The following chart
+assumes a week 11 start date (Mar 9).
 
 ##### Figure 2. Phase 1.1 Gantt Chart
 
@@ -403,11 +407,42 @@ assumes a week 9 start date (Feb 24).
 
 _All figures are estimates._
 
+#### Estimated Budget (Phase 1.1)
+
+|  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
+| --- | ---- | ---- | ---- | --- |
+| Software Development and Project Management | 160 hours | 120€ | 19,200€ | $20808.58 |
+
+### Phase 1.2: Bitswap and Remaining HTTP Endpoints
+
+#### Deliverables
+
+1. Bitswap testing and fixes
+3. [Definition of Done](#definition-of-done) for:
+    1. `/block/*`
+    2. `/dag/*`
+    3. `/refs/*`
+    4. `/bitswap/*`
+4. Project Milestone Report
+    1. Updated Conformance Tests
+    2. Updated Interop Tests
+
+#### Development Schedule
+
+Development will take place over an estimated 2-3 weeks of development. The following chart
+assumes a week 13 start date (Mar 23).
+
+##### Figure 2. Phase 1.2 Gantt Chart
+
+![Phase 1.2 Gantt Chart](./media/phase-1-2-gantt.png)
+
+_All figures are estimates._
+
 #### Estimated Budget (Phase 1.2)
 
 |  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
 | --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 224 hours | 120€ | 26,880€ | $29,819.33 |
+| Software Development and Project Management | 152 hours | 120€ | 18,240€ | $19,768.15 |
 
 ### Phase 2 and Onward
 
