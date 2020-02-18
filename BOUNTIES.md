@@ -23,4 +23,4 @@ To propose a bounty simply tag your issue in the "Open Bounties" column on the [
 Bounties are paid out by the originating party.
 
 ## Note
-RFPs are just one aspect of the IPFS project's overall grant program. Check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants) to see the big picture.
+Bounties are just one aspect of the IPFS project's overall grant program. Check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants) to see the big picture.
