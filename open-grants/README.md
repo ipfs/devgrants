@@ -23,3 +23,6 @@ Proposals that do not receive funding within 3 months of submission will be arch
 
 ## Cadence
 Grants are currently evaluated for acceptance and funding on a rolling basis. We may switch to quarterly cohorts depending on the application volume.
+
+## Note
+RFPs are just one aspect of the IPFS project's overall grant program. Check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants) to see the big picture.
