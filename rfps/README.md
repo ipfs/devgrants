@@ -17,7 +17,7 @@ You're a developer or development team that can complete the work described in a
 1. Select an open RFP from [this list](.). 
 2. [Open an issue](https://github.com/protocol/ipfs-grants/issues/new?assignees=&labels=&template=rfp-proposal.md&title=RFP+Proposal%3A+%3CYour+Project+Title%3E) with your proposal, following the template. Be sure to tag the original poster of the RFP to let them know about your proposal.
 
-## How To Create RFP
+## How To Create an RFP
 ### Intended Audience
 You're an organization looking to solicit technical contributions for a well-defined project. You have the necessary technical or product expertise to specify the work, evaluate proposals, and determine the correctness of the result.
 
@@ -37,3 +37,6 @@ You're interested in accelerating the development of a specific feature, or perh
 Simply add your additional pledge to the document describing the RFP (under "Support and Funding"), or add it in comments of the PR if it is not yet merged.
 
 It may also be a good idea to add invoicing/payment information for your organization to [FUNDING](../FUNDING.md) to make the disbursement process easier.
+
+## Note
+RFPs are just one aspect of the IPFS project's overall grant program. Check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants) to see the big picture.
