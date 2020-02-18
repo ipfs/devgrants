@@ -411,7 +411,7 @@ _All figures are estimates._
 
 |  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
 | --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 160 hours | 120€ | 19,200€ | $20808.58 |
+| Software Development and Project Management | 122 hours | 120€ | 14,640€ | $15866.54 |
 
 ### Phase 1.2: Bitswap and Remaining HTTP Endpoints
 
@@ -442,7 +442,7 @@ _All figures are estimates._
 
 |  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
 | --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 152 hours | 120€ | 18,240€ | $19,768.15 |
+| Software Development and Project Management | 112 hours | 120€ | 13,440€ | $14566.00 |
 
 ### Phase 2 and Onward
 
