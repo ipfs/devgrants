@@ -2,7 +2,6 @@
 
 **Name of Project:**
 
-**Issuer:** @autonome  
 **Proposer:** `jkosem`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
@@ -29,26 +28,30 @@ The deliverable is a repository and report of use-cases, design guidelines and U
 
 The following is the design phase of the IPFS Mobile Design Guidelines plan. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
 
-04 Mar 2020: Proposed date to start
-13 Mar 2020: Preliminary designs
-20 Mar 2020: Design guidelines including design assets
-03 Apr 2020: Estimated date to finish
+06 Apr 2020: Proposed date to start
 
-Programme of work:
+17 Apr 2020: Preliminary designs
 
-- Workshop with Protocol Labs to help translate the research into design and prioritise design efforts
-- Interaction and user experience design work to solve the researched issues, mapping out user flows, design patterns and use cases
-- Interface design
+24 Apr 2020: Design guidelines including design assets
 
-Deliverables: 
+01 May 2020: Estimated date to finish
 
-- Designs including recommendations, iconographic, interaction and screen treatments for IPFS in mobile browsers and mobile OS’s in graphic format in the final report as well as Sketch and PDF assets in the repository
-- User experience flows in graphic format in the final report as well as Sketch and PDF assets in the repository
-- Design guidelines and component design to inform and help further development efforts in graphic format in the final report as well as Sketch and PDF assets in the repository
-- Recommendations for further work
-- Documentation in GitHub or other appropriate online repository including tracked versions of design assets
-- Writing and publication of blog post summarising the project
-- Presentation of the project at IPFS Weekly
+- Week 14
+	- Workshop with Protocol Labs to help translate the research into design and prioritise design efforts
+- Week 15
+	- Interaction and user experience design work to solve the researched issues, mapping out user flows, design patterns and use cases
+	- Interface design
+- Week 16
+	 - (**deliverable**) Writing and publication of blog post introducing the project design
+- Week 17
+	- (**deliverable**) Designs including recommendations, iconographic, interaction and screen treaptments for IPFS in mobile browsers and mobile OS’s in graphic format in the final report as well as Sketch and PDF assets in the repository
+	- (**deliverable**) User experience flows in graphic format in the final report as well as Sketch and PDF assets in the repository
+- Week 18
+	- (**deliverable**) Design guidelines and component design to inform and help further development efforts in graphic format in the final report as well as Sketch and PDF assets in the repository
+	- (**deliverable**) Documentation in GitHub or other appropriate online repository including tracked versions of design assets
+	- (**deliverable**) Writing and publication of blog post summarising the project design
+	- (**deliverable**) Recommendations for further work
+	- (**deliverable**) Presentation of the project at IPFS Weekly
 
 ## Total Budget Requested
 
