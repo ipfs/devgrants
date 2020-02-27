@@ -1,8 +1,7 @@
-# Open Grant Proposal: IPFS mobile design research
+# Open Grant Proposal: `IPFS mobile design guidelines`
 
 **Name of Project:**
 
-**Issuer:** @autonome  
 **Proposer:** `jkosem`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
@@ -11,55 +10,52 @@
 
 Following on the far-reaching initial efforts to bring about mass adoption of IPFS by creating browser design guidelines to be brought to standards bodies and browser vendors, it is clear the guidelines work needs to be expanded to where it could achieve adoption quickest, on mobile. Smartphone use has eclipsed desktop, especialy in emerging markets, where IPFS stands to better address use cases, patterns and concerns around data sovereignty, offline applications and security.
 
-This programme of work will be the first of two, including research and design phases. Both will include not just use of mobile browser but wider mobile sharing and receiving workflows of iOS and Android mobile operating systems. This will provide a foundational effort towards IPFS on mobile platforms, informing both IPFS feature prioritization and the ecosystem and community building on the protocol.
+This programme of work will include the design phase to follow on from the preceding research phase. It will include not just the design of use of mobile browser but wider mobile sharing and receiving workflows of iOS and Android mobile operating systems. This will provide a foundational effort towards IPFS on mobile platforms, informing both IPFS feature prioritization and the ecosystem and community building on the protocol.
 
 ## Value
 
-An evaluation of IPFS for mobile applications that is grounded in research and design will be the foundation for adoption at massive scale. By researching existing usage patterns and behaviors, we can identify where IPFS could have the most impact, accelerating and amplifying the efforts of application builders.
+If the mobile design guidelines are not available, we risk application builders reinventing this design wheel over and over again, or shipping poorly designed IPFS-based products that don't meet user needs. This ultimately means less and less people would use IPFS. 
 
-Mobile is especially important to the wider distribution of IPFS and user base growth. IPFS could, with focused study on use cases and behaviours of mobile users for instance with sharing content and media, be an easier jump to using P2P in their daily lives. For instance, a solid and enjoyable IPFS mobile experience might allow perhaps skipping the desktop experience altogether for users coming to the platform.
+The value of the IPFS Mobile Design Guidelines is taking the research and analysis, synthesising it and then providing actionable principles for the development and design communities to act on in bringing IPFS mobile experiences to the world in the most user-friendly way possible.
 
 The question of scope is constant in defining projects and areas of study. While the scope of this may initially be quite wide and shallow, this could be advantageous in setting up the groundwork for additional studies which would further refine thinking and recommendations as the field progresses. The value lies in making forays into the space, researching and designing that which has not been done to date, and creating a way to learn where to refine and redefine how IPFS is brought to more and more users.
 
 ## Deliverables
 
-The deliverable is a repository and report of research and analysis to inform the IPFS Mobile Design Guidelines. The research contains a contextual examination of the technical, security and usability issues with IPFS use on mobile, an examination of the current mobile sharing and receiving features and patterns. After establishing the investigation space, there would follow the interviews and analysis to develop a design direction. This would include interviews with and examination of the work of firms already doing work in this space such as Berty Technologies and Textile.
+The deliverable is a repository and report of use-cases, design guidelines and UX patterns. This design direction would then be explored through iconography, interface and interaction design as expressed through the design and production of graphic assets. These assets, in accessible graphical formats in a version tracked repository, will then help form the recommendations half of the public and open source report, showing and inspiring designers how to design for IPFS in a mobile world.
 
 ## Development Roadmap
 
-The following is the two phase IPFS Mobile Design Guidelines plan. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
+The following is the design phase of the IPFS Mobile Design Guidelines plan. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
 
-**Phase 1: User research and analysis**
+06 Apr 2020: Proposed date to start
 
-- 3 Feb 2020: Proposed date to start
-- 7 Feb 2020: Workhop, recruitment kick-off and audit
-- 21 Feb 2020: Interviews concluded
-- 28 Feb 2020: Analysis
-- 3 Mar 2020: Estimated date to finish
+17 Apr 2020: Preliminary designs
 
-Detailed programme of work
+24 Apr 2020: Design guidelines including design assets
 
-- Kick-off workshop with Protocol Labs to help frame the research and highlight where and what to focus on
-- Recruitment of experts for interviews, trying to include as many of the participants that were interviewed during the IPFS Browser Design Guidelines research focusing on the desktop browser
-- Expert interviews and workshops to explore the problem space, relevant technology and areas and things to think about with mobile and IPFS. This would include current IPFS developers such as Berty and Textile to explore what works and what doesn’t.
-- Interviews with mobile browser users to gain insights to current perceptions of browser capabilities, concerns, use patterns and issues within the context of IPFS and P2P in mobile.
-- Review, survey and audit of existing mobile browser design in major mobile browsers
-- Review of wider and additional contexts that affect mobile beyond the mobile browser, for example power, bandwidth and security
-- Review, survey and audit of existing mobile sharing interaction patterns around publishing, sharing and receiving that would affect IPFS mobile scenarios in iOS and Android
-- Coalescing of research materials and analysis to inform and inspire design the design phase
+01 May 2020: Estimated date to finish
 
-Deliverables
-
-- Survey review of existing interfaces, components and patterns
-- Documentation of research in GitHub or other appropriate online repository
-- Design strategy
-- Research findings report to become part of the final report with the completion of the design phase
-- Writing and publication of blog post summarising the project
-- Presentation of the project at IPFS Weekly
+- Week 14
+	- Workshop with Protocol Labs to help translate the research into design and prioritise design efforts
+- Week 15
+	- Interaction and user experience design work to solve the researched issues, mapping out user flows, design patterns and use cases
+	- Interface design
+- Week 16
+	 - (**deliverable**) Writing and publication of blog post introducing the project design
+- Week 17
+	- (**deliverable**) Designs including recommendations, iconographic, interaction and screen treaptments for IPFS in mobile browsers and mobile OS’s in graphic format in the final report as well as Sketch and PDF assets in the repository
+	- (**deliverable**) User experience flows in graphic format in the final report as well as Sketch and PDF assets in the repository
+- Week 18
+	- (**deliverable**) Design guidelines and component design to inform and help further development efforts in graphic format in the final report as well as Sketch and PDF assets in the repository
+	- (**deliverable**) Documentation in GitHub or other appropriate online repository including tracked versions of design assets
+	- (**deliverable**) Writing and publication of blog post summarising the project design
+	- (**deliverable**) Recommendations for further work
+	- (**deliverable**) Presentation of the project at IPFS Weekly
 
 ## Total Budget Requested
 
-€12,980 EUR
+€14,160 EUR
 
 No VAT charged (Reverse charge – VAT is not settled under Article 44 of Directive 2006/112/EC)
 
@@ -79,7 +75,7 @@ As the project is research and design based, there is no need for software maint
 `Github repository provided by Protocol Labs to follow`
 
 ## Relevant Experience
-
+ 
 Jim is a designer with 20 years of experience researching, designing and helping build digital products and services for everyone from Intel, Samsung to the British Government Digital Services. He's currently working in helping make decentralisation usable. As co-author of the Protocol Labs IPFS Browser Design Guidelines, along with background in the blockchain space and extensive innovation and product experience, Jim is uniquely suited to help further IPFS's efforts in mass adoption.
 
 ## Team code repositories
