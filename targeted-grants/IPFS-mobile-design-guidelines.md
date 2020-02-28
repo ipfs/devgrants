@@ -8,7 +8,7 @@
 
 # Project Description
 
-Following on the far-reaching initial efforts to bring about mass adoption of IPFS by creating browser design guidelines to be brought to standards bodies and browser vendors, it is clear the guidelines work needs to be expanded to where it could achieve adoption quickest, on mobile. Smartphone use has eclipsed desktop, especialy in emerging markets, where IPFS stands to better address use cases, patterns and concerns around data sovereignty, offline applications and security.
+Following on the far-reaching initial efforts to bring about mass adoption of IPFS by creating browser design guidelines to be brought to standards bodies and browser vendors, it is clear the guidelines work needs to be expanded to where it could achieve adoption quickest, on mobile. Smartphone use has eclipsed desktop, especially in emerging markets, where IPFS stands to better address use cases, patterns and concerns around data sovereignty, offline applications and security.
 
 This programme of work will include the design phase to follow on from the preceding research phase. It will include not just the design of use of mobile browser but wider mobile sharing and receiving workflows of iOS and Android mobile operating systems. This will provide a foundational effort towards IPFS on mobile platforms, informing both IPFS feature prioritization and the ecosystem and community building on the protocol.
 
@@ -32,9 +32,9 @@ The following is the design phase of the IPFS Mobile Design Guidelines plan. All
 
 17 Apr 2020: Preliminary designs
 
-24 Apr 2020: Design guidelines including design assets
+24 Apr 2020: Design guidelines including design assets (€7,080.00)
 
-01 May 2020: Estimated date to finish
+01 May 2020: Estimated date to finish (€7,080.00)
 
 - Week 14
 	- Workshop with Protocol Labs to help translate the research into design and prioritise design efforts
