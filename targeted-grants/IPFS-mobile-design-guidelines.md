@@ -10,7 +10,7 @@
 
 Following on the far-reaching initial efforts to bring about mass adoption of IPFS by creating browser design guidelines to be brought to standards bodies and browser vendors, it is clear the guidelines work needs to be expanded to where it could achieve adoption quickest, on mobile. Smartphone use has eclipsed desktop, especially in emerging markets, where IPFS stands to better address use cases, patterns and concerns around data sovereignty, offline applications and security.
 
-This programme of work will include the design phase to follow on from the preceding research phase. It will include not just the design of use of mobile browser but wider mobile sharing and receiving workflows of iOS and Android mobile operating systems. This will provide a foundational effort towards IPFS on mobile platforms, informing both IPFS feature prioritization and the ecosystem and community building on the protocol.
+This programme of work will include the design phase to follow on from the preceding research phase. It will include not just the design of use of mobile browser but wider mobile sharing and receiving workflows of iOS and Android mobile operating systems. This will provide a foundational effort towards IPFS on mobile platforms, informing both IPFS feature prioritisation and the ecosystem and community building on the protocol.
 
 ## Value
 
@@ -26,32 +26,23 @@ The deliverable is a repository and report of use-cases, design guidelines and U
 
 ## Development Roadmap
 
-The following is the design phase of the IPFS Mobile Design Guidelines plan. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
+The following is the second of two phases of the rollout of the IPFS Mobile Design Guidelines. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
+
 
 06 Apr 2020: Proposed date to start
 
-17 Apr 2020: Preliminary designs
+15 May 2020: Estimated date to finish
 
-24 Apr 2020: Design guidelines including design assets (€7,080.00)
-
-01 May 2020: Estimated date to finish (€7,080.00)
-
-- Week 14
-	- Workshop with Protocol Labs to help translate the research into design and prioritise design efforts
-- Week 15
-	- Interaction and user experience design work to solve the researched issues, mapping out user flows, design patterns and use cases
-	- Interface design
-- Week 16
-	 - (**deliverable**) Writing and publication of blog post introducing the project design
-- Week 17
-	- (**deliverable**) Designs including recommendations, iconographic, interaction and screen treaptments for IPFS in mobile browsers and mobile OS’s in graphic format in the final report as well as Sketch and PDF assets in the repository
-	- (**deliverable**) User experience flows in graphic format in the final report as well as Sketch and PDF assets in the repository
-- Week 18
-	- (**deliverable**) Design guidelines and component design to inform and help further development efforts in graphic format in the final report as well as Sketch and PDF assets in the repository
-	- (**deliverable**) Documentation in GitHub or other appropriate online repository including tracked versions of design assets
-	- (**deliverable**) Writing and publication of blog post summarising the project design
-	- (**deliverable**) Recommendations for further work
-	- (**deliverable**) Presentation of the project at IPFS Weekly
+Milestone | Hours | Cost
+--- | --- | ---
+Design workshop | 16 | €1,180.00
+Writing and publication of blog post introducing the project design | 8 | €590.00
+Interface and interaction design with design guidelines documentation | 80 | €5,900.00
+Documentation in online repository including tracked versions of design assets | 64 | €4,720.00
+Writing and publication of blog post summarising the project design | 8 | €590.00
+Recommendations for further work | 8 | €590.00
+Presentation of the project at IPFS Weekly | 8 | €590.00
+**Total** |  | **€14,160.00**
 
 ## Total Budget Requested
 
