@@ -26,40 +26,26 @@ The deliverable is a repository and report of research and analysis to inform th
 
 ## Development Roadmap
 
-The following is the two phase IPFS Mobile Design Guidelines plan. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
+The following is the first of two phases of the rollout of the IPFS Mobile Design Guidelines. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
 
-**Phase 1: User research and analysis**
+04 Mar 2020: Proposed date to start
 
-26 Feb 2020: Proposed date to start
+03 Apr 2020: Proposed date to finish
 
-6 Mar 2020: Workshop, recruitment kick-off and audit (€4,720.00)
-
-13 Mar 2020: Interviews started
-
-20 Mar 2020: Interviews concluded and analysis (€3,540.00)
-
-25 Mar 2020: Strategy, findings and recommendations - Estimated date to finish (€4,720.00)
-
-- Week 9
-	- Review, survey and audit of existing mobile browser design in major mobile browsers
-	- Review of wider and additional contexts that affect mobile beyond the mobile browser, for example power, bandwidth and security
-- Week 10
-	- Kick-off workshop with Protocol Labs to help frame the research and highlight where and what to focus on
-	- Recruitment of experts for interviews, trying to include as many of the participants that were interviewed during the IPFS Browser Design Guidelines research focusing on the desktop browser
-- Week 11
-	- Expert interviews and workshops to explore the problem space, relevant technology and areas and things to think about with mobile and IPFS. This would include current IPFS developers such as Berty and Textile to explore what works and what doesn’t.
-	- (**deliverable**) Survey review of existing interfaces, components and patterns
-	- (**deliverable**) Writing and publication of blog post introducing the project research
-- Week 12
-	- Review, survey and audit of existing mobile sharing interaction patterns around publishing, sharing and receiving that would affect IPFS mobile scenarios in iOS and Android
-	- Interviews with mobile browser users to gain insights to current perceptions of browser capabilities, concerns, use patterns and issues within the context of IPFS and P2P in mobile.
-- Week 13
-	- Coalescing of research materials and analysis to inform and inspire design the design phase
-	- (**deliverable**) Documentation of research in GitHub or other appropriate online repository
-	- (**deliverable**) Design strategy
-	- (**deliverable**) Research findings report to become part of the final report with the completion of the design phase
-	- (**deliverable**) Writing and publication of blog post summarising the project research
-	- (**deliverable**) Presentation of the project at IPFS Weekly
+Milestone | Hours | Cost
+--- | --- | ---
+Kick off workshop | 16 | €1,180.00
+Research recruitment | 16 | €1,180.00		
+Mobile browser survey review | 16 | €1,180.00
+Writing and publication of blog post introducing the project research | 4 | €295.00
+Additional mobile issues review | 16 | €1,180.00
+Interviews of experts and non-experts | 32 | €2,360.00
+Documentation of research in online repository | 16 | €1,180.00
+Research analysis | 32 | €2,360.00
+Design strategy compiled and documented in repository | 8 | €590.00
+Writing and publication of blog post summarising the project research | 12 | €885.00
+Presentation of the project at IPFS Weekly | 8 | €590.00
+**Total** |  | 	**€12,980.00**
 
 ## Total Budget Requested
 
