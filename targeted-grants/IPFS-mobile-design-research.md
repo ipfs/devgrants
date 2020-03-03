@@ -34,17 +34,17 @@ The following is the first of two phases of the rollout of the IPFS Mobile Desig
 
 Milestone | Hours | Cost
 --- | --- | ---
-Kick off workshop | 16 | €1,180.00
-Research recruitment | 16 | €1,180.00		
-Mobile browser survey review | 16 | €1,180.00
+Kick off workshop - design, planning, setup and execution of sync remote workshop for stakeholders in order to help frame the research and highlight where and what to focus on. | 16 | €1,180.00
+Research recruitment - sourcing, evaluating, contacting and scheduling for non-technical and technical interviewees. | 16 | €1,180.00		
+Survey review of mobile p2p applications - Identify and review features, capabilities, use-cases and authors of existing mobile p2p applications  | 16 | €1,180.00
 Writing and publication of blog post introducing the project research | 4 | €295.00
-Additional mobile issues review | 16 | €1,180.00
-Interviews of experts and non-experts | 32 | €2,360.00
-Documentation of research in online repository | 16 | €1,180.00
-Research analysis | 32 | €2,360.00
-Design strategy compiled and documented in repository | 8 | €590.00
+Review of wider and additional contexts that affect mobile beyond the mobile browser, for example power, bandwidth and security | 16 | €1,180.00
+Perform interviews of experts and non-experts | 32 | €2,360.00
+Consolidating of research notes and learnings from interviews and into a readable resource to contribute to the final design recommendations in public Github repository | 16 | €1,180.00
+Analysis of research and surveys to identify key learnings to lead the creation of design strategy | 32 | €2,360.00
+Creation and compilation of design strategy with recommendations to provide direction to the following IPFS mobile design phase documented in repository | 8 | €590.00
 Writing and publication of blog post summarising the project research | 12 | €885.00
-Presentation of the project at IPFS Weekly | 8 | €590.00
+Presentation of the project at IPFS Weekly - including the production of slide deck, review, and present | 8 | €590.00
 **Total** |  | 	**€12,980.00**
 
 ## Total Budget Requested
