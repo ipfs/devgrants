@@ -35,13 +35,13 @@ The following is the second of two phases of the rollout of the IPFS Mobile Desi
 
 Milestone | Hours | Cost
 --- | --- | ---
-Design workshop | 16 | €1,180.00
-Writing and publication of blog post introducing the project design | 8 | €590.00
-Interface and interaction design with design guidelines documentation | 80 | €5,900.00
-Documentation in online repository including tracked versions of design assets | 64 | €4,720.00
+Design workshop - design, planning, setup and execution of sync remote workshop for stakeholders in order to help frame the design | 16 | €1,180.00
+Writing and publication of blog post introducing the project design phase and how it relates to the previous research phase | 8 | €590.00
+Interface and interaction design contributing to design guidelines and component design to inform and help further development efforts in graphic format for the final report with alls assets in the repository | 80 | €5,900.00
+Final report of design including including user experience flows recommendations, iconographic, interaction and screen treatments for IPFS in mobile browsers and mobile OS’s in online repository including tracked versions of design assets | 64 | €4,720.00
 Writing and publication of blog post summarising the project design | 8 | €590.00
-Recommendations for further work | 8 | €590.00
-Presentation of the project at IPFS Weekly | 8 | €590.00
+Recommendations for further work to inspire and direct further work on mobile for IPFS | 8 | €590.00
+Presentation of the project at IPFS Weekly - including the production of slide deck, review, and present | 8 | €590.00
 **Total** |  | **€14,160.00**
 
 ## Total Budget Requested
