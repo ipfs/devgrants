@@ -1,15 +1,14 @@
-# Open Grant Proposal: IPFS mobile design research
+# Open Grant Proposal: `IPFS mobile design research`
 
 **Name of Project:**
 
-**Issuer:** @autonome  
 **Proposer:** `jkosem`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
 
 # Project Description
 
-Following on the far-reaching initial efforts to bring about mass adoption of IPFS by creating browser design guidelines to be brought to standards bodies and browser vendors, it is clear the guidelines work needs to be expanded to where it could achieve adoption quickest, on mobile. Smartphone use has eclipsed desktop, especialy in emerging markets, where IPFS stands to better address use cases, patterns and concerns around data sovereignty, offline applications and security.
+Following on the far-reaching initial efforts to bring about mass adoption of IPFS by creating browser design guidelines to be brought to standards bodies and browser vendors, it is clear the guidelines work needs to be expanded to where it could achieve adoption quickest, on mobile. Smartphone use has eclipsed desktop, especially in emerging markets, where IPFS stands to better address use cases, patterns and concerns around data sovereignty, offline applications and security.
 
 This programme of work will be the first of two, including research and design phases. Both will include not just use of mobile browser but wider mobile sharing and receiving workflows of iOS and Android mobile operating systems. This will provide a foundational effort towards IPFS on mobile platforms, informing both IPFS feature prioritization and the ecosystem and community building on the protocol.
 
@@ -27,35 +26,26 @@ The deliverable is a repository and report of research and analysis to inform th
 
 ## Development Roadmap
 
-The following is the two phase IPFS Mobile Design Guidelines plan. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
+The following is the first of two phases of the rollout of the IPFS Mobile Design Guidelines. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
 
-**Phase 1: User research and analysis**
+04 Mar 2020: Proposed date to start
 
-- 3 Feb 2020: Proposed date to start
-- 7 Feb 2020: Workhop, recruitment kick-off and audit
-- 21 Feb 2020: Interviews concluded
-- 28 Feb 2020: Analysis
-- 3 Mar 2020: Estimated date to finish
+03 Apr 2020: Proposed date to finish
 
-Detailed programme of work
-
-- Kick-off workshop with Protocol Labs to help frame the research and highlight where and what to focus on
-- Recruitment of experts for interviews, trying to include as many of the participants that were interviewed during the IPFS Browser Design Guidelines research focusing on the desktop browser
-- Expert interviews and workshops to explore the problem space, relevant technology and areas and things to think about with mobile and IPFS. This would include current IPFS developers such as Berty and Textile to explore what works and what doesn’t.
-- Interviews with mobile browser users to gain insights to current perceptions of browser capabilities, concerns, use patterns and issues within the context of IPFS and P2P in mobile.
-- Review, survey and audit of existing mobile browser design in major mobile browsers
-- Review of wider and additional contexts that affect mobile beyond the mobile browser, for example power, bandwidth and security
-- Review, survey and audit of existing mobile sharing interaction patterns around publishing, sharing and receiving that would affect IPFS mobile scenarios in iOS and Android
-- Coalescing of research materials and analysis to inform and inspire design the design phase
-
-Deliverables
-
-- Survey review of existing interfaces, components and patterns
-- Documentation of research in GitHub or other appropriate online repository
-- Design strategy
-- Research findings report to become part of the final report with the completion of the design phase
-- Writing and publication of blog post summarising the project
-- Presentation of the project at IPFS Weekly
+Milestone | Hours | Cost
+--- | --- | ---
+Kick off workshop - design, planning, setup and execution of sync remote workshop for stakeholders in order to help frame the research and highlight where and what to focus on. | 16 | €1,180.00
+Research recruitment - sourcing, evaluating, contacting and scheduling for non-technical and technical interviewees. | 16 | €1,180.00		
+Survey review of mobile p2p applications - Identify and review features, capabilities, use-cases and authors of existing mobile p2p applications  | 16 | €1,180.00
+Writing and publication of blog post introducing the project research | 4 | €295.00
+Review of wider and additional contexts that affect mobile beyond the mobile browser, for example power, bandwidth and security | 16 | €1,180.00
+Perform interviews of experts and non-experts | 32 | €2,360.00
+Consolidating of research notes and learnings from interviews and into a readable resource to contribute to the final design recommendations in public Github repository | 16 | €1,180.00
+Analysis of research and surveys to identify key learnings to lead the creation of design strategy | 32 | €2,360.00
+Creation and compilation of design strategy with recommendations to provide direction to the following IPFS mobile design phase documented in repository | 8 | €590.00
+Writing and publication of blog post summarising the project research | 12 | €885.00
+Presentation of the project at IPFS Weekly - including the production of slide deck, review, and present | 8 | €590.00
+**Total** |  | 	**€12,980.00**
 
 ## Total Budget Requested
 
