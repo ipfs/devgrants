@@ -3,7 +3,7 @@
 
 # Executive Summary
 
-TBD Last
+The IPFS Rust grant team completed Phase 1.0 on schedule. 
 
 # Issue by Issue
 
@@ -34,16 +34,26 @@ The following activities were scoped and planned for Phase 1.0:
 * Logo
     * https://github.com/ipfs-rust/logo/issues/2
     * https://github.com/ipfs-rust/rust-ipfs/pull/55
-    
+    * https://github.com/ipfs-rust/rust-ipfs/pull/70
+
+
+Finally, we applies Mozil
+
 ### Git Repositories
 
-* Subcrates
-* https://github.com/ipfs-rust/ipfs-rust-conformance/issues/11  
-* https://github.com/ipfs-rust/rust-ipfs/issues/62
-* https://github.com/ipfs-rust/rust-ipfs/issues/61
-* https://github.com/ipfs-rust/rust-ipfs/pull/68
-* https://github.com/ipfs-rust/rust-ipfs/pull/70
-* https://github.com/ipfs-rust/rust-ipfs/pull/72
+Goal: Quality of repository administration (as opposed to code quality)
+
+We organized the repositories according to the following list. Indentation implies creating crates within subfolders, and importing them via the [Rust module system](https://doc.rust-lang.org/book/second-edition/ch07-00-modules.html).
+
+- rust-ipfs
+    - http
+    - bitswap
+- rust-ipld
+
+We chose the Standard Readme spec. For example, see the [ipfs-rust](ttps://github.com/ipfs-rust/rust-ipfs/pull/72
+) and [ipfs-rust-conformance](https://github.com/ipfs-rust/ipfs-rust-conformance/issues/11) READMEs. We also wrote a [Contributors guide](https://github.com/ipfs-rust/rust-ipfs/issues/61) and added it to the repo according to GitHub's "Community profile", which is now reporting a green status.
+
+Finally, we also applied the [IPFS Community code of conduct](https://github.com/ipfs-rust/rust-ipfs/pull/68) following permission from Protocol Labs.
 
 ### Code Organization
 
@@ -53,6 +63,7 @@ The following activities were scoped and planned for Phase 1.0:
 
 ### CI/CD
 
+* https://github.com/ipfs-rust/rust-ipfs/issues/62
 * https://github.com/ipfs-rust/rust-ipfs/issues/41
 * https://github.com/ipfs-rust/rust-ipfs/pull/69
 * https://github.com/ipfs-rust/rust-ipfs/pull/73
