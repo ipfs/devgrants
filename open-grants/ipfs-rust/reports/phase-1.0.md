@@ -1,47 +1,34 @@
-# Phase 1.0 Milestone Report 
-> Project Setup, HTTP Scaffolding, Conformance Testing Framework
+<h1>
+  <img src="https://ipfs.io/ipfs/QmRcFsCvTgGrB52UGpp9P2bSDmnYNTAATdRf4NBj8SKf77/rust-ipfs-logo-256w.png" width="128" /><br />
+  Rust IPFS: Phase 1.0 Milestone Report
+</h1>
 
-# Executive Summary
+The IPFS Rust grant team completed Phase 1.0 on schedule. The following activities were initially scoped and planned: 
 
-The IPFS Rust grant team completed Phase 1.0 on schedule. 
-
-# Issue by Issue
-
-The following activities were scoped and planned for Phase 1.0:
-
-- Project Setup
-    - Git Repositories
-    - Code Organization
-    - CI/CD
-- HTTP Scaffolding
-    - Simple Daemonization
-    - 501 NOT IMPLEMENTED` Boilerplate
+- [Project Setup](#project-setup) incl. Git repositories, code organization, and continuous integration
+- HTTP Scaffolding with `501 NOT IMPLEMENTED` boilerplate
 - Conformance Testing
-    - Update js-ipfsd-ctl
-    - Update ipfs/interface-js-ipfs-core
-    - Run conformance testing on implemented endpoints
 - Interoperability Testing
-    - Update ipfs/interop
-    - Interop Testing
 - Project Milestone Report
-    - Executive Summary
-    - Comformance Test Results
-    - Interop Report
+    
+In addition to completing the above, we completed a number of community related efforts. Protocol Labs created a logo (above), Equilibrium created a mascot (below), and we, together, set up bridged chat between [Matrix](https://riot.im/app/#/room/#rust-ipfs:matrix.org) and [Discord](https://discord.gg/9E5SFvW).
+
+# Activity Details
+
+Each heading below represents a specific item promised in the initial grant proposal and relevant notes.
 
 ## Project Setup
 
-* Chat Bridges
-* Logo
-    * https://github.com/ipfs-rust/logo/issues/2
-    * https://github.com/ipfs-rust/rust-ipfs/pull/55
-    * https://github.com/ipfs-rust/rust-ipfs/pull/70
-
-
-Finally, we applies Mozil
+Goal: Quality of repository administration (as opposed to code quality)
 
 ### Git Repositories
 
-Goal: Quality of repository administration (as opposed to code quality)
+We chose the Standard Readme spec. For example, see the [ipfs-rust](ttps://github.com/ipfs-rust/rust-ipfs/pull/72
+) and [ipfs-rust-conformance](https://github.com/ipfs-rust/ipfs-rust-conformance/issues/11) READMEs. We also wrote a [Contributors guide](https://github.com/ipfs-rust/rust-ipfs/issues/61) and added it to the repo, along with [issue and pull request templates](https://github.com/ipfs-rust/rust-ipfs/pull/74). According to GitHub's "Community profile", we have achieved a "green" status.
+
+Finally, we also applied the [IPFS Community code of conduct](https://github.com/ipfs-rust/rust-ipfs/pull/68) following permission from Protocol Labs.
+
+### Code Organization
 
 We organized the repositories according to the following list. Indentation implies creating crates within subfolders, and importing them via the [Rust module system](https://doc.rust-lang.org/book/second-edition/ch07-00-modules.html).
 
@@ -49,17 +36,6 @@ We organized the repositories according to the following list. Indentation impli
     - http
     - bitswap
 - rust-ipld
-
-We chose the Standard Readme spec. For example, see the [ipfs-rust](ttps://github.com/ipfs-rust/rust-ipfs/pull/72
-) and [ipfs-rust-conformance](https://github.com/ipfs-rust/ipfs-rust-conformance/issues/11) READMEs. We also wrote a [Contributors guide](https://github.com/ipfs-rust/rust-ipfs/issues/61) and added it to the repo according to GitHub's "Community profile", which is now reporting a green status.
-
-Finally, we also applied the [IPFS Community code of conduct](https://github.com/ipfs-rust/rust-ipfs/pull/68) following permission from Protocol Labs.
-
-### Code Organization
-
-* https://github.com/ipfs-rust/rust-ipfs/issues/54
-* https://github.com/ipfs-rust/rust-ipfs/pull/74
-* https://github.com/ipfs-rust/rust-ipfs/pull/81
 
 ### CI/CD
 
@@ -120,3 +96,7 @@ Finally, we also applied the [IPFS Community code of conduct](https://github.com
 ## Interop Tests
 
 * Not required but some cursory exploration was done, and planning for 1.1 and 1.2
+
+# What's Next?
+
+Phase 1.1 will XXXX.
