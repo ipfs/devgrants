@@ -3,7 +3,7 @@
 ## About
 Open grants are for novel ideas that advance the IPFS ecosystem, bring significant new usage, or directly [advance the IPFS mission statemnent](https://github.com/ipfs/roadmap#ipfs-mission-statement).
 
-They are similar to [RFPs](../rpfs) in form, and require detailed specification. Because they potentially represent larger award amounts (upwards of **$10K**) as well as more risk, they require extensive due diligence and may not be funded in any given quarter (or at all), so please take the application process seriously. If your project is smaller in scope and less well-defined, you may want to consider [the microgrant program](../MICROGRANTS.md) instead.
+They are similar to [RFPs](../rpfs) in form, and require detailed specification. Because they potentially represent larger award amounts (sometimes upwards of **$10K**) as well as more risk, they require extensive due diligence and may not be funded in any given quarter (or at all), so please take the application process seriously. If your project is smaller in scope and less well-defined, you may want to consider [the microgrant program](../MICROGRANTS.md) instead.
 
 ## Proposal Process
 To submit an open grant proposal, PR a proposal for the suggested improvement to this folder following the [open grant proposal template](open-proposal-template.md). Please cover the project being proposed (including value to the IPFS ecosystem, deliverables, development, roadmap, and budget), and the team making the proposal (including your expertise and past work).
