@@ -41,7 +41,7 @@ We organized the repositories according to the following list. Indentation impli
 
 ### Continuous Integration (CI)
 
-We achieve much of the "definition of done" in this step.
+We automate away much of the "[definition of done](https://github.com/ipfs/devgrants/tree/master/open-grants/ipfs-rust#definition-of-done)" in this step.
 
 We set up [automated CI](https://github.com/ipfs-rust/rust-ipfs/pull/69), running on pushes to pull requested branches and master, on `rust-ipfs` and `rust-ipld`. The tests assert a [number of properties](https://github.com/ipfs-rust/rust-ipfs/issues/62), including unit tests, functional tests, code linting and formatting and language idiom checks via the "clippy" tool. The rests even try and execute the examples in the README files via a tool called [skeptic](https://github.com/ipfs-rust/rust-ipfs/issues/41).
 
@@ -55,7 +55,7 @@ The grant team ensured that [all HTTP endpoints](https://github.com/ipfs-rust/ru
 
 ## Conformance Testing
 
-The grant team's goal was simply to be able to _run_ the tests against our executable. This involved both adding functionality to `rust-ipfs` as well as extending Protocol Labs' testing framework to accommodate rust.
+The grant team's goal was simply to be able to _run_ the tests against our executable. This involved both adding functionality to `rust-ipfs` as well as extending Protocol Labs' testing framework to accommodate Rust IPFS.
 
 We created [`npm-rust-ipfs-dep`](https://github.com/ipfs-rust/npm-rust-ipfs-dep/issues/1) which mirrors `npm-go-ipfs-dep`, allowing for the Rust IPFS executable to be installed as an npm dependency. From there we made [small edits](https://github.com/ipfs/js-ipfsd-ctl/pull/473) to `js-ipfsd-ctl`, and then wrote a [custom script](https://github.com/ipfs-rust/ipfs-rust-conformance) to run the interface tests.
 
