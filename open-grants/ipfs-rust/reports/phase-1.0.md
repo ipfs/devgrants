@@ -10,7 +10,11 @@ The IPFS Rust grant team completed Phase 1.0 on schedule. The following activiti
 - [Conformance Testing](#conformance-testing)
 - [Interoperability Testing](#interoperability-testing)
     
-In addition to completing the above, we completed a number of community related efforts. Protocol Labs created a logo (above), Equilibrium created a mascot (below), and we, together, set up bridged chat between [Matrix](https://riot.im/app/#/room/#rust-ipfs:matrix.org) and [Discord](https://discord.gg/9E5SFvW).
+In addition to completing the above, we also completed a number of community related efforts. Protocol Labs created a logo (above), Equilibrium created a mascot (below), and we, together, set up bridged chat between [Matrix](https://riot.im/app/#/room/#rust-ipfs:matrix.org) and [Discord](https://discord.gg/9E5SFvW).
+
+![Rust IPFS "mascot"](https://user-images.githubusercontent.com/106148/75078320-50e15a00-54d3-11ea-9df4-43d6d04466cf.png)
+
+We also added trademark and Creative Commons notices to all relevant repositories.
 
 # Activity Details
 
@@ -40,7 +44,7 @@ We organized the repositories according to the following list. Indentation impli
 
 We achieve much of the "definition of done" in this step.
 
-We set up [automated CI](https://github.com/ipfs-rust/rust-ipfs/pull/69), running on pushes to pull requested branches and master, on `rust-ipfs` and `rust-ipld`. The tests assert a [number of properties](https://github.com/ipfs-rust/rust-ipfs/issues/62), including unit tests, functional test, code linting and formatting and language idioms via "clippy". The rests even try and execute the examples in the README files via a tool called [skeptic](https://github.com/ipfs-rust/rust-ipfs/issues/41).
+We set up [automated CI](https://github.com/ipfs-rust/rust-ipfs/pull/69), running on pushes to pull requested branches and master, on `rust-ipfs` and `rust-ipld`. The tests assert a [number of properties](https://github.com/ipfs-rust/rust-ipfs/issues/62), including unit tests, functional tests, code linting and formatting and language idiom checks via the "clippy" tool. The rests even try and execute the examples in the README files via a tool called [skeptic](https://github.com/ipfs-rust/rust-ipfs/issues/41).
 
 Note that in one instance Rust's `stable` release channel updated from 1.41 to 1.42, eschewing 32 bit iOS / OSX builds, and we were able to catch that and [fix it](https://github.com/ipfs-rust/rust-ipfs/pull/100) that day.
 
