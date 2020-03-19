@@ -52,33 +52,14 @@ The grant team ensured that [all HTTP endpoints](https://github.com/ipfs-rust/ru
 
 ## Conformance Testing
 
-* https://github.com/ipfs-rust/npm-rust-ipfs-dep/issues/1
+The grant team's goal was simply to Simply being able to _run_ the tests against our setup. This involved both adding functionality to `rust-ipfs` as well as
 
-### Update js-ipfsd-ctl
+We created [`npm-rust-ipfs-dep`](https://github.com/ipfs-rust/npm-rust-ipfs-dep/issues/1) which mirrors `npm-go-ipfs-dep`, allowing for the Rust IPFS executable to be installed as an npm dependency. From there we made [small edits](https://github.com/ipfs/js-ipfsd-ctl/pull/473) to `js-ipfsd-ctl`, and then 
 
-* https://github.com/ipfs/js-ipfsd-ctl/pull/473
+We also edited the `interop` tests in a [similar fashion](https://github.com/ipfs-rust/interop/pull/2).
 
-### Update ipfs/interface-js-ipfs-core
-
-* not necessary
-* note that some tests _will_ need to be refactored
-* Transisitioning to 
-
-### Run conformance testing on implemented endpoints
-
-* See testing below
-
-## Interoperability Testing
-
-### Update ipfs/interop
-
-* https://github.com/ipfs-rust/interop/issues/1
-* https://github.com/ipfs-rust/interop/pull/2
-
-### Interop Testing
-
-* See interop testing below
+Currently all conformance testing, interface and interop, fail. This is intentional as grant progress can now be measured in the ratio of passing/failing tests moving forward.
 
 # What's Next?
 
-Phase 1.1 will XXXX.
+Phase 1.1 plans to introduce new HTTP endpoints, /pubsub, /swarm, /version, and /id, all of which will pass conformance testing standards. Additionally, we plan to expand our chat bridges to Telegram and Gitter.
