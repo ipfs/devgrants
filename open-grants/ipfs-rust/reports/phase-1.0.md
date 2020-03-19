@@ -37,13 +37,13 @@ We organized the repositories according to the following list. Indentation impli
     - bitswap
 - rust-ipld
 
-### CI/CD
+### Continuous Integration (CI)
 
-* https://github.com/ipfs-rust/rust-ipfs/issues/62
-* https://github.com/ipfs-rust/rust-ipfs/issues/41
-* https://github.com/ipfs-rust/rust-ipfs/pull/69
-* https://github.com/ipfs-rust/rust-ipfs/pull/73
-* https://github.com/ipfs-rust/rust-ipfs/pull/100
+We achieve much of the "definition of done" in this step.
+
+We set up [automated CI](https://github.com/ipfs-rust/rust-ipfs/pull/69), running on pushes to pull requested branches and master, on `rust-ipfs` and `rust-ipld`. The tests assert a [number of properties](https://github.com/ipfs-rust/rust-ipfs/issues/62), including unit tests, functional test, code linting and formatting and language idioms via "clippy". The rests even try and execute the examples in the README files via a tool called [skeptic](https://github.com/ipfs-rust/rust-ipfs/issues/41).
+
+Note that in one instance Rust's `stable` release channel updated from 1.41 to 1.42, eschewing 32 bit iOS / OSX builds, and we were able to catch that and [fix it](https://github.com/ipfs-rust/rust-ipfs/pull/100) that day.
 
 ## HTTP Scaffolding
 
