@@ -6,10 +6,9 @@
 The IPFS Rust grant team completed Phase 1.0 on schedule. The following activities were initially scoped and planned: 
 
 - [Project Setup](#project-setup) incl. Git repositories, code organization, and continuous integration
-- HTTP Scaffolding with `501 NOT IMPLEMENTED` boilerplate
-- Conformance Testing
-- Interoperability Testing
-- Project Milestone Report
+- [HTTP Scaffolding](#http-scaffolding) with `501 NOT IMPLEMENTED` boilerplate
+- [Conformance Testing](#conformance-testing)
+- [Interoperability Testing](#interoperability-testing)
     
 In addition to completing the above, we completed a number of community related efforts. Protocol Labs created a logo (above), Equilibrium created a mascot (below), and we, together, set up bridged chat between [Matrix](https://riot.im/app/#/room/#rust-ipfs:matrix.org) and [Discord](https://discord.gg/9E5SFvW).
 
@@ -47,16 +46,9 @@ Note that in one instance Rust's `stable` release channel updated from 1.41 to 1
 
 ## HTTP Scaffolding
 
-* https://github.com/ipfs-rust/rust-ipfs/issues/60
-* https://github.com/ipfs-rust/rust-ipfs/pull/103
-* https://github.com/ipfs-rust/rust-ipfs/pull/64
-* https://github.com/ipfs-rust/rust-ipfs/pull/71
+The grant team used the [warp](https://github.com/seanmonstar/warp) Rust framework to scaffold [HTTP endpoints](https://github.com/ipfs-rust/rust-ipfs/issues/60) for conformance testing. This involved creating a long-standing process, and then responding to HTTP calls among specific paths to return the `501 NOT IMPLEMENTED` error code, as opposed to `404 NOT FOUND`.
 
-### Simple Daemonization
-
-### 501 NOT IMPLEMENTED Boilerplate
-
-* https://github.com/ipfs-rust/rust-ipfs/blob/master/http/src/v0.rs#L30
+The grant team ensured that [all HTTP endpoints](https://github.com/ipfs-rust/rust-ipfs/blob/master/http/src/v0.rs#L30) covered by the `interface-js-ipfs-core` tests were appropriately scaffolded.
 
 ## Conformance Testing
 
@@ -86,16 +78,6 @@ Note that in one instance Rust's `stable` release channel updated from 1.41 to 1
 ### Interop Testing
 
 * See interop testing below
-
-# Conformance Test Results
-
-## Interface Tests
-
-* 501 Not implemented
-
-## Interop Tests
-
-* Not required but some cursory exploration was done, and planning for 1.1 and 1.2
 
 # What's Next?
 
