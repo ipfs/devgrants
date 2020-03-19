@@ -8,7 +8,6 @@ The IPFS Rust grant team completed Phase 1.0 on schedule. The following activiti
 - [Project Setup](#project-setup) incl. Git repositories, code organization, and continuous integration
 - [HTTP Scaffolding](#http-scaffolding) with `501 NOT IMPLEMENTED` boilerplate
 - [Conformance Testing](#conformance-testing)
-- [Interoperability Testing](#interoperability-testing)
     
 In addition to completing the above, we also completed a number of community related efforts. Protocol Labs created a logo (above), Equilibrium created a mascot (below), and we, together, set up bridged chat between [Matrix](https://riot.im/app/#/room/#rust-ipfs:matrix.org) and [Discord](https://discord.gg/9E5SFvW).
 
@@ -56,13 +55,13 @@ The grant team ensured that [all HTTP endpoints](https://github.com/ipfs-rust/ru
 
 ## Conformance Testing
 
-The grant team's goal was simply to Simply being able to _run_ the tests against our setup. This involved both adding functionality to `rust-ipfs` as well as
+The grant team's goal was simply to be able to _run_ the tests against our executable. This involved both adding functionality to `rust-ipfs` as well as extending Protocol Labs' testing framework to accommodate rust.
 
-We created [`npm-rust-ipfs-dep`](https://github.com/ipfs-rust/npm-rust-ipfs-dep/issues/1) which mirrors `npm-go-ipfs-dep`, allowing for the Rust IPFS executable to be installed as an npm dependency. From there we made [small edits](https://github.com/ipfs/js-ipfsd-ctl/pull/473) to `js-ipfsd-ctl`, and then 
+We created [`npm-rust-ipfs-dep`](https://github.com/ipfs-rust/npm-rust-ipfs-dep/issues/1) which mirrors `npm-go-ipfs-dep`, allowing for the Rust IPFS executable to be installed as an npm dependency. From there we made [small edits](https://github.com/ipfs/js-ipfsd-ctl/pull/473) to `js-ipfsd-ctl`, and then wrote a [custom script](https://github.com/ipfs-rust/ipfs-rust-conformance) to run the interface tests.
 
 We also edited the `interop` tests in a [similar fashion](https://github.com/ipfs-rust/interop/pull/2).
 
-Currently all conformance testing, interface and interop, fail. This is intentional as grant progress can now be measured in the ratio of passing/failing tests moving forward.
+Currently all conformance testing, interface and interop, fails. This is intentional as grant progress can now be measured in the ratio of passing/failing tests moving forward.
 
 # What's Next?
 
