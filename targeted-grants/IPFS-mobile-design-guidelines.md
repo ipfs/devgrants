@@ -2,16 +2,15 @@
 
 **Name of Project:**
 
-**Issuer:** @autonome  
 **Proposer:** `jkosem`
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** "Yes"
 
 # Project Description
 
-Following on the far-reaching initial efforts to bring about mass adoption of IPFS by creating browser design guidelines to be brought to standards bodies and browser vendors, it is clear the guidelines work needs to be expanded to where it could achieve adoption quickest, on mobile. Smartphone use has eclipsed desktop, especialy in emerging markets, where IPFS stands to better address use cases, patterns and concerns around data sovereignty, offline applications and security.
+Following on the far-reaching initial efforts to bring about mass adoption of IPFS by creating browser design guidelines to be brought to standards bodies and browser vendors, it is clear the guidelines work needs to be expanded to where it could achieve adoption quickest, on mobile. Smartphone use has eclipsed desktop, especially in emerging markets, where IPFS stands to better address use cases, patterns and concerns around data sovereignty, offline applications and security.
 
-This programme of work will include the design phase to follow on from the preceding research phase. It will include not just the design of use of mobile browser but wider mobile sharing and receiving workflows of iOS and Android mobile operating systems. This will provide a foundational effort towards IPFS on mobile platforms, informing both IPFS feature prioritization and the ecosystem and community building on the protocol.
+This programme of work will include the design phase to follow on from the preceding research phase. It will include not just the design of use of mobile browser but wider mobile sharing and receiving workflows of iOS and Android mobile operating systems. This will provide a foundational effort towards IPFS on mobile platforms, informing both IPFS feature prioritisation and the ecosystem and community building on the protocol.
 
 ## Value
 
@@ -27,28 +26,24 @@ The deliverable is a repository and report of use-cases, design guidelines and U
 
 ## Development Roadmap
 
-The following is the design phase of the IPFS Mobile Design Guidelines plan. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
+The following is the second of two phases of the rollout of the IPFS Mobile Design Guidelines. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
 
-04 Mar 2020: Proposed date to start
-13 Mar 2020: Preliminary designs
-20 Mar 2020: Design guidelines including design assets
-03 Apr 2020: Estimated date to finish
+13 Apr 2020: Proposed date to start
 
-Programme of work:
+22 May 2020: Estimated date to finish
 
-- Workshop with Protocol Labs to help translate the research into design and prioritise design efforts
-- Interaction and user experience design work to solve the researched issues, mapping out user flows, design patterns and use cases
-- Interface design
-
-Deliverables: 
-
-- Designs including recommendations, iconographic, interaction and screen treatments for IPFS in mobile browsers and mobile OS’s in graphic format in the final report as well as Sketch and PDF assets in the repository
-- User experience flows in graphic format in the final report as well as Sketch and PDF assets in the repository
-- Design guidelines and component design to inform and help further development efforts in graphic format in the final report as well as Sketch and PDF assets in the repository
-- Recommendations for further work
-- Documentation in GitHub or other appropriate online repository including tracked versions of design assets
-- Writing and publication of blog post summarising the project
-- Presentation of the project at IPFS Weekly
+Milestone | Hours | Cost
+--- | --- | ---
+Design workshop to help translate research and direct design | 16 | €1,180.00
+User interface, component and elements design | 38 | €2,802.50
+Interaction design and production of user flows and use cases | 40 | €2,950.00
+Design guidelines creation and documentation | 20 | €1,475.00
+Documentation survey and collection of research and design materials | 18 | €1,327.50
+Guidelines analysis | 20 | €1,475.00
+Compilation of assets and writing of documentation with development recommendations | 24 | €1,770.00
+Writing and publication of blog post summarising the project design | 8 | €590.00
+Presentation of the project at IPFS Weekly | 8 | €590.00
+**Total** |  | **€14,160.00**
 
 ## Total Budget Requested
 
