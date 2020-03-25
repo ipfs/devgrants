@@ -28,20 +28,21 @@ The deliverable is a repository and report of use-cases, design guidelines and U
 
 The following is the second of two phases of the rollout of the IPFS Mobile Design Guidelines. All of the research and design work is to be led or done by Jim Kosem with technical and project guidance and advice by Dietrich Ayala.
 
+13 Apr 2020: Proposed date to start
 
-06 Apr 2020: Proposed date to start
-
-15 May 2020: Estimated date to finish
+22 May 2020: Estimated date to finish
 
 Milestone | Hours | Cost
 --- | --- | ---
-Design workshop - design, planning, setup and execution of sync remote workshop for stakeholders in order to help frame the design | 16 | €1,180.00
-Writing and publication of blog post introducing the project design phase and how it relates to the previous research phase | 8 | €590.00
-Interface and interaction design contributing to design guidelines and component design to inform and help further development efforts in graphic format for the final report with alls assets in the repository | 80 | €5,900.00
-Final report of design including including user experience flows recommendations, iconographic, interaction and screen treatments for IPFS in mobile browsers and mobile OS’s in online repository including tracked versions of design assets | 64 | €4,720.00
+Design workshop to help translate research and direct design | 16 | €1,180.00
+User interface, component and elements design | 38 | €2,802.50
+Interaction design and production of user flows and use cases | 40 | €2,950.00
+Design guidelines creation and documentation | 20 | €1,475.00
+Documentation survey and collection of research and design materials | 18 | €1,327.50
+Guidelines analysis | 20 | €1,475.00
+Compilation of assets and writing of documentation with development recommendations | 24 | €1,770.00
 Writing and publication of blog post summarising the project design | 8 | €590.00
-Recommendations for further work to inspire and direct further work on mobile for IPFS | 8 | €590.00
-Presentation of the project at IPFS Weekly - including the production of slide deck, review, and present | 8 | €590.00
+Presentation of the project at IPFS Weekly | 8 | €590.00
 **Total** |  | **€14,160.00**
 
 ## Total Budget Requested
