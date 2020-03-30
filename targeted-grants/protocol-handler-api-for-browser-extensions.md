@@ -76,7 +76,7 @@ Above example:
     - User needs to be on `example.com` to registration to work
     - Displays user prompt, asking for confirmation if a handler should be registered
 - Requires unknown protocols names to be prefixed with `web+` ([registerProtocolHandler#Permitted_schemes](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler#Permitted_schemes))
-   - Firefox whitelisted `ipfs://` ([bug 1428446](https://bugzilla.mozilla.org/show_bug.cgi?id=1428446))
+   - Firefox whitelisted `ipfs://` and `ipns://` ([bug 1428446](https://bugzilla.mozilla.org/show_bug.cgi?id=1428446))
    - Chromium requires prefix `web+ipfs://` ([bug 651311](https://bugs.chromium.org/p/chromium/issues/detail?id=651311),
      [intent-to-implement](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/29sFh4tTdcs/K4XroilVBAAJ) is blocked by [whatwg/html#3998](https://github.com/whatwg/html/issues/3998))
 - In the end, is just a gloried HTTP redirect
@@ -86,10 +86,9 @@ Above example:
 
 #### Firefox: `manifest.json/protocol_handlers`
 
-Since Firefox 59 it is possible for a browser extension to perform  `navigator.registerProtocolHandler`-like handler registration during own install. 
+Since Firefox 59 it is possible for a browser extension to perform  `navigator.registerProtocolHandler`-like handler registration during own install by defining handled URI schemes upfront in [`manifest.json/protocol_handlers`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/protocol_handlers).
 
-When defined, [`manifest.json/protocol_handlers`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/protocol_handlers)
-automatically registers a redirect-based protocol handler when browser extension is installed. 
+This automatically registers a redirect-based protocol handler when browser extension is installed and supports DWeb schemes, such as `ipfs://` and `ipns://` without `web+` prefix (whitelisted in [bug 1428446](https://bugzilla.mozilla.org/show_bug.cgi?id=1428446)).
 
 It removes the need for user to visit specific website, 
 but remains a thin wrapper on top of `navigator.registerProtocolHandler` API, 
