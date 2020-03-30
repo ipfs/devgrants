@@ -42,10 +42,10 @@ while leveraging integrity guarantees of content addressing.
 in the development of innovative projects and solutions, including the web platform. 
 
 They are experienced contributors to major browser engines familiar with both codebases
-and standarization processes. One of most prominent success stories is [CSS Grid](https://www.igalia.com/2017/04/04/Shipping-CSS-Grid-Layout-in-major-browsers.html),
+and standardization processes. One of most prominent success stories is [CSS Grid](https://www.igalia.com/2017/04/04/Shipping-CSS-Grid-Layout-in-major-browsers.html),
 which they championed and implemented in Blink and WebKit.
 
-On the IPFS side grant will be supported by @lidel and @autonome.
+On the IPFS side, grant will be supported by @lidel and @autonome.
 
 ## Detailed Requirements & Constraints
 
@@ -75,9 +75,10 @@ Above example:
 - Works only when executed on matching Origin
     - User needs to be on `example.com` to registration to work
     - Displays user prompt, asking for confirmation if a handler should be registered
-- Requires unknown protocols names to be prefixed with `web+` ([MDN](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler#Permitted_schemes))
+- Requires unknown protocols names to be prefixed with `web+` ([registerProtocolHandler#Permitted_schemes](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler#Permitted_schemes))
    - Firefox whitelisted `ipfs://` ([bug 1428446](https://bugzilla.mozilla.org/show_bug.cgi?id=1428446))
-   - Chromium requires prefix `web+ipfs://` ([bug 651311](https://bugs.chromium.org/p/chromium/issues/detail?id=651311), [intent-to-implement](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/29sFh4tTdc))
+   - Chromium requires prefix `web+ipfs://` ([bug 651311](https://bugs.chromium.org/p/chromium/issues/detail?id=651311),
+     [intent-to-implement](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/29sFh4tTdcs/K4XroilVBAAJ) is blocked by [whatwg/html#3998](https://github.com/whatwg/html/issues/3998))
 - In the end, is just a gloried HTTP redirect
   - opening `web+ipfs://bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi` will redirect to a web-based handler at `http://example.com?uri=web%2Bipfs%3A%2F%2Fbafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi`
 
@@ -116,7 +117,7 @@ There was an effort to reimplement an async iterator version of the PoC Protocol
 in the upstream codebase ([bug 1271553](https://bugzilla.mozilla.org/show_bug.cgi?id=1271553)),
 but it does not seem to be a priority for Mozilla at this time.
 
-### Next: Native Protocol Handler API for Browser Extensions (this grant)
+### Next: native protocol handler API for browser extensions (this grant)
 
 The work in scope of this grant is to leverage lessons from the past experiments
 and create a general purpose Protocol Handler API that can be used by any browser extension.
@@ -127,7 +128,7 @@ To maximize the value created by this grant Chromium codebase should be used as 
 
 If possible, the API should be compatible with `manifest.json/protocol_handlers` API already present in Firefox 
 (registering handler on extension install) but with option to omit `uriTemplate` and provide a self-hosted,
-programmatic handler via `chrome.protocol.registerProtocol` instead. 
+programmatic handler via to-be-created `chrome.*.registerProtocol` API instead. 
 
 See _Acceptance Criteria_ for more details.
 
@@ -151,21 +152,22 @@ See _Acceptance Criteria_ for more details.
 
 <!-- What are the acceptance criteria for each milestone and for the final deliverables? These should be as objective as possible. They will be used to determine whether or not a grantee will receive payment for work completed for a milestone.  -->
 
-- API specificiation document is approved by IPFS project
+- API specification document is approved by IPFS project
     - Origin is based on the content root
     - supports streaming responses by means of async iterators
     - reuses HTTP semantics for caching, content type, headers and error codes
 - API implementation in form of patches for Chromium codebase
-    - allows JS running in browser extension context to register `ipfs://` and `ipns://` protocol handlers, process every request made with them and return arbitrary bytes 
-    - released under [PL's Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/)
+    - allows JS running in browser extension context to register `ipfs://` and `ipns://` protocol handlers, process every request made with them and return arbitrary bytes
+    - released under [PL's Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) or a license suggested by the Chromium project
 - API proliferation
+    - discussed with Mozilla and Chromium projects
     - can be enabled at a build time by browser vendors such as Brave or Edge
     - patches submitted to the Brave project
     - patches submitted to the upstream Chromium / Blink projects
 
 ## Resources
 
-<!-- Link any resources that might be helpful for an implementer who is working on this project. -->
+Additional resources that might be helpful for an implementer who is working on this project.
 
 - Whitelisting Dweb protocols
     - [/arewedistributedyet/issues/23](https://github.com/arewedistributedyet/arewedistributedyet/issues/23)
