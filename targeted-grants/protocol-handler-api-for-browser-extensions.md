@@ -3,6 +3,20 @@
 
 **Issuer:** @lidel and @autonome
 
+- [Project Description](#project-description)
+- [Value](#value)
+- [Deliverables](#deliverables)
+- [Recommended Team](#recommended-team)
+- [Detailed Requirements & Constraints](#detailed-requirements-constraints)
+    - [Prior art: Web API for registering redirect-based handlers](#prior-art-web-api-for-registering-redirect-based-handlers)
+    - [Prior art: browser extension registering a redirect-based handler](#prior-art-browser-extension-registering-a-redirect-based-handler)
+    - [Prior art: browser extension registering a native handler](#prior-art-browser-extension-registering-a-native-handler)
+    - [Next: native protocol handler API for browser extensions (this grant)](#next-native-protocol-handler-api-for-browser-extensions-this-grant)
+- [Milestones & Funding](#milestones-funding)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Resources](#resources)
+- [Support and Funding](#support-and-funding)
+
 ## Project Description
 
 Browser extensions are unable to register handlers for URIs such as `ipfs://<cid>`  
