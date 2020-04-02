@@ -36,7 +36,7 @@ To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grant
 ---
 
 ### Adoption Microgrant
-These are small grants intended to help stimulate experimentation with and adoption of IPFS across a wide range of fields. The application and reporting requirements are more relaxed, but the monetary awards are more limited (~$1k).
+These are small grants intended to help stimulate experimentation with and adoption of IPFS across a wide range of fields. The application and reporting requirements are more relaxed, but the monetary awards are more limited ($1k).
 
 To read more about Adoption Microgrants see [MICROGRANTS](MICROGRANTS.md). Adoption Microgrants are funded by Protocol Labs.
 
