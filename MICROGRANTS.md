@@ -4,6 +4,8 @@
 
 The IPFS Adoption Microgrants are intended to encourage experimentation with, and adoption of IPFS across a range of fields. They are offered with the understanding that decentralized technologies are a rapidly developing field with many unknowns, and do not make complete technical success of the proposal a prerequisite for the award.
 
+Microgrants aligned with this quarter's [Focus Area](FOCUS.md) will be given priority consideration.
+
 ### Intended Audience
 These grants are intended for independent developers, small studios, non-profits, activists, and researchers. The ideal candidate is a domain expert exploring integrating decentralized technologies into their work, particularly broadly used tools or frameworks. Open Source work is preferred, but exceptions can be made on a case-by-case basis.
 
