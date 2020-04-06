@@ -2,8 +2,6 @@
 |beta|
 |---|
 
-_:warning: WARNING WARNING WARNING: This is a *beta version* of the grant platform. Grant specifications, process, and tooling are all subject to change (in particular, any dollar award amounts should be treated as tentative). Please open a [META issue](https://github.com/protocol/ipfs-grants/issues/new?assignees=parkan&labels=&template=-meta--grant-platform-improvement.md&title=) with any concerns_
-
 Welcome to the IPFS Grant Platform! The Grant Platform connects grant makers with builders and researchers in the IPFS community. Whether you represent a foundation that wants to move the space forward, a company looking to accelerate development on the features your application needs, or a dev team itching to hack on IPFS tools, you've come to the right place. Take a look at the supported grant types and available funding + work opportunities below.
 
 ## Grant Types
