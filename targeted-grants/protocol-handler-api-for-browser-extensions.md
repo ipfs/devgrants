@@ -11,6 +11,7 @@
     - [Prior art: Web API for registering redirect-based handlers](#prior-art-web-api-for-registering-redirect-based-handlers)
     - [Prior art: browser extension registering a redirect-based handler](#prior-art-browser-extension-registering-a-redirect-based-handler)
     - [Prior art: browser extension registering a native handler](#prior-art-browser-extension-registering-a-native-handler)
+    - [Prior art: Opera's native `ipfs://` URI backed by a Subdomain Gateway](#prior-art-operas-native-ipfs-uri-backed-by-a-subdomain-gateway)
     - [Next: native protocol handler API for browser extensions (this grant)](#next-native-protocol-handler-api-for-browser-extensions-this-grant)
 - [Milestones & Funding](#milestones-funding)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -129,6 +130,20 @@ Over time, Gecko codebase moved forward breaking the demo in latest Nightlies.
 There was an effort to reimplement an async iterator version of the PoC Protocol API
 in the upstream codebase ([bug 1271553](https://bugzilla.mozilla.org/show_bug.cgi?id=1271553)),
 but it does not seem to be a priority for Mozilla at this time.
+
+### Prior art: Opera's native `ipfs://` URI backed by a Subdomain Gateway
+
+[Opera for Android 57] shipped native support for `ipfs://` and `ipns://` URIs.
+It introduced a custom protocol handler that translates requests made to `ipfs://` to a URL at a public [subdomain gateway].
+This way each content root loaded from IPFS gets a unique Origin and is sandboxed from other ones.
+
+While the implementation done by Opera did not use browser extensions, the
+similar approach (native `ipfs://` backed by HTTP gateway) could be leveraged
+in other browsers if we empower extensions with capability to register custom
+protocol handlers.
+
+[Opera for Android 57]: https://blog.ipfs.io/2020-03-30-ipfs-in-opera-for-android/
+[subdomain gateway]: https://docs-beta.ipfs.io/how-to/address-ipfs-on-web/#subdomain-gateway
 
 ### Next: native protocol handler API for browser extensions (this grant)
 
