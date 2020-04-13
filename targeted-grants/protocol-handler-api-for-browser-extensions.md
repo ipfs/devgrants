@@ -158,39 +158,71 @@ If possible, the API should be compatible with `manifest.json/protocol_handlers`
 (registering handler on extension install) but with option to omit `uriTemplate` and provide a self-hosted,
 programmatic handler via to-be-created `chrome.*.registerProtocol` API instead. 
 
-See _Acceptance Criteria_ for more details.
+See _Milestones_ and _Acceptance Criteria_ for more details.
 
 ## Milestones & Funding
 
 **Total Funding Amount:** <!-- List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL) -->
 
-**Milestones:** <!--Make sure that the values in the Funding column add up to the Total Funding Amount listed above.-->
+**Milestones:**
 
-<!-- TODO: work with Igalia on defining milestones, below is just a stub -->
-
-| Milestone No. | Milestone Description | Funding | Estimated Timeframe |
-| --- | --- | --- | --- |
-| 1 | Initial API design | $X | Y weeks |
-| 2 | PoC API implementation in Chromium | $X | Y weeks |
-| 3 | Reusable Chromium/Blink patches work with Brave | $X | Y weeks |
-| 4 | ? | $X | Y weeks |
-| 5 | ?  | $X | Y weeks |
+| Milestone No. | Milestone Description                                                        |
+| ---           | ---                                                                          |
+| 1             | Enhance `registerProtocolHandler()` to whitelist ”ipfs” and ”ipns” protocols |
+| 2             | Support `protocol_handlers` key in Chromium extensions                       |
+| 3             | Implement a native protocol handler API for browser extensions               |
 
 ## Acceptance Criteria
 
 <!-- What are the acceptance criteria for each milestone and for the final deliverables? These should be as objective as possible. They will be used to determine whether or not a grantee will receive payment for work completed for a milestone.  -->
 
-- API specification document is approved by IPFS project
+### Milestone 1: Enhance `registerProtocolHandler()` to whitelist ”ipfs” and ”ipns” protocols
+
+- Restart discussion and find a browser vendor consensus at
+  https://github.com/whatwg/html/issues/3998
+- Update https://html.spec.whatwg.org to reflect these changes.
+- Add/Update web platform tests at https://github.com/web-platform-tests/wpt
+  accordingly.
+- Restart discussion at
+  https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/29sFh4tTdcs/K4XroilVBAAJ
+- Ensure the intent is up-to-date with the latest criteria at
+  https://www.chromium.org/blink/launching-features
+- Submit new patches against the latest upstream and land them into Chromium.
+- Any extra tasks suggested by reviewers to get this accepted (e.g.  meeting
+  with API owners, adding a runtime flag, whitelist more protocols, switch to a
+  blacklist, remove the title argument, security improvements, etc).
+
+### Milestone 2: Support `protocol_handlers` key in Chromium extensions
+
+- Coordinate with Microsoft and Google on this proposal, in particular:
+  https://github.com/MicrosoftEdge/MSEdgeExplainers/issues/280
+  https://github.com/MicrosoftEdge/MSEdgeExplainers/issues/230
+- Ensure that at least the ”ipfs” and ”ipns” protocols are allowed.
+- Make any change to Mozilla’s implementation if necessary
+- Analyze code and get in touch with Chromium’s community to understand the
+  process to extend https://developer.chrome.com/extensions, propose a new API,
+  how they are used in Chromium-based browsers other than Chrome, if a runtime
+  flag is needed, etc.
+- Write PoC patches adding support for this in Chrome’s extensions.
+- Submit patches upstream and land them, with any extra tasks suggested by
+  reviewers to get this accepted (e.g. installation prompt for security, tests,
+  etc).
+
+### Milestone 3: Implement a native protocol handler API for browser extensions
+
+- API specification is approved by IPFS project
     - Origin is based on the content root
     - supports streaming responses by means of async iterators
     - reuses HTTP semantics for caching, content type, headers and error codes
+    - likely similar to libdweb’s proposal and an extension of
+      `protocol_handlers` from task Milestone 2.
 - API implementation in form of patches for Chromium codebase
+    - experimental build to test integration with IPFS Companion browser extension
     - allows JS running in browser extension context to register `ipfs://` and `ipns://` protocol handlers, process every request made with them and return arbitrary bytes
-    - released under [PL's Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) or a license suggested by the Chromium project
 - API proliferation
-    - discussed with Mozilla and Chromium projects
-    - can be enabled at a build time by browser vendors such as Brave or Edge
-    - patches submitted to the Brave project
+    - released under [PL's Permissive License Stack](https://protocol.ai/blog/announcing-the-permissive-license-stack/) or a license suggested by the Chromium project
+    - discussed with Microsoft, Mozilla and Chromium projects
+    - patches can be integrated into the codebase of other Chromium-based browsers such as Edge or Brave.
     - patches submitted to the upstream Chromium / Blink projects
 
 ## Resources
