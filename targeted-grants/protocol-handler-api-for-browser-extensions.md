@@ -162,7 +162,12 @@ See _Milestones_ and _Acceptance Criteria_ for more details.
 
 ## Milestones & Funding
 
-**Total Funding Amount:** <!-- List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL) -->
+**Estimated Funding Amount:** 36000 USD (based on hours agreed between Igalia and Protocol Labs)
+
+Note: due to the nature of this exploratory grant, in the event of a Milestone
+landing being blocked completely before the completion of the full hours, the
+billing may be under the estimated total and grant recipient will bill only
+hours worked.
 
 **Milestones:**
 
