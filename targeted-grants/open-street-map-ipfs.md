@@ -38,8 +38,7 @@ OpenStreetMap is an amazing example of public-interest technology and community-
 2. Commandline tool using `peermaps/ingest` to diff .pbf files, convert to the Peermaps format, and pin both data formats on IPFS;
 3. Commandline tool using `peermaps/ingest` .pbf files, convert to the Peermaps format, and pin both data formats on Filecoin 
 4. Post about the project for the IPFS blog
-5. Demo page with example code for map view in an HTML page (we were planning
-   on doing this anyway, so not included in Milestones/Funding)
+5. Demo page with example code for map view in an HTML page using the Peermaps data published from IPFS.
 6. Report on feasability, usability, experience building on Filecoin/IPFS apis.
 
 ## Team
@@ -70,22 +69,16 @@ Commandline tool to diff .pbf files, convert to the Peermaps format, and pin bot
 
 Also include any relevant constraints that the implementer should be aware of before beginning this project.-->
 
-We plan to run the script on a node as soon as we get the commandline tool
-ready. Long-term goal of this project (1+ years from now) is to make this
-downloading/packing/indexing be done with distributed computation, rather than
-on a single machine. Ideally, other groups in maplandia would be interested in
-running the infra/CI and we could share the computation load.
+We plan to run the commandline tool to diff pbf files, convert to the
+Peermaps format, and upload to IPFS. This will be run on a computer every week.
+This is how often a new OSM diff file is published. Long-term goal of this
+project (1+ years from now) is to make this downloading/packing/indexing be
+done with distributed computation, rather than on a single machine. Ideally,
+other groups in maplandia would be interested in running the infra/CI and we
+could share the computation load.
 
 We'd also be happy to run the script on the IPFS collaborative cluster infra as
 well: https://blog.ipfs.io/2020-01-09-collaborative-clusters/. 
-
-## Acceptance Criteria
-
-<!-- What are the acceptance criteria for each milestone and for the final deliverables? These should be as objective as possible. They will be used to determine whether or not a grantee will receive payment for work completed for a milestone. -->
-
-* A bash script can download the latest .pbf file from OpenStreetMap website and run the commandline tool to host the latest OpenStreetMap and Peermaps data on IPFS and Filecoin.
-* A user can use an IPFS or Filecoin client to download both Peermaps and OpenStreetMap data.
-* Peermaps team will maintain a mirror of this data.
 
 ## Resources
 
