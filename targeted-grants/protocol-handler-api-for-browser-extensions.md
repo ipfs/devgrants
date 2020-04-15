@@ -88,7 +88,7 @@ navigator.registerProtocolHandler('web+ipfs',
 Above example:
 
 - Works only when executed on matching Origin
-    - User needs to be on `example.com` to registration to work
+    - User needs to be on `example.com` for registration to work
     - Displays user prompt, asking for confirmation if a handler should be registered
 - Requires unknown protocols names to be prefixed with `web+` ([registerProtocolHandler#Permitted_schemes](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler#Permitted_schemes))
    - Firefox whitelisted `ipfs://` and `ipns://` ([bug 1428446](https://bugzilla.mozilla.org/show_bug.cgi?id=1428446))
