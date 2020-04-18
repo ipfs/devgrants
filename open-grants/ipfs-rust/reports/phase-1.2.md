@@ -70,7 +70,7 @@ Relevant pull requests:
 
 It was discovered during this effort that many of the interface and interop tests use a diversity of APIs, not just the ones being tested, i.e. `ipfs.add` is used in the `refs.local` tests. With the philosophy that the tests should utilize "lower-level" APIs such as `ipfs.block.put`.
 
-With permission from PL, a number of PRs were made to js-ipfs, two of which have already been merged:
+As part of this work, a number of PRs were made to js-ipfs, two of which have already been merged:
 - [ipfs/js-ipfs#2980](https://github.com/ipfs/js-ipfs/pull/2980)
 - [ipfs/js-ipfs#2983](https://github.com/ipfs/js-ipfs/pull/2983)
 - [ipfs/js-ipfs#2972](https://github.com/ipfs/js-ipfs/pull/2972)
