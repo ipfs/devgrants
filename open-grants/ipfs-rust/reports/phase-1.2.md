@@ -100,7 +100,7 @@ Interop tests also use APIs unsupported by Rust IPFS such as `ipfs.add`. However
 
 ## Governance
 
-Governance was challenging during the grant cycle, perhaps due to the project being somewhat in its infancy. Things have stabilized but there is still a risk of it threatening future productivity if [more interpersonal issues](https://github.com/ipfs-rust/rust-ipfs/issues/129) arise. At this time, nobody from the grant team or PL have "Owner" access of the organization.
+Governance was challenging during the grant cycle, perhaps due to the project being somewhat in its infancy. Things have stabilized but there is still a risk of it threatening future productivity if [more interpersonal issues](https://github.com/ipfs-rust/rust-ipfs/issues/129) arise.
 
 Despite this, some breakthroughs and decisions were made, primary in the form of productive discussions in the following issues:
 - [Repo abstraction redesign](https://github.com/ipfs-rust/rust-ipfs/issues/142)
