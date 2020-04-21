@@ -43,7 +43,7 @@ To read more about Adoption Microgrants see [MICROGRANTS](MICROGRANTS.md). Adopt
 ---
 
 ### Targeted Grant
-These are grants negotiated directly with a recepient, rather than going through the usual RFP/open grant process. Targeted Grants are currently made by Protocol Labs.
+These are grants negotiated directly with a recipient, rather than going through the usual RFP/open grant process. Targeted Grants are currently made by Protocol Labs.
 
 [**See In-Progress Targeted Grants**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Atargeted-grant) • [**See Completed Targeted Grants**](targeted-grants/completed)
 
