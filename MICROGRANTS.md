@@ -33,4 +33,4 @@ The grants are currently awarded on a rolling basis, though we may switch to fix
 The grant fund is contributed by [Protocol Labs](https://protocol.ai/) on a quarterly basis.
 
 ## Note
-Adoption migrogrants are just one aspect of the IPFS project's overall grant program. Check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants) to see the big picture.
+Adoption microgrants are just one aspect of the IPFS project's overall grant program. Check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants) to see the big picture.
