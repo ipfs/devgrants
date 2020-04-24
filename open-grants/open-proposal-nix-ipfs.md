@@ -127,7 +127,7 @@ The entire sources -> build plans -> build products -> deployables lifecycle wil
 
 #### Hash files with git tree hashes
 
-Nix currently either hashes a single file (flat mode), or files and directories in a format only it uses (NAR -- nix archives).
+Nix currently either hashes a single file (flat mode), or files and directories in a format only it uses (NAR — nix archives).
 
 Nix should instead use something standard.
 IPFS has its UnixFS (https://docs.ipfs.io/guides/concepts/unixfs/) but it is evolving and currently allows metadata that Nix purposely does not.
@@ -197,7 +197,7 @@ Taking advantage of this, we can make a new IPLD-based derivation format modeled
 
 #### Deliverable: Publish resolved IPL derivation -> outputs table on IPFS
 
-We will publish the rows of the resolved derivation -> outputs table that use IPLD derivations- those rows themselves have an IPLD of a list of pairs (CID values)- or better, a map, if the restriction that keys are strings is ever lifted.
+We will publish the rows of the resolved derivation -> outputs table that use IPLD derivations — those rows themselves have an IPLD of a list of pairs (CID values) — or better, a map, if the restriction that keys are strings is ever lifted.
 
 This will likely make use of IPNS to manage the map's growth.
 
