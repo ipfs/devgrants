@@ -101,11 +101,13 @@ The entire sources -> build plans -> build products -> deployables lifecycle wil
 
 - **IPLD derivations**: Build steps are in an IPFS native format for easy consumption
 
-- **Publishing**: Publish resolved IPLD derivation -> outputs table on IPFS
+- **Publishing**: Publish resolved IPLD derivation -> outputs table on IPFS **(Stretch Goal)**
 
-- **Subscribe**: Subscribe to trusted peer's output maps with IPNS
+- **Subscribe**: Subscribe to trusted peer's output maps with IPNS **(Stretch Goal)**
 
-- **Remote Building**: Trustless remote builders can take requests from any client (optional)
+- **Remote Building**: Trustless remote builders can take requests from any client **(Stretch Goal)**
+
+***Stretch Goals represent 'nice-to-haves' that will be completed in sequence with any surplus capacity.**
 
 ## Development Roadmap
 
@@ -195,13 +197,13 @@ As such, we can freely make big changes without worrying about major backwards c
 
 Taking advantage of this, we can make a new IPLD-based derivation format modeled after the json output that `nix show-derivation` uses.
 
-#### Deliverable: Publish resolved IPL derivation -> outputs table on IPFS
+#### Deliverable: Publish resolved IPL derivation -> outputs table on IPFS **(Stretch Goal)**
 
 We will publish the rows of the resolved derivation -> outputs table that use IPLD derivations — those rows themselves have an IPLD of a list of pairs (CID values) — or better, a map, if the restriction that keys are strings is ever lifted.
 
 This will likely make use of IPNS to manage the map's growth.
 
-#### Deliverable: Subscribe to trusted peer's output maps
+#### Deliverable: Subscribe to trusted peer's output maps **(Stretch Goal)**
 
 When looking up a non-content addressed key such as the output of a derivation, we will consult the output maps of trusted peers and use that to choose content addressed to download from IPFS.
 
@@ -212,7 +214,7 @@ No building against one version and then being substituted with another.
 Optimal choosing is quite difficult, as discussed in the Nix thesis, but we don't need to aim for optimality, It is sufficient to be strictly path dependent based on what was previously built/downloaded.
 The user can evict entries in the store if there is unavoidable conflict and then try again to effect a human-in-the-loop backtracking search algorithm.
 
-#### Milestone 2.1: Trustless Remote Building (Optional)
+#### Deliverable: Trustless Remote Building **(Stretch Goal)**
 
 **Estimate:** 20 developer hours
 
@@ -236,12 +238,20 @@ We will make the server compute the data for itself, and compute it using less c
 
 ## Total Budget Requested
 
+### Total Budget
+
 | Milestone | Developer Hours | Hourly Rate | PM + QA Overhead | Total |
 |-|-|-|-|-|
 | Milestone 1 | 160 | $125 USD | 15% | $23,000 USD |
-| Milestone 2 | 260 | $125 USD | 15% | $37,375 USD |
-| Milestone 2.1 | 20 | $125 USD | 15% | $2,875 USD |
+| Milestone 2 | 280 | $125 USD | 15% | $40,250 USD |
 | **Total** | **440** | | | **$63,250 USD** |
+
+### Obsidian Grant Funding
+As an interested party, Obsidian Systems will contribute funding to this grant in the amount of **$10,000 USD**.
+
+### Total Requested
+
+**$53,250 USD**
 
 ## Maintenance and Upgrade Plans
 
