@@ -50,7 +50,7 @@ In return, Nix users will be able to easily ensure that sources will never disap
 
 #### Deployments and DevOps with IPFS
 
-This milestone will make it possible to deploy finished builds via IPFS, with IPFS either being a means move the data to deployment systems or an IPFS FUSE layer being the backing filesystem for deployment systems itself.
+This milestone will make it possible to deploy finished builds via IPFS, with IPFS either being a means to move the data to deployment systems or an IPFS FUSE layer being the backing filesystem for deployment systems itself.
 
 This will substantially improve the experience for deploying large clusters, due to IPFS's ability to do peer-to-peer (BitTorrent-style) transfers.
 
@@ -156,7 +156,7 @@ Beyond changing Nix itself, we will adjust all the relevant NixOS modules to ens
 
 Until now, the IPFS store was something we could only "read from".
 We will implement the other methods so we can "write to" IPFS.
-Exporting may or may not pin on the IPFS side as the user chooses
+Exporting may or may not pin on the IPFS side as the user chooses.
 
 #### Deliverable: IPFS-compatible content-addressed store items with references
 
@@ -197,7 +197,7 @@ Taking advantage of this, we can make a new IPLD-based derivation format modeled
 
 #### Deliverable: Publish resolved IPL derivation -> outputs table on IPFS
 
-We will publish the rows of the resolved derivation -> outputs table that use IPLD derivations- those rows themselves have an IPLD of a list of pairs (CID values)- or better a map if the restriction that keys are strings is ever lifted.
+We will publish the rows of the resolved derivation -> outputs table that use IPLD derivations- those rows themselves have an IPLD of a list of pairs (CID values)- or better, a map, if the restriction that keys are strings is ever lifted.
 
 This will likely make use of IPNS to manage the map's growth.
 
@@ -245,7 +245,7 @@ We will make the server compute the data for itself, and compute it using less c
 
 ## Maintenance and Upgrade Plans
 
-All changes to Nix we will upstream, breaking changes into PRs and writing [RFCs](github.com/nixos/rfcs) as needed.
+We will upstream all changes to Nix, breaking out changes into PRs and writing [RFCs](github.com/nixos/rfcs) as needed.
 
 Changes may be requested during the RFC process, in which case we will make those changes, but we do not expect outright rejection as we think these features will be extremely popular.
 
