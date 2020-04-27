@@ -10,9 +10,9 @@ As such, we believe that IPLD application developers have what they need to star
 that leverage the flexibility and connectivity of IPLD, along with the performance and reliability
 of Rust.
 
-However, without battle testing" Rust IPFS in the wild, we will miss opportunities to
-gather insight and benchmarks into how it truly performs. Luckily, there's an easy use case to
-reach for:
+Two of the pillars for a ready-to-use implementation of IPFS are there now: peer-to-peer networking
+and the blockstore. What remains is UnixFS. This proposal is a small fast-follow to Phase 1, which
+completes the foundation and provides something that can be tested in the wild.
 
 ## Project Description
 
