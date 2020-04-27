@@ -10,39 +10,20 @@ As such, we believe that IPLD application developers have what they need to star
 that leverage the flexibility and connectivity of IPLD, along with the performance and reliability
 of Rust.
 
-However, without "battle testing" Rust IPFS in the wild, we will miss opportunities to
+However, without battle testing" Rust IPFS in the wild, we will miss opportunities to
 gather insight and benchmarks into how it truly performs. Luckily, there's an easy use case to
 reach for:
-
-**Public gateways**, which serve permaweb content through a URL that includes a CID, are often
-the end user's first encounter with the distributed web. Accessing a version of
-[Wikipedia's home page](https://ipfs.io/ipfs/bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq/wiki/)
-via a public gateway provides a familiar interface to a new and exciting world, and get people
-excited about our shared, distributed future.
-
-If funded this grant will deliver the _first Rust public gateway_, benchmark and test results from
-the OrbitDB suite, as well as a handful of new endpoints and over 30 new passing conformance tests.
 
 ## Project Description
 
 ### Summary
 
-The Rust IPFS grant team successfully completed Phase 1 of the [Rust IPFS devgrant], and plans
-to continue working towards a fully conformant Rust implementation of IPFS. Phase 2’s primary
-goal and use case would be IPFS gateway support.
+The Rust IPFS grant team successfully completed Phase 1 of the
+[Rust IPFS devgrant](https://github.com/ipfs/devgrants/tree/master/open-grants/ipfs-rust), and
+plans to continue working towards a fully conformant Rust implementation of IPFS.
 
-We’d like to first start by hardening the project enough to publish to https://crates.io, the
-official package repository for Rust. This would involve resolving our PRs in forked repositories,
-ensuring that only released dependencies are used, and updating docs so they appear properly on
-https://docs.rs.
-
-From there, we would implement the minimum-viable set of endpoints necessary for a public gateway,
-which the grant team determined to be `/get`, and `/cat`. If time allows we may explore `/ls` as
-well.
-
-From there, we would add `_dnslink` and basic config file support, as well as administrative
-tooling like server monitoring and content reporting. Then we would add the `/ipfs` endpoint
-for the gateway, and launch!
+Next, we would implement UnixFS and the minimum-viable set of endpoints, determined to be
+`/get`, and `/cat`. If time allows we may explore `/ls` as well.
 
 For more information on how the grant process has been going so far, please read the grant
 reports for more information:
@@ -68,10 +49,8 @@ leading to:
 Overall, the grant team has shown that they can meet milestones and deliverables,
 even throughout internal, community-wide, external, and of course global challenges.
 
-As for Phase 2, the value of a public IPFS gateway written in Rust is twofold:
-1. It can serve as a reference implementation for others seeking to implement Rust IPFS
-2. It can serve as a flagship for marketing and promotional purposes, something that both the
-IPFS and the Rust communities can be proud of.
+As for Phase 2, the value of UnixFS would be the final pillar in the foundation allowing for use
+cases such as low-resourced devices in IoT and embedded settings.
 
 ### Risk Assessment
 
@@ -147,12 +126,12 @@ that governance happens transparently, and that all interests can be represented
 
 ### Project Team
 
-| Mark Henderson | Joonas Koivunen | Łukasz Jędrzejczyk |
-| -------------- | --------------- | ------------------ |
-| <img src="https://avatars1.githubusercontent.com/u/106148?s=256&v=4" /> | <img src="https://avatars1.githubusercontent.com/u/1081634?s=256&v=4" /> | <img src="https://avatars3.githubusercontent.com/u/3750347?s=460&u=ace834d0d6941c1470aaf36659a29019c4d55337&v=4"> |
-| Rust Developer, Project Manager | Rust Developer | Rust Developer |
-| [+github](https://github.com/aphelionz) [+website](https://mrh.io) [+resume](https://ipfs.io/ipfs/QmcHxD94cvJgq5ZZxQkEi7SRMwD5dBnkhQ3zzaVFqNWFJb) | [+github](https://github.com/koivunej) [+linkedin](https://www.linkedin.com/in/joonas-koivunen-70273412/) | [+github](https://github.com/ljedrz) [+linkedin](https://www.linkedin.com/in/ljedrz/) [+stackoverflow](https://stackoverflow.com/users/1870153/ljedrz) |
-| Core contributor, OrbitDB. Current rust-ipfs contributor. Implemented an [Ambients Protocol parser/compiler](https://github.com/aphelionz/ambients) in Rust | Current rust-ipfs contributor + Rust-lang tooling contributor + experience with database implementations in Rust | Rust compiler contributor. Active Rust mentor on Stack Overflow. Wrote the `lambda_calculus` crate |
+| Mark Henderson | Joonas Koivunen |
+| -------------- | --------------- |
+| <img src="https://avatars1.githubusercontent.com/u/106148?s=256&v=4" /> | <img src="https://avatars1.githubusercontent.com/u/1081634?s=256&v=4" /> |
+| Rust Developer, Project Manager | Rust Developer |
+| [+github](https://github.com/aphelionz) [+website](https://mrh.io) [+resume](https://ipfs.io/ipfs/QmcHxD94cvJgq5ZZxQkEi7SRMwD5dBnkhQ3zzaVFqNWFJb) | [+github](https://github.com/koivunej) [+linkedin](https://www.linkedin.com/in/joonas-koivunen-70273412/) |
+| Core contributor, OrbitDB. Current rust-ipfs contributor. Implemented an [Ambients Protocol parser/compiler](https://github.com/aphelionz/ambients) in Rust | Current rust-ipfs contributor + Rust-lang tooling contributor + experience with database implementations in Rust |
 
 ### Maintenance and Upgrade Plan
 
@@ -170,16 +149,10 @@ different levels of difficulty, and by providing mentoring.
 ### Summary
 
 The grant team will continue our phased approach, with each deliverable continuing to build upon
-the last, culminating in the launch of the first Rust IPFS public gateway.
+the last.
 
-* **Phase 2.0** will be a time-boxed hardening phase, stabilizing the project to work towards
-publishing to crates.io by adding tests, documentation, and performing necessary bug fixes and/or
-refactoring to handle accumulated technical debt.
-* **Phase 2.1** will begin work towards gateway support by adding the necessary UnixFS support in
+* **Phase 2.0** will be time-boxed to 2 weeks and will add the necessary UnixFS support for
 `/cat`, and `/get` endpoints. `/ls` may be added if time allows.
-* **Phase 2.2** will add basic configuration file support, `_dnslink` support, swarming with
-bootstrap peers, and a denylist for reported content
-* **Phase 2.3** will add the `/ipfs/` endpoint, and launch the server.
 
 #### Updates to Project Management Processes
 
@@ -194,64 +167,19 @@ implementation. An example of this is the
 of documentation sources, tests, and independent investigation to determine conformance
 requirements.
 
-Finally, as mentioned above, we are trying out time-boxed phases for Phase 2.0 and 2.1,
-prioritizing mission-critical deliverables and adding in more optional ones if we have the time.
+Finally, as mentioned above, we are trying out time-boxing for Phase 2.0.
 
 ### Implementation Details
 
 #### Phase 2.0
 
-The grant team has ownership of https://crates.io/crates/ipfs and plans on publishing there so
-developers can use it in their Rust code, and so users can add `ipfs = "0.1.0"` to their Cargo.toml
-file, or something similar. This will be a time-boxed phase of 2 weeks.
-
-However, a few things stand in the way of publishing successfully.
-- Need all dependencies to be properly released versions:
-  - A forked versions `aes-ctr` crate need a PRs to be approved and merged
-  - Latest versions of `rust-libp2p` and `aes-ctr` libraries need to be published to crates.io
-  - `domain` could be replaced with `trust-dns`
-- Activating the `interop` tests using the same refactoring techniques we applied for `interface`
-- Documentation for the https://docs.rs website, then if time allows:
-- Automated releases via the [`bors`](https://bors.tech/) GitHub bot
-- Code Coverage via the `grcov` or `cargo-cov` tools
-- Select benchmarks to set baselines for future refactoring.
-
-We'd like to suggest utilizing the [OrbitDB](https://github.com/orbitdb) library for the benchmarks
-via the HTTP API. This is due to the team's familiarity, and the fact that a large number of tests
-and benchmarks already exist within OrbitDB's code base. Note that this may require creating a
-scaffold `/key` endpoint, but that will not be a full implementation of the `/key` APIs.
-
-#### Phase 2.1
-
-UnixFSv1 support is necessary for gateway support. We will start with basic files (non-hamt
+UnixFSv1 support is necessary for many use cases. We will start with basic files (non-hamt
 directories), supporting single-block directories and multi-block files with up to
 [174 links](https://github.com/ipfs/specs/blob/master/UNIXFS.md#layout) per folder.
 That will allow us to land `/get/` as well as `/cat`.
 
 This will also be a time-boxed phase of two weeks. If time allows we will also add support for
 the `/ls` endpoint, and perhaps others as suggested by PL.
-
-#### Phase 2.2
-
-The grant team will focus on three primary things during this phase, which will **not** be
-time-boxed as all of the items here are mission-critical.
-
-1. The foundations of `config` file support, namely the `Addresses.API`, `Addresses.Swarm`,
-and `Bootstrap` configuration directives, allowing for basic configuration of a node or gateway.
-2. `_dnslink` support so that people can:
-    1. Point their `A` and `TXT` dns records to the gateway and host their websites on our node.
-    2. Resolve IPFS paths such as `/ipns/domain.com/something`
-3. The ability to swarm with designated bootstrap peers. This depends on dnsaddr with rust-libp2p,
-so we will likely need to coordinate with the authors on that, or make another fork and PR.
-
-Finally, since we will be hosting user content, we will need to support some sort of denylist
-apparatus for reported content.
-
-#### Phase 2.3
-
-During the final phase of this grant cycle, the team will enable the `/ipfs` endpoint for the
-gateway, and come up with a basic system for garbage collection. Then, Equilibrium will
-choose an appropriate hosting platform, and launch!
 
 ### Success Metric
 Previously we used
@@ -263,13 +191,6 @@ for endpoints.
 As of the writing of this proposal, the grant team's work passes 102 conformance tests. Analysis of
 the conformance tests that cover Phase 2's endpoints suggest there could be well over 135 passing
 tests by the end of this grant cycle.
-
-Additionally, we will define success of this grant cycle with a successful launch of a public
-gateway that is capable of:
-
-1. Resolving `/ipfs/[cid]`
-2. Serving custom domains with `_dnslink`
-3. Resolving `/ipns/[domain name]` via `_dnslink`
 
 ### Definition of Done
 We had success with the definition of done used in Phase 1, and as such we will continue to use
@@ -319,35 +240,7 @@ The following endpoints are or will be deprecated:
 
 ## Project Schedule
 
-
 ### Phase 2.0
-
-Due to the fact that we can't _guarantee_ that the dependencies such as `libp2p` will be updated,
-we cannot guarantee that we will publish to crates.io, but all of our effort will be focused on
-that goal.
-
-#### Deliverables (in order of prioritization)
-1. Priority on released dependencies, cleaning up outstanding PRs from forked libraries.
-2. Documentation for docs.rs.
-3. Activate interop tests
-4. bors + release CI.
-5. Code coverage
-6. OrbitDB Tests and benchmarking
-7. Project milestone report
-    1. Updated interop test results
-
-#### Development Schedule
-**This will be a time-boxed phase.** The work will be triaged and addressed by priority, getting
-through as much work as we can in a two-week period. We can be flexible in terms of start dates,
-however we would like to continue on the Rust IPFS work as soon as possible after Phase 1 is
-completed to avoid any disruptions.
-
-#### Estimated Budget (Phase 2.0)
-|  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
-| --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 140 hours | 120€ | 16,800€ | $18239.59 |
-
-### Phase 2.1
 
 The focus of this phase is UnixFSv1 support and the `/get` and `/cat` endpoints. See the
 [implementation details](#implementation-details) section for more information.
@@ -367,48 +260,4 @@ of implementing UnixFS and the endpoint details. For example - `/get` requires `
 #### Estimated Budget
 |  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
 | --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 140 hours | 120€ | 16,800€ | $18239.59 |
-
-### Phase 2.2
-
-This phase continues gateway functionality development by adding basic configuration
-directives as well as `_dnslink` support.
-
-#### Deliverables
-1. Configuration directive support
-    1. `Addresses.API`
-    2. `Addresses.Swarm`
-    3. `Bootstrap`
-2. `_dnslink` support
-    1. Domains
-    2. IPFS paths i.e. `/ipns/domain.com/something`
-3. Denylist for reported content
-4. Swarming with Bootstrap peers
-5. Project milestone report
-
-#### Development Schedule
-This will not be a time-boxed phase, and we expect the work to take roughly 2-3 weeks.
-
-#### Estimated Budget
-|  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
-| --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 170 hours | 120€ | 20,400€ | $22148.08 |
-
-### Phase 2.3
-
-This phase completes the gateway by adding the `/ipfs` endpoint, and launching the node!
-
-#### Deliverables
-1. `/ipfs/` endpoint
-2. Stale Content Removal
-3. Hosting Considerations (logging, monitoring, volume resizing, etc)
-4. Public Gateway Launch
-5. Project final report
-
-#### Development Schedule
-This will not be a time-boxed phase, and we expect the work to take roughly 1-2 weeks.
-
-#### Estimated Budget
-|  | Number of Hours | Hourly Rate | Total (Euros) | Total (USD) |
-| --- | ---- | ---- | ---- | --- |
-| Software Development and Project Management | 80 hours | 120€ | 9,600€ | $10422.62 |
+| Software Development and Project Management | 70 hours | 120€ | 8.400€ | $9096.11 |
