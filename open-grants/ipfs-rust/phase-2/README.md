@@ -182,15 +182,11 @@ This will also be a time-boxed phase of two weeks. If time allows we will also a
 the `/ls` endpoint, and perhaps others as suggested by PL.
 
 ### Success Metric
-Previously we used
-[HTTP endpoints](https://github.com/ipfs/devgrants/tree/master/open-grants/ipfs-rust#metric-number-of-http-endpoints-implemented)
-implemented as the key performance indicator. Given the lessons learned from Phase 1, we’d like
-to stick closely to this, but change the metric slightly to **passing conformance tests**
-for endpoints.
+Previously we used [HTTP endpoints](https://github.com/ipfs/devgrants/tree/master/open-grants/ipfs-rust#metric-number-of-http-endpoints-implemented) implemented as the key performance indicator. Given the lessons learned from Phase 1, we’d like to stick closely to this, but change the metric slightly to **passing conformance tests** for endpoints.
 
-As of the writing of this proposal, the grant team's work passes 102 conformance tests. Analysis of
-the conformance tests that cover Phase 2's endpoints suggest there could be well over 135 passing
-tests by the end of this grant cycle.
+As of the writing of this proposal, the grant team's work passes 102 conformance tests. Analysis of the conformance tests that cover Phase 2's endpoints suggest there could be well over 135 passingtests by the end of this grant cycle.
+
+Additionally, we will track the test coverage (currently 56% according to `cargo-tarpaulin`) to ensure that it, at the very least, does not decrease. Increasing the test coverage will be a target for the grant team but will not be guaranteed during this particular grant cycle.
 
 ### Definition of Done
 We had success with the definition of done used in Phase 1, and as such we will continue to use
