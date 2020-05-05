@@ -68,7 +68,7 @@ Implemented IPFS/Filecoin plugin for StorexHub with Textile's Threads
 
 Lead: Vincent den Boer 
 Advisor: Andrew Hill
-Time: 2 days á 600€/day = 900€
+Time: 2 days á 600€/day = 1200€
 
 **Milestone 2:**
 Added database abstraction to enable any app connected to StorexHub to use the IPFS integration.
@@ -86,7 +86,7 @@ Time: 1 day á 600€/day = 600
 
 ## Total Budget Requested
 
-2700€
+3000€
 
 
 ## Maintenance and Upgrade Plans
