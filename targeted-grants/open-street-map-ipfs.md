@@ -69,9 +69,9 @@ Commandline tool to diff .pbf files, convert to the Peermaps format, and pin bot
 
 Also include any relevant constraints that the implementer should be aware of before beginning this project.-->
 
-We plan to run a node to process, diff, and host the data in the short term. This will be run on a computer every week. We can publish this on a collaborative cluster to make it easy for other folks to also host the subsequent data. If at some point we decide to shut off our node that processes & diffs, we will let Protocl Labs know -- and of course all the necessary tools will be open source.
+We plan to run a node to process, diff, and host the data in the short term. This will be run on a computer every week. We can publish this on a collaborative cluster to make it easy for other folks to also host the subsequent data. If at some point we decide to shut off our node that processes & diffs, we will let Protocol Labs know -- and of course all the necessary tools will be open source.
 
-A long-term goal of this projectis to make this processing & indexing be
+A long-term goal of this project is to make this processing & indexing be
 done with distributed computation, rather than on a single machine. Ideally,
 other groups in maplandia would be interested in running the infra/CI and we
 could share the computation load.
