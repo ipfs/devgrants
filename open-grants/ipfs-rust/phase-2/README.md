@@ -14,7 +14,13 @@ Two of the pillars for a ready-to-use implementation of IPFS are there now: peer
 and the blockstore. What remains is UnixFS. This proposal is a small fast-follow to Phase 1, which
 completes the foundation and provides something that can be tested in the wild.
 
-## Project Description
+Implementing UnixFS will enable future work on persistence. Following this grant, our plans focus on
+the creation of benchmarks using bitswap and UnixFS exporting. This will establish a baseline to
+guide exploration of multihash keyed blockstore following the [ipfs/specs #242 resolution].
+
+[ipfs/specs #242 resolution]: https://github.com/ipfs/specs/issues/242#issuecomment-627533056
+
+# Project Description
 
 ### Summary
 
@@ -23,7 +29,11 @@ The Rust IPFS grant team successfully completed Phase 1 of the
 plans to continue working towards a fully conformant Rust implementation of IPFS.
 
 Next, we would implement UnixFS and the minimum-viable set of endpoints, determined to be
-`/get`, and `/cat`. If time allows we may explore `/ls` as well.
+`/get`, and `/cat` or the UnixFS exporter side.
+
+Adding content as UnixFS or the importer side was left out of the scope to be
+realistic on the timeframe but we expect to lay enough groundwork during this
+grant that development of the importer could be provided by new contributors.
 
 For more information on how the grant process has been going so far, please read the grant
 reports for more information:
@@ -50,7 +60,7 @@ Overall, the grant team has shown that they can meet milestones and deliverables
 even throughout internal, community-wide, external, and of course global challenges.
 
 As for Phase 2, the value of UnixFS would be the final pillar in the foundation allowing for use
-cases such as low-resourced devices in IoT and embedded settings.
+cases such as low-resourced devices in IoT settings.
 
 ### Risk Assessment
 
@@ -152,18 +162,18 @@ The grant team will continue our phased approach, with each deliverable continui
 the last.
 
 * **Phase 2.0** will be time-boxed to 2 weeks and will add the necessary UnixFS support for
-`/cat`, and `/get` endpoints. `/ls` may be added if time allows.
+`/cat`, and `/get` endpoints.
 
 #### Updates to Project Management Processes
 
 We had adopted and had success with the use of organization-wide GitHub projects, which allows us
-a coordinated, high-level view of each grant phase. You can see the ipfs-rust projects here:
-https://github.com/orgs/ipfs-rust/projects.
+a coordinated, high-level view of each grant phase. You can see the rs-ipfs projects here:
+https://github.com/orgs/rs-ipfs/projects.
 
 Additionally, instead of a gantt chart, we are opting for more roughly estimated timeline with
 careful research done for each set of endpoints to properly scope out the requirements ahead of
 implementation. An example of this is the
-[block endpoint issue](https://github.com/ipfs-rust/rust-ipfs/issues/90), which combined a number
+[block endpoint issue](https://github.com/rs-ipfs/rust-ipfs/issues/90), which combined a number
 of documentation sources, tests, and independent investigation to determine conformance
 requirements.
 
@@ -176,10 +186,9 @@ Finally, as mentioned above, we are trying out time-boxing for Phase 2.0.
 UnixFSv1 support is necessary for many use cases. We will start with basic files (non-hamt
 directories), supporting single-block directories and multi-block files with up to
 [174 links](https://github.com/ipfs/specs/blob/master/UNIXFS.md#layout) per folder.
-That will allow us to land `/get/` as well as `/cat`.
+That will allow us to land `/get` as well as `/cat`.
 
-This will also be a time-boxed phase of two weeks. If time allows we will also add support for
-the `/ls` endpoint, and perhaps others as suggested by PL.
+This will be a time-boxed phase of two weeks.
 
 ### Success Metric
 Previously we used [HTTP endpoints](https://github.com/ipfs/devgrants/tree/master/open-grants/ipfs-rust#metric-number-of-http-endpoints-implemented) implemented as the key performance indicator. Given the lessons learned from Phase 1, we’d like to stick closely to this, but change the metric slightly to **passing conformance tests** for endpoints.
@@ -245,8 +254,7 @@ The focus of this phase is UnixFSv1 support and the `/get` and `/cat` endpoints.
 1. UnixFSv1 support
 2. `/get`
 3. `/cat`
-4. `/ls` if time allows
-5. Project milestone report
+4. Project milestone report
     1. Interop and performance test results
 
 #### Development Schedule
