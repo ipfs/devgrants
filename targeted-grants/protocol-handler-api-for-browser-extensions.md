@@ -143,7 +143,7 @@ in other browsers if we empower extensions with capability to register custom
 protocol handlers.
 
 [Opera for Android 57]: https://blog.ipfs.io/2020-03-30-ipfs-in-opera-for-android/
-[subdomain gateway]: https://docs-beta.ipfs.io/how-to/address-ipfs-on-web/#subdomain-gateway
+[subdomain gateway]: https://docs.ipfs.io/how-to/address-ipfs-on-web/#subdomain-gateway
 
 ### Next: native protocol handler API for browser extensions (this grant)
 
