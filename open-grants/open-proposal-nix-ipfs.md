@@ -255,7 +255,7 @@ As an interested party, Obsidian Systems will contribute funding to this grant i
 
 ## Maintenance and Upgrade Plans
 
-We will upstream all changes to Nix, breaking out changes into PRs and writing [RFCs](github.com/nixos/rfcs) as needed.
+We will upstream all changes to Nix, breaking out changes into PRs and writing [RFCs](https://github.com/nixos/rfcs) as needed.
 
 Changes may be requested during the RFC process, in which case we will make those changes, but we do not expect outright rejection as we think these features will be extremely popular.
 
