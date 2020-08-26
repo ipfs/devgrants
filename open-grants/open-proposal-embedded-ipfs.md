@@ -53,7 +53,7 @@ If the application of this concept proves functional, then not only is the IPFS 
 
 An integrating example could be the propagation of information by using an embedded system as a node able to dynamically join / seperate from IPFS networks.
 
-For example a literate  inter-planetary exchange of information that treats the system as the moving node which serves as the information carriage (e.g. a futuristic concept where a device being a node on Earth travells and becomes a node on Mars). In such a case, the device could also internally utilize a simplified IPFS implementation for inter-system communications.
+For example a literate  inter-planetary exchange of information that treats the system as the moving node which serves as the information carriage (e.g. a futuristic concept where a device being a node on Earth travels and becomes a node on Mars). In such a case, the device could also internally utilize a simplified IPFS implementation for inter-system communications.
 
 Apart from the last example, a functional implementation of such a concept in embedded systems could be expanded in order to be used by device networks sharing data while serving many different roles (e.g. IoT). 
 
