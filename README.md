@@ -1,9 +1,9 @@
 # ipfs-grants
 
-Welcome to the IPFS Grant Platform! The Grant Platform connects grant makers with builders and researchers in the IPFS community. Whether you represent a foundation that wants to move the space forward, a company looking to accelerate development on the features your application needs, or a dev team itching to hack on IPFS tools, you've come to the right place. Take a look at the supported grant types and available funding + work opportunities below.
-
-|:warning: The grants program has now [launched out of beta](https://blog.ipfs.io/2020-04-20-ipfs-grants-platform/) and has been a huge success. The IPFS team budget for grants in Q2 is now spent, and we are not funding any proposals not already in review until Q3 2020. This platform is still open for discussing grants for future funding, to submit proposals that could be funded from other interested parties, or to propose funding of your own for projects you'd like to see exist!|
+|:warning: The IPFS team are not funding any new proposals in this repo until Q1 2021. This platform is still open for discussing grants for future funding, to submit proposals that could be funded from other interested parties, or to propose funding of your own for projects you'd like to see exist!|
 |---|
+
+Welcome to the IPFS Grant Platform! The Grant Platform connects grant makers with builders and researchers in the IPFS community. Whether you represent a foundation that wants to move the space forward, a company looking to accelerate development on the features your application needs, or a dev team itching to hack on IPFS tools, you've come to the right place. Take a look at the supported grant types and available funding + work opportunities below.
 
 ## Grant Types
 
