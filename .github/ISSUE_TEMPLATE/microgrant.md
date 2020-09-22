@@ -1,5 +1,5 @@
 ---
-name: Microgrant Application :warning: on hold until Q1 2021 :warning:
+name: Microgrant Application ⚠️ on hold until Q1 2021 ⚠️
 about: Adoption Microgrant Program
 title: 'Microgrant: <Your Title Here>'
 labels: type:microgrant
