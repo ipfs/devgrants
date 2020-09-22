@@ -1,5 +1,5 @@
 ---
-name: RFP Proposal
+name: RFP Proposal :warning: on hold until Q1 2021 :warning:
 about: A proposal fulfilling an RFP
 title: 'RFP Proposal: <Your Project Title>'
 labels: type:RFP
