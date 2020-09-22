@@ -17,6 +17,10 @@ For a list of issues eligible for Bounties, award amounts, and more details see 
 ---
 
 ### RFP
+
+|⚠️ on hold until Q1 2021 ⚠️|
+|---|
+
 Projects too large for a bounty are specified as RFPs and can range from more complex feature work on IPFS to entirely new tools and libraries. 
 
 To see open RFPs and learn more about the proposal process see [RFPs](rfps). RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
@@ -26,6 +30,10 @@ To see open RFPs and learn more about the proposal process see [RFPs](rfps). RFP
 ---
 
 ### Open Grant
+
+|⚠️ on hold until Q1 2021 ⚠️|
+|---|
+
 Do you have an idea for pushing the IPFS ecosystem forward not already covered by an RFP? Propose an open grant for consideration by the IPFS community.
 
 To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grants).
@@ -35,6 +43,10 @@ To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grant
 ---
 
 ### Adoption Microgrant
+
+|⚠️ on hold until Q1 2021 ⚠️|
+|---|
+
 These are small grants intended to help stimulate experimentation with and adoption of IPFS across a wide range of fields. The application and reporting requirements are more relaxed, but the monetary awards are more limited ($1k).
 
 To read more about Adoption Microgrants see [MICROGRANTS](MICROGRANTS.md). Adoption Microgrants are funded by Protocol Labs.
