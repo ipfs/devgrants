@@ -1,5 +1,8 @@
 # Adoption Microgrants
 
+|:warning: The IPFS team are not funding any new proposals in this repo until Q1 2021. This platform is still open for discussing grants for future funding, to submit proposals that could be funded from other interested parties, or to propose funding of your own for projects you'd like to see exist!|
+|---|
+
 ## About
 
 The IPFS Adoption Microgrants are intended to encourage experimentation with, and adoption of IPFS across a range of fields. They are offered with the understanding that decentralized technologies are a rapidly developing field with many unknowns, and do not make complete technical success of the proposal a prerequisite for the award.
