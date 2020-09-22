@@ -1,6 +1,6 @@
 ---
-name: Microgrant Application ⚠️ on hold until Q1 2021 ⚠️
-about: Adoption Microgrant Program
+name: Microgrant Application 
+about: Adoption Microgrant Program ⚠️ on hold until Q1 2021 ⚠️
 title: 'Microgrant: <Your Title Here>'
 labels: type:microgrant
 assignees: parkan
