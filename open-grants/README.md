@@ -1,5 +1,8 @@
 # Open Grants
 
+|:warning: The IPFS team are not funding any new proposals in this repo until Q1 2021. This platform is still open for discussing grants for future funding, to submit proposals that could be funded from other interested parties, or to propose funding of your own for projects you'd like to see exist!|
+|---|
+
 ## About
 Open grants are for novel ideas that advance the IPFS ecosystem, bring significant new usage, or directly [advance the IPFS mission statemnent](https://github.com/ipfs/roadmap#ipfs-mission-statement).
 
