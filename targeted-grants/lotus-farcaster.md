@@ -16,7 +16,7 @@ It's designed to manage all type of architecture :
 * single miner with workers
 * multiple miners farm.
 
-We want to move from console based monitoring to a proactive professional monitoring grade. compared to the existing console tools, users will benefits :
+We want to move from console based monitoring to a proactive professional monitoring grade. Compared to the existing console tools, users will benefits :
 * consolidated information
 * data history
 * push notification
@@ -24,6 +24,7 @@ We want to move from console based monitoring to a proactive professional monito
 * Scalable solution
 * User management
 * Security
+* Mobile device accessibility
 
 ## How it works
 
@@ -47,7 +48,7 @@ The design and choice of these components, was made to keep a high level of secu
 - lotus-exporter-farcaster run under unprivileged user (ideally lotus user) to avoid system being compromised
 - The global solution doesn't rely on any cloud or remote component. To avoid data leak.
 
-lotus-exporter-farcaster is running locally to the miner without any specific privileged not needing access to other servers. 
+lotus-exporter-farcaster is running locally on the miner without any specific privilege nor access to other servers. 
 
 ### It will follow [prometheus guidelines](https://prometheus.io/docs/instrumenting/writing_exporters/) :
 * configuration-less
@@ -62,8 +63,8 @@ lotus-exporter-farcaster is running locally to the miner without any specific pr
 * Small footprint
 * Collect lotus node and miner data
 * Only rely on API
-* Data are pulled from the Prometheus (increase security)  
-* Deploy on the miner node only
+* Data are pulled from the Prometheus server (increase security)  
+* Deployed on the miner node only
 * Run under Unprivileged user
 
 ## Dashboard Features
