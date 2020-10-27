@@ -105,7 +105,7 @@ Collect feedbacks from beta user  / bug fix and UI  | 5   | €  378.75
 V2.0 (Exporter + Dashboard)                         | 10  | €  737.50
 Launch support (community support / comm / bug fix  | 10  | €  735.50
 First year support + new features                   | 20  | € offered
-**Total Budget Requested                            |     | **€ 5678.00**
+**Total Budget Requested**                          |     | **€ 5678.00**
 
 No VAT charged 
 
