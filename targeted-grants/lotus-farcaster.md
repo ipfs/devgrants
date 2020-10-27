@@ -22,6 +22,8 @@ We want to move from console based monitoring to a proactive professional monito
 * push notification
 * Visual monitoring
 * Scalable solution
+* User management
+* Security
 
 ## How it works
 
