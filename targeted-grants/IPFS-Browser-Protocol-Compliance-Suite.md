@@ -71,7 +71,7 @@ Passing in Experimental Browser: This will consist on patches to the Agregore br
 | 1 | Research/Description | $1300 | ~20h  |
 | 2 | Test Page with Compliance Report | $2600 | ~40h  |
 | 3 | Second page with POST/PUT | $1300 | ~20h  |
-| 4 | Passing coplinace in experimental browser | $1300 | ~20h  |
+| 4 | Passing compliance in experimental browser | $1300 | ~20h  |
 
 ## Acceptance Criteria
 
