@@ -86,8 +86,10 @@ Passing in Experimental Browser: This will consist on patches to the Agregore br
 
 <!-- Link any resources that might be helpful for an implementer who is working on this project.-->
 
-https://ipfs.github.io/in-web-browsers/ipfs-protocol-handler-support-tests.html
-https://github.com/olizilla/dweb.link/issues/7
+- https://ipfs.github.io/in-web-browsers/ipfs-protocol-handler-support-tests.html
+- https://github.com/olizilla/dweb.link/issues/7
+- https://github.com/ipfs/in-web-browsers/issues/165
+- https://github.com/ipfs/in-web-browsers/issues/168
 
 ## Support and Funding
 
