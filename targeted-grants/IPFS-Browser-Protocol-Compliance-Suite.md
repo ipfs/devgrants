@@ -77,7 +77,10 @@ Passing in Experimental Browser: This will consist on patches to the Agregore br
 
 <!-- What are the acceptance criteria for each milestone and for the final deliverables? These should be as objective as possible. They will be used to determine whether or not a grantee will receive payment for work completed for a milestone. -->
 
-TODO
+1. Description of URI behavior in HTML documents includes a, img, audio, video, link, script and iframe tags;  XHR/fetch requests made from JS running on a `ipfs://` page. 
+2. Test page for behaviors listed in (2)  is a static HTML+JS that can be loaded in regular browser (Firefox, Chrome) that has `ipfs://` registered  via `registerProtocolHandler`, and in Brave / Opera (which have built-in support). 
+3. Ibid.
+4. An experimental browser is capable of passing all tests from (2).
 
 ## Resources
 
