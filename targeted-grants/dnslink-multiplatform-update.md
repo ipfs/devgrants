@@ -82,6 +82,7 @@ The consistency of the implementations is to increase the confidence in DNSLink.
 - https://github.com/JChanceHud/dnslink/issues/5
 - https://github.com/ipfs/js-ipfs/issues/3684
 - https://github.com/ipfs/dnslink.dev/issues/1
+- https://github.com/ipfs/js-ipfs/issues/2212
 
 ## Support and Funding
 
