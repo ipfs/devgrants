@@ -43,7 +43,7 @@ The consistency of the implementations is to increase the confidence in DNSLink.
 
 **Documentation:** The documentation to be published on the dns page needs to cover the Test setup, and detail the new fixes of the implementation.
 
-**JavaScript Implementation:** The JavaScript implementation needs to provide TypeScript definitions, `tape` tests be published on NPM. In the CI setup it needs to work with `browser-run`.
+**JavaScript Implementation:** The JavaScript implementation needs to provide TypeScript definitions, `tape` tests be published on NPM. In the CI setup it needs to work with `browser-run`. The implementation needs to also work with DoH, respecting the [wire format](https://developers.cloudflare.com/1.1.1.1/dns-over-https/wireformat).
 
 **Browser util:** The browser util at dnslink.io needs to work on modern browsers, excluding IE 11. Minimally it needs to provide the result of DNSLink lookup for a given domain: resolve DNS TXT lookup over DoH using the RFC-compliant wire-format. Needs option to specify DoH configuration.
 
