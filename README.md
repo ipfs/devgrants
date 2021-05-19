@@ -1,40 +1,30 @@
 # ipfs-grants
 
-|:warning: The IPFS team are not funding any new proposals in this repo until Q1 2021. This platform is still open for discussing grants for future funding, to submit proposals that could be funded from other interested parties, or to propose funding of your own for projects you'd like to see exist!|
+| 📣 As of May 2021, several grant types have re-opened to applications. |
 |---|
 
-Welcome to the IPFS Grant Platform! The Grant Platform connects grant makers with builders and researchers in the IPFS community. Whether you represent a foundation that wants to move the space forward, a company looking to accelerate development on the features your application needs, or a dev team itching to hack on IPFS tools, you've come to the right place. Take a look at the supported grant types and available funding + work opportunities below.
+Welcome to the IPFS Grant Platform! The IPFS Grant Platform connects grant makers with builders and researchers in the IPFS community. Whether you represent a foundation that wants to move the space forward, a company looking to accelerate development on the features your application needs, or a dev team itching to hack on IPFS tools, you've come to the right place. Take a look at the supported grant types and available opportunities below.
 
 ## Grant Types
 
 ### Bounty
-The bounty challenges are simply issues in IPFS-related repos that have a monetary reward associated with them. You don't need to propose a solution or spec out the work for these challenges⁠—simply submit a patch addressing the issue and you can claim the bounty once the PR is merged.
-
-For a list of issues eligible for Bounties, award amounts, and more details see [BOUNTIES](BOUNTIES.md)
+Bounties are monetary awards for completing eligible issues in IPFS-related repos. To claim a bounty, simply submit a patch addressing the issue &mdash; no other proposal or pre-approval is required. Once the PR is merged, you can claim the bounty. You can also offer a bounty by following the steps in [Bounties: How to Propose](BOUNTIES.md#how-to-propose).
 
 [**LIST OF BOUNTIES**](../../projects/1) • [**CLAIM A BOUNTY**](BOUNTIES.md#how-to-collect) • [**START A BOUNTY**](BOUNTIES.md#how-to-propose) • [Read More](BOUNTIES.md)
 
 ---
 
-### RFP
+### Next Step Microgrants
+Grants of $5,000 are available to support taking the _next step_ after you have created an initial prototype with IPFS. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon.
 
-|⚠️ on hold until Q1 2021 ⚠️|
-|---|
+Acceptance criteria are very simple, and work is expected to be complete within 2 months. Adoption Microgrants are funded by Protocol Labs.
 
-Projects too large for a bounty are specified as RFPs and can range from more complex feature work on IPFS to entirely new tools and libraries. 
-
-To see open RFPs and learn more about the proposal process see [RFPs](rfps). RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
-
-[**See Available RFPs**](rfps) • [Read More](rfps)
+[**APPLY FOR A MICROGRANT**](MICROGRANTS.md#Apply) • [**See Microgrant Proposals**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Amicrogrant+) • [Read More](MICROGRANTS.md)
 
 ---
 
 ### Open Grant
-
-|⚠️ on hold until Q1 2021 ⚠️|
-|---|
-
-Do you have an idea for pushing the IPFS ecosystem forward not already covered by an RFP? Propose an open grant for consideration by the IPFS community.
+Do you have an idea for pushing the IPFS ecosystem forward? Grants of up to $30,000 are available to support for novel ideas that advance the IPFS ecosystem, bring significant new usage, or directly advance the IPFS mission statemnent.
 
 To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grants).
 
@@ -42,23 +32,23 @@ To read more about creating an Open Grant proposal, see [OPEN GRANTS](open-grant
 
 ---
 
-### Adoption Microgrant
-
-|⚠️ on hold until Q1 2021 ⚠️|
-|---|
-
-These are small grants intended to help stimulate experimentation with and adoption of IPFS across a wide range of fields. The application and reporting requirements are more relaxed, but the monetary awards are more limited ($1k).
-
-To read more about Adoption Microgrants see [MICROGRANTS](MICROGRANTS.md). Adoption Microgrants are funded by Protocol Labs.
-
-[**APPLY FOR A MICROGRANT**](MICROGRANTS.md#Apply) • [**See Microgrant Proposals**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Amicrogrant+) • [Read More](MICROGRANTS.md)
-
----
-
 ### Targeted Grant
 These are grants negotiated directly with a recipient, rather than going through the usual RFP/open grant process. Targeted Grants are currently made by Protocol Labs.
 
 [**See In-Progress Targeted Grants**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Atargeted-grant) • [**See Completed Targeted Grants**](targeted-grants/completed)
+
+---
+
+### RFP
+
+|⚠️ on hold ⚠️|
+|---|
+
+Projects too large for a bounty are specified as RFPs and can range from more complex feature work on IPFS to entirely new tools and libraries. 
+
+To see open RFPs and learn more about the proposal process see [RFPs](rfps). RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
+
+[**See Available RFPs**](rfps) • [Read More](rfps)
 
 ---
 
