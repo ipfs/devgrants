@@ -2,8 +2,8 @@
 name: Next Step Microgrant Application 
 about: Submit this issue to apply for a Next Step Microgrant
 title: 'Next Step Microgrant: <Your Title Here>'
-labels: type:nextstep
-assignees: parkan
+labels: type:microgrant
+assignees: mishmosh
 ---
 
 ### 1. What is your project? (max 100 words)
