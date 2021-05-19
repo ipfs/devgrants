@@ -10,7 +10,7 @@ assignees: parkan
 <!-- link and description of your project built with IPFS or closely related technologies (libp2p, ipld, etc.) -->
 
 ### 2. How are you planning to improve this project? (max 200 words)
-<!-- clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->/
+<!-- clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->
 
 ### 3. Will the work be Open Source?
 <!-- MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content. -->
