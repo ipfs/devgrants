@@ -1,23 +1,26 @@
 ---
-name: Microgrant Application 
-about: Adoption Microgrant Program ⚠️ on hold until Q1 2021 ⚠️
-title: 'Microgrant: <Your Title Here>'
-labels: type:microgrant
+name: Next Step Microgrant Application 
+about: Submit this issue to apply for a Next Step Microgrant
+title: 'Next Step Microgrant: <Your Title Here>'
+labels: type:nextstep
 assignees: parkan
-
 ---
 
-### What do you work on? (max 100 words)
-<!-- a description of your professional, academic, artistic or other work -->
+### 1. What is your project? (max 100 words)
+<!-- link and description of your project built with IPFS or closely related technologies (libp2p, ipld, etc.) -->
 
-### How are you planning to incorporate IPFS into your work? (max 250 words)
-<!-- detailed but concise description of your planned IPFS integration -->
+### 2. How are you planning to improve this project? (max 200 words)
+<!-- clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->/
 
-### Website(s) (CV, GitHub, personal page...)
-<!-- https://your-website-here -->
+### 3. Will the work be Open Source?
+<!-- MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content. -->
 
-### Will the work be Open Source? (if not, explain why)
-<!-- code licensed under any [OSI-approved](https://opensource.org/licenses) license and made available publicly -->
+### 4. If selected, do you agree to complete a grant report one month after award date?
+<!-- We will provide an issue template wuth prompts for the results of your microgrant-funded work, as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered. -->
+  
+### 5. Does your proposal comply with our Community Standards?
+<!-- Please read the [Community Standards](https://github.com/protocol/ipfs-grants/blob/master/STANDARDS.md) and make sure your project is in compliance -->
 
-### Does your proposal comply with our Community Standards?
-<!-- please read the [Community Standards](https://github.com/protocol/ipfs-grants/blob/master/STANDARDS.md) and make sure your project is in compliance -->
+### Informational questions:
+* Any additional websites, CVs, Github profiles, or personal links you'd like to share?
+* Was your project created independently, or part of a training course or hackathon?
