@@ -15,8 +15,8 @@ assignees: mishmosh
 ### 3. Will the work be Open Source?
 <!-- MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content. -->
 
-### 4. If selected, do you agree to complete a grant report one month after award date?
-<!-- We will provide an issue template wuth prompts for the results of your microgrant-funded work, as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered. -->
+### 4. If selected, do you agree to complete weekly updates and a grant report upon conclusion?
+<!-- We will provide a discussion forum link the results of your microgrant-funded work, as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered. -->
   
 ### 5. Does your proposal comply with our Community Standards?
 <!-- Please read the [Community Standards](https://github.com/protocol/ipfs-grants/blob/master/STANDARDS.md) and make sure your project is in compliance -->
