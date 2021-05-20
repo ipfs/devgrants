@@ -72,6 +72,7 @@ The consistency of the implementations is to increase the confidence in DNSLink.
 3. JavaScript library with reference implementation of the DNSLink spec published on NPM. Programmatic interface for resolving DNSLink records works in Nodejs and Browser, and command line script can be used for quick lookup/validation when run via `npx`.
 4. Browser Util, based on the NPM library, published on the dnslink.io website allowing to explore and test DNSLink records on a domain provided by the user. DoH endpoint used for DNS lookups can be customized via UI.
 6. Accepted PR's to existing IPFS repositories. go-ipfs uses go-dnslink, and js-ipfs uses the new dnslink library from NPM. 
+7. New libraries will be released under [dual MIT/Apache-2 license](https://protocol.ai/blog/announcing-the-permissive-license-stack/)
 
 ## Resources
 
