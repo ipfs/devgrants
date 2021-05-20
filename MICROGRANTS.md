@@ -10,21 +10,21 @@ From time-to-time, we may announce a [focus area](FOCUS.md) (such as offline use
 These grants are intended for independent developers, small studios, non-profits, activists, researchers... and you! 
 
 ### Award
-Next Step Microgrants are awarded in the amount of **$5,000**. The entire grant amount be used to support work related to integrating or improving IPFS, such as developer time, hosting services, relevant hardware such as a raspberry pi, etc. 
+Next Step Microgrants are awarded in the amount of **$5,000**, paid in FIL tokens. The entire grant amount be used to support work related to integrating or improving IPFS, such as developer time, hosting services, relevant hardware such as a raspberry pi, etc. 
 
 ### Applying and Reporting
 Next Step Microgrants are intended to be easy to apply for, evaluate, and administer. Projects must meet these 5 criteria:
 
 1. You've already built something with IPFS (or closely related technologies such as IPLD, libp2p, etc.), independently or as part of a course or hackathon.
 1. You can provide a clear and straightforward description of the _Next Step_ you plan to take with grant support.
-1. You can complete this work within 1 month. 
+1. You can complete this work within 3 months. 
 1. You agree to open-source this work, via MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content.
-1. You agree to complete a grant report 1 month after award date, with the results of your microgrant-funded work, as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered.
+1. You agree to complete weekly updates and a grant report upon conclusion, with the results of your microgrant-funded work as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered.
 
 We may also contact you about promoting the resulting work, including coverage on [the IPFS Blog](https://blog.ipfs.io/) or social media.
 
 ### Timelines
-Applications are reviewed every 2 weeks. The next 2 review dates are June 1 and June 15, 2021.
+Grant applications are typically reviewed every 2 weeks.
 
 ## Apply
 
