@@ -20,7 +20,7 @@ Next Step Microgrants are intended to be easy to apply for, evaluate, and admini
 1. You can provide a clear and straightforward description of the _Next Step_ you plan to take with grant support.
 1. You can complete this work within 3 months. 
 1. You agree to open-source this work, via MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content.
-1. You agree to complete weekly updates and a grant report upon conclusion, with the results of your microgrant-funded work as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered.
+1. You agree to start a (discussion thread)[https://github.com/ipfs/community/discussions] with short weekly updates on progress, and a summary upon conclusion.
 
 We may also contact you about promoting the resulting work, including coverage on [the IPFS Blog](https://blog.ipfs.io/) or social media.
 
