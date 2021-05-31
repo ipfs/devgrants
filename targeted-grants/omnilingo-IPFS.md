@@ -1,6 +1,6 @@
 # Targeted Grant: Omnilingo hosted on IPFS
 
-* **Issuer:** Dietrich?
+* **Issuer:** @autonome
 * **Recipients:** @nlhowell @ftyers
 
 ## Project description
