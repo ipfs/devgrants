@@ -60,7 +60,7 @@ Grant applications are typically reviewed every 2 weeks.
 * Q: Can someone join the team who was not part of the original hackathon? Or can I switch with someone? Or can only a subset of the original team still participate?
   * A: Yes! All team permutations are ok as long as there is only one submission per original hackathon project.
 
-* Q: What if my "next step" is significantly different from the original project? Or if I have two separate "next step" ideas?
+* Q: What if my "next step" is significantly different from the original project? Can I apply for multiple "next step" grants?
   * A: Next Step Microgrants are intended to build upon prior work. If you're unsure, go ahead and [apply](https://github.com/ipfs/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E), but add a section explaining the situation with links to any prior grant applications or code. We will review on a case-by-case basis. In some cases, we will recommend that you apply for an [Open Grant](open-grants/) instead.
 
 * Q: I'm not a coding participant; I coordinated or made videos or helped in other ways. Am I eligible?
