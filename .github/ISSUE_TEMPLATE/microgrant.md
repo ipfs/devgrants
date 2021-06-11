@@ -22,8 +22,8 @@ assignees: mishmosh
 ### 4. If selected, do you agree to complete weekly updates and a grant report upon conclusion?
 <!-- Include progress or results of your microgrant-funded work, any IPFS technical or usage guidance requests, and a description of your experience building on IPFS, including any challenges or shortcomings encountered. -->
   
-### 5. Does your proposal comply with our Community Standards?
-<!-- Please read the [Community Standards](https://github.com/protocol/ipfs-grants/blob/master/STANDARDS.md) and make sure your project is in compliance -->
+### 5. Does your proposal comply with our Community Code of Conduct?
+<!-- Please read the [IPFS Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md) and make sure your project is in compliance -->
 
 ### 6. Links and submissions
 <!-- Complete each step, and include the link of the published submission (or "Yes" if there is no URL) -->
