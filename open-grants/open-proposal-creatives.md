@@ -108,7 +108,7 @@ This project should include the following:
 
 >**Time and cost (3)**: \$8K Up to 4 Weeks.
 
-Currently, one person is allocated for everything. We especially interested in finding contributors in stage 2. For this, we will begin with bounties, and will reach out to those who contribute to packages found in the dependencies of existing copious-world node.js projects.
+Currently, one person is allocated for everything. We are especially interested in finding contributors in stage 2. For this, we will begin with bounties, and will reach out to those who contribute to packages found in the dependencies of existing copious-world node.js projects.
 
 Assume this starts July 15, 2021
 
