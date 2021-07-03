@@ -31,7 +31,7 @@ This page provides an overview of accepted applications and a link to their GitH
 
 # 2021
 
-## :surfing_woman: First Half 2021
+## :surfing_woman: Second Half 2021
 
 | Team | Project | Link | Application Issue Link | 
 | :--- | :------ | :--- | :--------: | 
