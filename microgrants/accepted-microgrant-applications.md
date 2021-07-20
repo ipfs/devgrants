@@ -40,4 +40,8 @@ This page provides an overview of accepted applications and a link to their GitH
 | @optimus789 | Decentralized Broadcast & Stream for Audius | [Github](https://github.com/Rishikeshk9/DBS-Decentralized-Broadcaster-Streamer)| [#84](https://github.com/ipfs/devgrants/issues/84) |
 | @felixniemeyer | a-jam: collaborative multitrack recorder for musicians | [Github](https://github.com/felixniemeyer/a-jam)| [#85](https://github.com/ipfs/devgrants/issues/85) |
 | @feliciss | InterPlanetary File System for Business (IPFSfB) | [Github](https://github.com/feliciss/IPFSfB)| [#86](https://github.com/ipfs/devgrants/issues/86) |
-| @hackyguru et al | PassVault | [Github](https://github.com/hackyguru/PassVault)| [#87](https://github.com/ipfs/devgrants/issues/87) |
+| @hackyguru et al | PassVault | [Github](https://github.com/hackyguru/PassVault) | [#87](https://github.com/ipfs/devgrants/issues/87) |
+| @bkyogesh28 | HubShare | [Github](https://github.com/bkyogesh28/HubShare) | [#95](https://github.com/ipfs/devgrants/issues/95) |
+| @andskur | Juni::Db | [Github](https://github.com/uddugteam/juniDB) | [#96](https://github.com/ipfs/devgrants/issues/96) |
+| @keyvan-m-sadeghi | File Protocol implementation for box server | [Github](https://github.com/functionland/box) | [#97](https://github.com/ipfs/devgrants/issues/97) |
+| @threalharpaljadeja | NiftySubs | [Github](https://github.com/NiftySubs/niftysubs) | [#98](https://github.com/ipfs/devgrants/issues/) |
