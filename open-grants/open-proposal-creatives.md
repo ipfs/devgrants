@@ -154,9 +154,9 @@ Richard Leddy has been working for many years developing software for all kinds 
 
 ## Team code repositories
 
-* [copious-world](www.github.com/copious-world)
+* [copious-world](https://www.github.com/copious-world)
 
-* [copious-transitions](www.github.com/rleddy/copious-transitions)
+* [copious-transitions](https://www.github.com/rleddy/copious-transitions)
 
 # Additional Information
 
