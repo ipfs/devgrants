@@ -1,7 +1,7 @@
 # Open Grants
 
 ## About
-Open grants are for novel ideas that advance the IPFS ecosystem, bring significant new usage, or directly [advance the IPFS mission statemnent](https://github.com/ipfs/roadmap#ipfs-mission-statement).
+Open grants are for novel ideas that advance the IPFS ecosystem, bring significant new usage, or directly [advance the IPFS mission statement](https://github.com/ipfs/roadmap#ipfs-mission-statement).
 
 If your project is smaller in scope and less well-defined, you may want to consider [the microgrant program](../MICROGRANTS.md) instead. Open Grants aligned with this quarter's [Focus Area](../FOCUS.md) will be given priority consideration.
 
