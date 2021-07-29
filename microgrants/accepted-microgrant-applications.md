@@ -45,3 +45,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @andskur | Juni::Db | [Github](https://github.com/uddugteam/juniDB) | [#96](https://github.com/ipfs/devgrants/issues/96) |
 | @keyvan-m-sadeghi | File Protocol implementation for box server | [Github](https://github.com/functionland/box) | [#97](https://github.com/ipfs/devgrants/issues/97) |
 | @threalharpaljadeja | NiftySubs | [Github](https://github.com/NiftySubs/niftysubs) | [#98](https://github.com/ipfs/devgrants/issues/) |
+| @eyalron33 | Esteroids | [Github](https://github.com/ipfs/community/blob/master/projects/Esteroids.md) | [#92](https://github.com/ipfs/devgrants/issues/92) |
