@@ -15,7 +15,7 @@ Bounties are monetary awards for completing eligible issues in IPFS-related repo
 ---
 
 ### Next Step Microgrants
-Grants of $5,000 in FIL are available to support taking the _next step_ after you have created an initial prototype with IPFS. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon.
+Grants of $5,000 in FIL are available to support taking the _next step_ after you have created an initial prototype with IPFS. These grants are intended for independent developers, small studios, non-profits, activists, and researchers. Applicants may be working independently, or as part of a course or hackathon. The microgrants are intended for early stage projects.  If your project has already received more than $30,000 USD from any source, please apply to for an open grant (details below) rather than a microgrant.
 
 Acceptance criteria are very simple, and work is expected to be complete within 2 months. Adoption Microgrants are funded by Protocol Labs.
 
