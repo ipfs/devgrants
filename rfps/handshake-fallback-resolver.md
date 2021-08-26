@@ -4,50 +4,51 @@
 
 ## Project Description
 
-Please fill in details about what you're trying to build. What is the purpose/context? What are the high-level requirements?
+Given the goals of:
 
-This section should be 2-3 paragraphs long.
+- IPFS doesn’t want to choose winners
+- IPFS wants to decouple from ICANN and support non-ICANN namespaces
+- IPFS wants to avoid introducing privacy and security risks in implicit defaults
+- IPFS wants the alternative namespaces to be DNS compatible. Preferably they can use DoH endpoints
+
+IPFS can accomplish these goals while supporting non-ICANN namespaces by adding a “fallback” resolver option to DNS.Resolvers that points to a list of DoH endpoints. Each DoH endpoint can point to a different decentralized naming system. When a query fails to resolve through the “.” resolver, query all of the “fallback” resolvers. If one of the resolvers has a match without conflict, then proceed with fetching the IPFS file. Otherwise if there’s a conflict, return an error code (ie HTTP 409 conflict).
+
+The “fallback” setting can be set by default to [“https://query.hdns.io/dns-query”] which is HDNS.io’s Handshake DoH resolver (note that HDNS.io doesn’t log or store IP addresses or any other personal information, as specified in the privacy policy linked on the website). Polkadomain.org, butterflyprotocol.io, and other decentralized naming systems which issue TLDs can be added as well when they create their own DoH resolvers and issue a PR.
 
 ## Value
 
-Please describe why the work that will come out of this RFP is valuable for the IPFS ecosystem.
+By implementing a fallback resolver to distributed namespaces like Handshake, IPFS makes the decentralized web massively more accesibility to anyone already using an IPFS-compatible application, which in turn accelerates the adoption of a fully distributed web.
 
 ## Deliverables
 
-What are you expecting the proposer to deliver at the completion of this project?
+A merged PR for implementing a fallback resolver that successfully resolves Handshake names like http://namebase/.
 
 ## Recommended Team
 
-List the skills and experience you are looking for. Teams with this background might be a better fit for this project.
+Any developer comfortable with everything listed in the below `Resources` section.
 
 ## Detailed Requirements & Constraints
 
-You can use this section to detail requirements that the deliverables must include.
-
-Also include any relevant constraints that the implementer should be aware of before beginning this project.
+Before starting implementation, one should post the proposed design as a comment here (how config would look like, what implicit default would be, and what needs to be changed to make that possible). Please also ping @lidel and myself to ensure the proposed design is included during their weekly triage session. By getting confirmation on design and config bikeshed first, we avoid investing time into approach that can't be accepted into the main branch and have more confidence moving forward.
 
 ## Milestones & Funding
 
-**Total Funding Amount:** List the total proposed funding amount (currently in USD, eventually can be a distribution between USD/FIL)
+**Total Funding Amount:** $5,000
 
-**Milestones:** Make sure that the values in the Funding column add up to the Total Funding Amount listed above.
-
-| Milestone No. | Milestone Description | Funding | Estimated Timeframe |
-| --- | --- | --- | --- |
-| 1 | Example milestone | $X | Y weeks |
-| 2 | Example milestone | $X | Y weeks |
-| 3 | Example milestone | $X | Y weeks |
+**Milestones:** An initial $500 will be granted to whoever proposes the best design as shared in `Detailed Requirements & Constraints`. The remaining $4,500 will be granted upon completion of the PR.
 
 ## Acceptance Criteria
 
-What are the acceptance criteria for each milestone and for the final deliverables? These should be as objective as possible. They will be used to determine whether or not a grantee will receive payment for work completed for a milestone. 
+Handshake names like http://namebase/ should resolve in IPFS-comptaible applications like the IPFS Companion extension, Brave browser, and Opera browser, etc.
 
 ## Resources
 
-Link any resources that might be helpful for an implementer who is working on this project.
+- go-ipfs 0.9 was not released yet, but the code is in master branch and the docs for DNS config are at: https://github.com/ipfs/go-ipfs/blob/master/docs/config.md#dns
+- "Ongoing work" in https://github.com/ipfs/go-ipfs/issues/6532 is a good list of code paths that were touched while adding the DNS support, so reading linked PRs there should be enough to build mental model how DNS in go-ipfs works now.
+- Additional tldr: config is in go-ipfs-config, generic DNS logic is in go-multiaddr-dns, and the defaults hardcoded in go-ipfs are in
+https://github.com/ipfs/go-ipfs/blob/3b254a631f57d6290ab8179c0cacd72f24ca7dea/core/node/dns.go#L14-L16
+
 
 ## Support and Funding
 
-Who is backing this project? How will they pay the implementers? If you have not already added your information to [FUNDING](../FUNDING.md), you can do so now and link it here. Include a legal entity name if possible.
-
-Any other organizations that choose to add their support to this RFP will do so in this section.
+Namebase is funding this project and our engineers are readily available for assistance with HDNS.io and Handshake resolvers as well.
