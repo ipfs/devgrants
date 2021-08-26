@@ -19,7 +19,7 @@ Grants of $5,000 in FIL are available to support taking the _next step_ after yo
 
 Acceptance criteria are very simple, and work is expected to be complete within 2 months. Adoption Microgrants are funded by Protocol Labs.
 
-[**APPLY FOR A MICROGRANT**](MICROGRANTS.md#Apply) • [**See Microgrant Proposals**](../../issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Atype%3Amicrogrant+) • [Read More](MICROGRANTS.md)
+[**APPLY FOR A MICROGRANT**](MICROGRANTS.md#Apply) • [**See Accepted Microgrant Proposals**](https://github.com/ipfs/devgrants/blob/master/microgrants/accepted-microgrant-applications.md) • [Read More](MICROGRANTS.md)
 
 ---
 
