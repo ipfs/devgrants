@@ -38,12 +38,12 @@ Before starting implementation, one should post the proposed design as a comment
 
 ## Milestones & Funding
 
-**Total Funding Amount:** $5,000
+**Total Funding Amount:** 20,000 HNS ($5,000+)
 
 **Milestones:** 
 
-| 1 | Propose the best design as specified in `Detailed Requirements & Constraints` | $500 |
-| 2 | Completion of PR (is merged and live) | $4500 |
+| 1 | Propose the best design as specified in `Detailed Requirements & Constraints` | 2,000 HNS |
+| 2 | Completion of PR (is merged and live) | 18,000 HNS |
 
 ## Acceptance Criteria
 
