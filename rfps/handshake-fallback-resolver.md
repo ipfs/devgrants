@@ -34,7 +34,7 @@ Each DoH endpoint can point to a different decentralized naming system. When a q
 
 The “fallback” setting can be set by default to [“https://query.hdns.io/dns-query”] which is HDNS.io’s Handshake DoH resolver (note that HDNS.io doesn’t log or store IP addresses or any other personal information, as specified in the privacy policy linked on the website). Polkadomain.org, butterflyprotocol.io, and other decentralized naming systems which issue TLDs can be added as well when they create their own DoH resolvers and issue a PR.
 
-Before starting implementation, one should post the proposed design as a comment here (how config would look like, what implicit default would be, and what needs to be changed to make that possible). Please also ping @lidel and myself (@johnnywu-namebase) to ensure the proposed design is included during IPFS's weekly triage session. By getting confirmation on design and config bikeshed first, we avoid investing time into approach that can't be accepted into the main branch and have more confidence moving forward.
+Before starting implementation, one should post the proposed design as an issue in this repository (how config would look like, what implicit default would be, and what needs to be changed to make that possible). Please ping @lidel and myself (@johnnywu-namebase) on the issue to ensure the proposed design is included during IPFS's weekly triage session. By getting confirmation on design and config bikeshed first, we avoid investing time into approach that can't be accepted into the main branch and have more confidence moving forward.
 
 ## Milestones & Funding
 
