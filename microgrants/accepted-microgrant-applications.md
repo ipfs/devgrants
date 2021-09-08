@@ -47,3 +47,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @threalharpaljadeja | NiftySubs | [Github](https://github.com/NiftySubs/niftysubs) | [#98](https://github.com/ipfs/devgrants/issues/) |
 | @eyalron33 | Esteroids | [Github](https://github.com/ipfs/community/blob/master/projects/Esteroids.md) | [#92](https://github.com/ipfs/devgrants/issues/92) |
 | @i-m-aditya | Deagle | [Github](https://github.com/i-m-aditya/Deagle) | [#103](https://github.com/ipfs/devgrants/issues/103) |
+| @jordaniza  | Rhada | [Github](https://github.com/RhadaPay) | [#106](https://github.com/ipfs/devgrants/issues/106) |
