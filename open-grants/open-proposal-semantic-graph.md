@@ -10,19 +10,19 @@
 
 Pinning content on IPFS is very easy. However, individual users need to track and maintain a list of CIDs and thier contents. This isn't a very convenient user experience and limits how quickly IPFS can be adopted.
 
-IPFS is missing a transportable semantic layer that provides an open ontology of content for users, plugins, and other systems. With this semantic layer built on top of IPLD, content can be organized into a graph and partitioned for individual users or groups of users for discoverability and collaboration.
+IPFS is missing a distrbuted semantic layer that provides an open system for defining and working with ontologies that describe content for users, plugins, and other systems. With this semantic layer built on top of IPFS, content can be organized into a graph and partitioned for individual users or groups of users for discoverability and collaboration.
 
-Once applied, this content can facilitate novel ways of working.
+Once applied, this content can facilitate novel ways of working and building.
 
 ## Value
 
 Early value of a semantic layer on IPFS would, at the very least, improve the user experience for individuals by providing a familiar way of storing and retrieving content bound to their context. Within their context, users can describe content in arbitrary ways including relationships that link off to other content creating a semantic graph. 
 
-These graphs can be added and retrieved across the network meaning, over time, a global ontology will begin to emerge as a distributed index. The utility of this index would allow novel ways of building applications and extending IPFS with custom plugins and more.
+These graphs can be added and retrieved across the network meaning, over time, a global ontology will begin to emerge within the graph. The utility of this index would allow novel ways of building applications and extending IPFS with custom plugins and more.
 
-Imagine a financial institution defining an append-only IPLD node called an "account" that can be retrieved by third-party fintechs through authorization via account holder signing keys and multikey encryption for more secure open banking. Or data scientists linking WASM powered notebooks to datasets with static schemas across governance boundaries and only yielding the results to a new node. Or data engineers assembling data pipelines with idempotent and append-only intermediaries with schema on read and write for stable transform pipelines on a distributed data lake. Or a p2p email service....the list goes on.
+Imagine a financial institution defining an append-only IPLD node type called "account" that can be retrieved by third-party fintechs for more secure open banking. Or data scientists linking WASM powered notebooks node types to schemas powered datasets node types across governance boundaries. Or data engineers assembling data pipelines with idempotent and append-only schema powered intermediaries for more stable transform pipelines on a distributed data lake. Or a p2p email service....the list goes on.
 
-The risks of not getting this right are the ongoing poorly maintained, centralized datasets containing private information being shared with multiple parties with no governance other than one-sided terms and conditions and privacy policies.
+The risks of not getting this right are the ongoing poorly maintained, centralized datasets containing private information being shared with multiple parties with no controls other than one-sided terms and conditions and privacy policies. We need better alternatives and reasonable standards that support web3 scale.
 
 What makes this project difficult is choosing the right interfaces, models, and patterns to make this project scale effectively. Not getting this right may mean a poor user experience and therefore poor adoption.
 
@@ -30,30 +30,31 @@ What makes this project difficult is choosing the right interfaces, models, and 
 
 ### IPSG
 
-An open source library as a configurable extension/plugin embedded into or wrapping the IPFS daemon (TBD). We'd like to work with ProtocolLabs closely on this project to make meaningful decisions that align with the existing projects.
+An open source library as a configurable extension/plugin embedded into or wrapping the IPFS daemon (TBD). We'd like to work with closely ProtocolLabs on this project to make meaningful decisions that align with the existing projects.
 
 #### Functionality
 
 At a high level, this library will wrap new functionality into IPFS with:
-- A means of configuring a local context using IPNS and multikey to partition a subset of the graph.
-- An interface for managing contexts.
-- An interface for linking CIDs to the graph and their node types.
-- An interface for adding ontologies in a format that can be translated to RDF trites/quads.
-- An in-memory graph for swapping in/out one or more graph partitions.
+- A means of configuring a local context using IPNS and multikeys to partition a subset of the graph.
+- An interface for managing and selecting contexts.
+- An interface for linking CIDs to nodes in the graph (similar to IPNS).
+- Support for working with private and shared ontologies.
+- Storing data in RDF triples/quads to the graph.
+- A unified global graph of data available to all users over IPFS.
+- A means of adding/retrieving partitions of the graph for local in-memory search.
 - An interface for searching and referencing of nodes.
-- A means of adding/retrieving partitions of the RDF graph to IPFS via IPLD.
 
-Stretch goal is to support a naming service, (e.g. IPNS+ENS) and gossipub for subscribing to partitions.
+Stretch goal is to support a naming service, (e.g. IPNS+ENS) and gossipub for subscribing to changes in partitions of the graph.
 
 ## Development Roadmap
 
-**NOTE:** Due to the size of the project, this roadmap is a bit "hand wavey" but covers the general work to be performed to get a working version of IPSG published.
+**NOTE:** Due to the size of the project, this roadmap is a bit "hand wavey" but covers the general work to be performed for a working version of IPSG.
 
 ### Milestone 1 - Interface & Prototype
 **Estimate**: ~1 Months
 **Team**: All members
 
-This phase will be about defining the proper interface and integrations the IPSG will take. We will need support from ProtocolLabs on this design as it will be the foundation for the entire project.
+This phase will be about defining the proper interface and integrations for IPSG. We will need support from ProtocolLabs on this design as it will be the foundation for the entire project.
 
 #### Deliverables
 - A whitepaper for reference on design goals, purpose, and functionality.
