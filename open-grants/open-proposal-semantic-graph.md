@@ -8,9 +8,9 @@
 
 # Project Description
 
-Pinning content on IPFS is very easy however, individual users need to track and maintain a list of CIDs and thier contents. This isn't a very convenient user experience and limits how quickly IPFS can be adopted.
+Pinning content on IPFS is very easy. However, individual users need to track and maintain a list of CIDs and thier contents. This isn't a very convenient user experience and limits how quickly IPFS can be adopted.
 
-IPFS is missing a transportable semantic layer that provides an open ontology of content for users, plugins, and other systems. With this semantic layer, built on top of IPLD, content can be organized into a graph and partitioned for individual users or groups of users for discoverability and collaboration.
+IPFS is missing a transportable semantic layer that provides an open ontology of content for users, plugins, and other systems. With this semantic layer built on top of IPLD, content can be organized into a graph and partitioned for individual users or groups of users for discoverability and collaboration.
 
 Once applied, this content can facilitate novel ways of working.
 
@@ -18,9 +18,9 @@ Once applied, this content can facilitate novel ways of working.
 
 Early value of a semantic layer on IPFS would, at the very least, improve the user experience for individuals by providing a familiar way of storing and retrieving content bound to their context. Within their context, users can describe content in arbitrary ways including relationships that link off to other content creating a semantic graph. 
 
-These graphs can be added and retrieved across to the network meaning, overtime, a global ontology will begin to emerge as a distributed index. The utility of this index would allow novel ways of building applications and extending IPFS with custom plugins and more.
+These graphs can be added and retrieved across the network meaning, over time, a global ontology will begin to emerge as a distributed index. The utility of this index would allow novel ways of building applications and extending IPFS with custom plugins and more.
 
-Imagine a financial institution defining an append only IPLD node called an "account" that can be retrieved by third-party fintechs through authorization via account holder signing keys and multikey encryption for more secure open banking. Or an data scientists linking WASM powered notebooks to datasets with static schemas across governance boundaries and only yielding the results to a new node. Or data engineers assembling data pipelines with idempotent and append-only intermediaries with schema on read and write for more stable transforms and distributed data lake. Or a p2p email service....the list goes on.
+Imagine a financial institution defining an append-only IPLD node called an "account" that can be retrieved by third-party fintechs through authorization via account holder signing keys and multikey encryption for more secure open banking. Or data scientists linking WASM powered notebooks to datasets with static schemas across governance boundaries and only yielding the results to a new node. Or data engineers assembling data pipelines with idempotent and append-only intermediaries with schema on read and write for stable transform pipelines on a distributed data lake. Or a p2p email service....the list goes on.
 
 The risks of not getting this right are the ongoing poorly maintained, centralized datasets containing private information being shared with multiple parties with no governance other than one-sided terms and conditions and privacy policies.
 
@@ -34,14 +34,14 @@ An open source library as a configurable extension/plugin embedded into or wrapp
 
 #### Functionality
 
-At a high-level, this library will wrap new functionality into IPFS with:
+At a high level, this library will wrap new functionality into IPFS with:
 - A means of configuring a local context using IPNS and multikey to partition a subset of the graph.
 - An interface for managing contexts.
-- An interface for linking CIDs to the graph and there node types.
+- An interface for linking CIDs to the graph and their node types.
 - An interface for adding ontologies in a format that can be translated to RDF trites/quads.
-- An in memory graph for swapping in/out one or more graph partitions.
-- An interface searching and referencing of node.
-- A means of adding/retrieving partitions of the RDF graph to to IPFS via IPLD.
+- An in-memory graph for swapping in/out one or more graph partitions.
+- An interface for searching and referencing of nodes.
+- A means of adding/retrieving partitions of the RDF graph to IPFS via IPLD.
 
 Stretch goal is to support a naming service, (e.g. IPNS+ENS) and gossipub for subscribing to partitions.
 
@@ -110,7 +110,7 @@ Ontologies will be, for the most part, provided by the community but, as a opera
 
 The team has 10-20+ years of software development experience each working in small to large gaming studios, marketing, media, startups, financial institutions, telecom, and consulting. Through this experience they've observed the rise of Web2.0 and highly centralized technology and in recent years, due to the lack of innovation, believe we have reached peak Web2.0 tech. 
 
-The team has worked together multiple times in their career and are all web3 enthusiast. We all agree that the semantic web is "remains largely unrealized" and now is the right time for innovation.
+The team has worked together multiple times in their career and are all web3 enthusiasts. We all agree that the semantic web is "remains largely unrealized" and now is the right time for innovation.
 
 ## Team code repositories
 
