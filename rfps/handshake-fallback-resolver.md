@@ -57,8 +57,9 @@ Handshake names like http://namebase/ should resolve in IPFS-compatible applicat
 - "Ongoing work" in https://github.com/ipfs/go-ipfs/issues/6532 is a good list of code paths that were touched while adding the DNS support, so reading linked PRs there should be enough to build mental model of how DNS in go-ipfs works now.
 - Additional tldr: config is in go-ipfs-config, generic DNS logic is in go-multiaddr-dns, and the defaults hardcoded in go-ipfs are in
 https://github.com/ipfs/go-ipfs/blob/3b254a631f57d6290ab8179c0cacd72f24ca7dea/core/node/dns.go#L14-L16
-
+- Namebase developer docs: https://docs.namebase.io/
+- Handshake developer docs: https://hsd-dev.org/
 
 ## Support and Funding
 
-Namebase is funding this project and our engineers are readily available for assistance with HDNS.io and Handshake resolvers as well.
+Namebase.io is funding this project and our engineers are readily available for assistance with HDNS.io and Handshake resolvers as well.
