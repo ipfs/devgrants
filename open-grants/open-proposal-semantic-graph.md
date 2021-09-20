@@ -33,17 +33,24 @@ What makes this project difficult is choosing the right interfaces, models, and 
 An open source library as a configurable extension/plugin embedded into or wrapping the IPFS daemon (TBD). We'd like to work with closely ProtocolLabs on this project to make meaningful decisions that align with the existing projects.
 
 #### Functionality
-
 At a high level, this library will wrap new functionality into IPFS with:
-- A means of configuring a local context using IPNS and multikeys to partition a subset of the graph.
-- An interface for managing and selecting contexts.
-- An interface for linking CIDs to nodes in the graph (similar to IPNS).
-- Support for working with private and shared ontologies.
+##### Multikey / Multicontext
+The semantics that describe content on IPSG can be specific to individuals, groups, or global. Allowing users of IPSG to create and select contexts when working against IPSG will provide users the freedom of how the want to organize their content.
+
+Configuring a context is the same as creating a set if keypairs used partition your semantic view of the content stored on IPFS. Contexts help inform IPSG on how to partition, join, and search the semantic graph and are linked to an IPNS address.
+##### Ontologies / Naming
+The ontologies used in any semenantic graph are assembled into "kinds" which are organized into higher-order "kinds" through linking in the graph. On a use-case basis, a kind can then terminate to a set of CIDs containing any value/content.
+
+For example, a "person" kind can be standalone that can link to a CID with a json blob describing a person or alternatively a "person" can link off to a "first name" and "last name" kind that terminate to strings containing the names -- the choice is up to the user. This method of terminating to values is similar to creating an instance/node of that kind. Every instance is assigned a name by the user and indexed to it's context.
+
+These ontologies and semantic indexes are stored globally to IPFS as RDF quads and indexed by context for practicality. Joining or merging of these ontologies happen within and IPSG peer node before updated re-added to IPFS.
+##### Distrubution / Partitioning
 - Storing data in RDF triples/quads to the graph.
 - A unified global graph of data available to all users over IPFS.
 - A means of adding/retrieving partitions of the graph for local in-memory search.
+##### Pathing / Search
 - An interface for searching and referencing of nodes.
-
+#####  Extras
 Stretch goal is to support a naming service, (e.g. IPNS+ENS) and gossipub for subscribing to changes in partitions of the graph.
 
 ## Development Roadmap
