@@ -34,21 +34,27 @@ An open source library as a configurable extension/plugin embedded into or wrapp
 
 #### Functionality
 At a high level, this library will wrap new functionality into IPFS with:
+
 ##### Multikey / Multicontext
 The semantics that describe content on IPSG can be specific to individuals, groups, or global. Allowing users of IPSG to create and select contexts when working against IPSG will provide users the freedom of how the want to organize their content.
 
 Configuring a context is the same as creating a set if keypairs used partition your semantic view of the content stored on IPFS. Contexts help inform IPSG on how to partition, join, and search the semantic graph and are linked to an IPNS address.
+
 ##### Ontologies / Naming
 The ontologies used in any semantic graph are assembled into "kinds" which are organized into higher-order "kinds" through linking in the graph. On a use-case basis, a kind can then terminate to a set of CIDs containing any value/content.
 
 For example, a "person" kind can be standalone that can link to a CID with a json blob describing a person or alternatively a "person" can link off to a "first name" and "last name" kind that terminate to strings containing the names -- the choice is up to the user. This method of terminating to values is similar to creating an instance/node of that kind. Every instance is assigned a name by the user and indexed to it's context.
 
+This allows IPSG to be wrapped with plugins, extensions or other tools for working with kinds.
+
 ##### Distribution / Partitioning
 For practicality, these ontologies and semantic indexes are stored globally to IPFS as RDF quads and indexed though IPNS linked contexts. Indexes stored by context allows every IPSG node to operate a partition of the index that is reasonably sized and contains content only relevant to that peer.
 
 Joining or merging of these ontologies happen within an IPSG peer node after retrieving one or more contexts before re-added to IPFS.
+
 ##### Pathing / Search
 Nodes and links within the semantic graph contain relevant metadata for search by property or path queries. IPSG will provide an interface for making these queries.
+
 #####  Extras
 Stretch goal is to support a naming service, (e.g. IPNS+ENS) and gossipub for subscribing to changes in partitions of the graph.
 
