@@ -8,9 +8,9 @@
 
 # Project Description
 
-Pinning content on IPFS is very easy. However, individual users need to track and maintain a list of CIDs and thier contents. This isn't a very convenient user experience and limits how quickly IPFS can be adopted.
+Pinning content on IPFS is very easy. However, individual users need to track and maintain a list of CIDs and their contents. This isn't a very convenient user experience and limits how quickly IPFS can be adopted.
 
-IPFS is missing a distrbuted semantic layer that provides an open system for defining and working with ontologies that describe content for users, plugins, and other systems. With this semantic layer built on top of IPFS, content can be organized into a graph and partitioned for individual users or groups of users for discoverability and collaboration.
+IPFS is missing a distributed semantic layer that provides an open system for defining and working with ontologies that describe content for users, plugins, and other systems. With this semantic layer built on top of IPFS, content can be organized into a graph and partitioned for individual users or groups of users for discoverability and collaboration.
 
 Once applied, this content can facilitate novel ways of working and building.
 
@@ -39,17 +39,16 @@ The semantics that describe content on IPSG can be specific to individuals, grou
 
 Configuring a context is the same as creating a set if keypairs used partition your semantic view of the content stored on IPFS. Contexts help inform IPSG on how to partition, join, and search the semantic graph and are linked to an IPNS address.
 ##### Ontologies / Naming
-The ontologies used in any semenantic graph are assembled into "kinds" which are organized into higher-order "kinds" through linking in the graph. On a use-case basis, a kind can then terminate to a set of CIDs containing any value/content.
+The ontologies used in any semantic graph are assembled into "kinds" which are organized into higher-order "kinds" through linking in the graph. On a use-case basis, a kind can then terminate to a set of CIDs containing any value/content.
 
 For example, a "person" kind can be standalone that can link to a CID with a json blob describing a person or alternatively a "person" can link off to a "first name" and "last name" kind that terminate to strings containing the names -- the choice is up to the user. This method of terminating to values is similar to creating an instance/node of that kind. Every instance is assigned a name by the user and indexed to it's context.
 
-These ontologies and semantic indexes are stored globally to IPFS as RDF quads and indexed by context for practicality. Joining or merging of these ontologies happen within and IPSG peer node before updated re-added to IPFS.
-##### Distrubution / Partitioning
-- Storing data in RDF triples/quads to the graph.
-- A unified global graph of data available to all users over IPFS.
-- A means of adding/retrieving partitions of the graph for local in-memory search.
+##### Distribution / Partitioning
+For practicality, these ontologies and semantic indexes are stored globally to IPFS as RDF quads and indexed though IPNS linked contexts. Indexes stored by context allows every IPSG node to operate a partition of the index that is reasonably sized and contains content only relevant to that peer.
+
+Joining or merging of these ontologies happen within an IPSG peer node after retrieving one or more contexts before re-added to IPFS.
 ##### Pathing / Search
-- An interface for searching and referencing of nodes.
+Nodes and links within the semantic graph contain relevant metadata for search by property or path queries. IPSG will provide an interface for making these queries.
 #####  Extras
 Stretch goal is to support a naming service, (e.g. IPNS+ENS) and gossipub for subscribing to changes in partitions of the graph.
 
@@ -76,7 +75,6 @@ This phase will be about building out the first version of IPSG as a standalone 
 
 #### Deliverables
 - A working version of IPSG that can be installed and configured to work with a forked version of IPFS.
-
 
 ### Milestone 3 - v0.1.xbeta (integration)
 **Estimate**: ~3 Months
