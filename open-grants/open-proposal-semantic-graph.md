@@ -22,7 +22,7 @@ These graphs can be added and retrieved across the network meaning, over time, a
 
 Imagine a financial institution defining an append-only IPLD node type called "account" that can be retrieved by third-party fintechs for more secure open banking. Or data scientists linking WASM powered notebooks node types to schemas powered datasets node types across governance boundaries. Or data engineers assembling data pipelines with idempotent and append-only schema powered intermediaries for more stable transform pipelines on a distributed data lake. Or a p2p email service....the list goes on.
 
-The risks of not getting this right are the ongoing poorly maintained, centralized datasets containing private information being shared with multiple parties with no controls other than one-sided terms and conditions and privacy policies. We need better alternatives and reasonable standards that support web3 scale.
+IPSG is an attempt to bridge the centralized way of work to a decentralized way by providing the next level of abstraction required for wider adoption. The risks of not getting this right are the ongoing poorly maintained, centralized datasets containing private information being shared with multiple parties with no controls other than one-sided terms and conditions and privacy policies. We need better alternatives and reasonable standards that support web3 scale.
 
 What makes this project difficult is choosing the right interfaces, models, and patterns to make this project scale effectively. Not getting this right may mean a poor user experience and therefore poor adoption.
 
