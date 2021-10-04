@@ -48,3 +48,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @eyalron33 | Esteroids | [Github](https://github.com/ipfs/community/blob/master/projects/Esteroids.md) | [#92](https://github.com/ipfs/devgrants/issues/92) |
 | @i-m-aditya | Deagle | [Github](https://github.com/i-m-aditya/Deagle) | [#103](https://github.com/ipfs/devgrants/issues/103) |
 | @jordaniza  | Rhada | [Github](https://github.com/RhadaPay) | [#106](https://github.com/ipfs/devgrants/issues/106) |
+| @tjayrush | TrueBlocks | [Github](https://github.com/TrueBlocks/trueblocks-core) | [#109](https://github.com/ipfs/devgrants/issues/109) |
