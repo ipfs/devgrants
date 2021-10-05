@@ -25,11 +25,11 @@ The current environement is unsuitable for mass adoption as it require too much 
 Waiting for fully fonctional IPFS APIs in browser is unproductive as both can be work on in parallel.
 
 ## Deliverables
-Users can;
+The website users can;
 - Create identities with avatar and name.
 - Follow each others to get updates on new content.
 - Scroll a feed of all the content/comments they and the people they follow created.
-- Live stream or watch other user's streams and chat live with the audience.
+- Live stream or watch other user streams and chat live with the audience.
 - Post videos, micro-blog, photos, articles and comments.
 
 ## Development Roadmap
@@ -46,6 +46,7 @@ Would allow the crate in the next milestone to be compiled to any rust supported
     - WASM support for multipart/form
 - Update [rust-ipfs-api](https://github.com/ferristseng/rust-ipfs-api)
     - WASM support
+    - Async IPFS add.
 
 Due date 1 March 2022. (2 Months)
 
@@ -93,7 +94,9 @@ Life cost for a year. 25k CAD.
 
 ## Maintenance and Upgrade Plans
 
-A protocol does not need maintenance. The website would receive bug fixes but no new features. Building new website and apps on the same protocol would be preferable. The rust ENS crate would require mininal maintenance as the smart-contract does not change much.
+The website would receive bug fixes but no new features. Building new websites and apps on the same protocol would be preferable.
+
+The rust ENS crate would require mininal maintenance as the smart-contract do not change much.
 
 The main crate (lib) would hopefully attract contributors, lessening the load on myself as it would be used by multiple apps and websites.
 
