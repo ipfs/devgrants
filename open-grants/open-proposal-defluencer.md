@@ -8,16 +8,18 @@
 
 # Project Description
 
-Social medias are centralized data silos right now. I will build social.defluencer.eth, a web3 social media website. It will help me improve my decentralized social media protocol and give a taste of what web3 can do. Help me get there faster.
+Social medias apps are centralized data silos right now. I will build social.defluencer.eth, a web3 social media website. It will help me improve my decentralized social media protocol and give a taste of what web3 can do.
 
 I've been working on this project since HackFS 2020. Here's what is fonctional as of now.
  - First we have, adaptative bit-rate live streaming using PubSub, IPLD & IPFS.
  - Second, non-live streaming with adaptative bit-rate is done in a similar way.
  - Third, live chat using PubSub and Metamask (for signatures).
- - Forth, the social web is built with IPNS addresses (ION or ENS could also be used) pointing to a user content and friend list wrapped in an object giving us a CID for every users (ENS domain names can resolve to this CID).
+ - Forth, the social web is built with IPNS addresses (ION or ENS could also be used) pointing to a user content and friend list wrapped in an object giving us a CID for every users. (ENS domain names can resolve to this CID)
  - Fifth, IPLD schemas for common social media content.
- 
+
 defluencer.eth the project website WIP -> https://bafybeifuu2njrul54bimwmxhvp6ozz3rwviubwpjutpyixu62allne3nwm.ipfs.dweb.link
+
+I plan to make some part of the protocol more modular. For example, I want to use DIDs and different kind of indexing methods. I also want to clarify ownership of content when sharing.
 
 ## Value
 
@@ -29,12 +31,14 @@ Waiting for fully fonctional IPFS APIs in browser is unproductive as both can be
 
 ## Deliverables
 
-The website users can;
-- Create identities with avatar and name.
-- Follow each others to get content updates.
-- Scroll a feed of all the content/comments they and the people they follow created.
-- Watch live streams and chat with the audience.
-- Post videos, micro-blog, photos, articles and comments.
+- A social media website where users can;
+    - Create identities with avatar and name.
+    - Follow each others to get content updates.
+    - Scroll a feed of all the content/comments they and the people they follow created.
+    - Watch live streams and chat with the audience.
+    - Post videos, micro-blog, photos, articles and comments.
+- A report on the scalability of live streaming with IPFS.
+- An Ethereum Name Service library for Rust.
 
 ## Development Roadmap
 
@@ -79,35 +83,35 @@ Create and publish a crate (lib) with theses features.
     - Update content.
     - Delete content.
 - Content Ownership.
-    - Blockchain timestamping.
-    - Cryptographic signatures (DAG-JOSE).
+    - Blockchain timestamping. (Bring Your Own Blockchain kinda feature)
+    - Cryptographic signatures. (DAG-JOSE)
 - Social Web Crawling.
-    - Find new content.
-    - Find new friends.
 - Content Agregation.
-    - Crawl the web or open a channel to receive content.
-    - Filter content.
-    - Clearly display content you do not own (sharing).
 
-Build a CLI.
+Build a CLI with it.
 
 Due date 1 September 2022. (5 months)
 
 ### Milestone 3: UI
 
-A decentralized social media website.
+social.defluencer.eth a decentralized social media website.
 
 Due date 1 January 2023. (4 months)
 
 ## Total Budget Requested
 
-Life cost for a year. 25k CAD.
+| Milestone | Total |
+|-|-|
+| Milestone 1 | 5,000 USD |
+| Milestone 2 | 8,333 USD |
+| Milestone 3 | 6,666 USD |
+| **Total** | **20,000 USD** |
 
 ## Maintenance and Upgrade Plans
 
 The website would receive bug fixes but no new features. Building new websites and apps on the same protocol would be preferable.
 
-The rust ENS crate would require mininal maintenance as the smart-contract do not change much.
+The rust ENS crate would require mininal maintenance as the smart-contracts don't change much.
 
 The main crate (lib) would hopefully attract contributors, lessening the load on myself as it would be used by multiple apps and websites.
 
