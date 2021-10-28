@@ -17,9 +17,9 @@ I've been working on this project since HackFS 2020. Here's what is fonctional a
  - Forth, the social web is built with IPNS addresses (ION or ENS could also be used) pointing to a user content and friend list wrapped in an object giving us a CID for every users. (ENS domain names can resolve to this CID)
  - Fifth, IPLD schemas for common social media content.
 
-defluencer.eth the project website WIP -> https://bafybeifuu2njrul54bimwmxhvp6ozz3rwviubwpjutpyixu62allne3nwm.ipfs.dweb.link
+defluencer.eth the project website W.I.P. -> https://bafybeifuu2njrul54bimwmxhvp6ozz3rwviubwpjutpyixu62allne3nwm.ipfs.dweb.link
 
-I plan to make some part of the protocol more modular. For example, I want to use DIDs and different kind of indexing methods. I also want to clarify ownership of content when sharing.
+I plan to make some part of the protocol more modular. For example, I might use DIDs and different kind of indexing methods. I also want to clarify ownership of content when sharing.
 
 ## Value
 
@@ -31,14 +31,16 @@ Waiting for fully fonctional IPFS APIs in browser is unproductive as both can be
 
 ## Deliverables
 
-- A social media website where users can;
+- A decentralized social media website where users can;
     - Create identities with avatar and name.
     - Follow each others to get content updates.
     - Scroll a feed of all the content/comments they and the people they follow created.
     - Watch live streams and chat with the audience.
     - Post videos, micro-blog, photos, articles and comments.
 - A report on the scalability of live streaming with IPFS.
-- An Ethereum Name Service library for Rust.
+- Updates to rust-web3 or an Ethereum Name Service library for Rust.
+- Updates to reqwest.
+- Updates to rust-ipfs-api.
 
 ## Development Roadmap
 
@@ -47,16 +49,16 @@ Start date would be around new year.
 ### Milestone 1: Libs
 
 Needed crates (rust libs) for the project.
-Would allow the crate in the next milestone to be compiled to any rust supported targets including WASM and 90% of the code would be shared between the CLI & website.
+Would allow the crate in the next milestone to be compiled to any rust supported targets including WASM and 90% of the code would be shared between the CLI & website. If the maintainers do not want the changes I propose, I will create forks or new crates with the features I need.
 
-- Create and publish a fully featured ENS crate to crates.io
+- Pull request to [rust-web3](https://github.com/tomusdrw/rust-web3) with most ENS fonctionalities.
+    - Code. (mostly done already)
     - Tests.
-    - Docs.
-    - Code. (mostly done already, just need to fix some bugs)
-- Update [reqwest](https://github.com/seanmonstar/reqwest)
+    - Documentation.
+- Pull request to [reqwest](https://github.com/seanmonstar/reqwest) crate for;
     - WASM support for byte streams
     - WASM support for multipart/form
-- Update [rust-ipfs-api](https://github.com/ferristseng/rust-ipfs-api)
+- Pull request to [rust-ipfs-api](https://github.com/ferristseng/rust-ipfs-api) crate for;
     - WASM support
     - Async IPFS add.
 
@@ -72,7 +74,7 @@ Create and publish a crate (lib) with theses features.
     - Create a new user.
         - Optional linking to ENS domain name.
     - Manage multiple users.
-    - Export/Import users DIDs.
+    - Export/Import users crypto keys.
 - Content Management.
     - Create new content.
         - Videos.
@@ -83,10 +85,10 @@ Create and publish a crate (lib) with theses features.
     - Update content.
     - Delete content.
 - Content Ownership.
-    - Blockchain timestamping. (Bring Your Own Blockchain kinda feature)
-    - Cryptographic signatures. (DAG-JOSE)
-- Social Web Crawling.
-- Content Agregation.
+    - Optional Blockchain timestamping. (Bring Your Own Blockchain kinda feature)
+    - Optional Cryptographic signatures. (DAG-JOSE)
+- Social Web Crawling Tools.
+- Content Agregation Tools.
 
 Build a CLI with it.
 
@@ -94,7 +96,7 @@ Due date 1 September 2022. (5 months)
 
 ### Milestone 3: UI
 
-social.defluencer.eth a decentralized social media website.
+Create social.defluencer.eth a decentralized social media website.
 
 Due date 1 January 2023. (4 months)
 
@@ -111,7 +113,7 @@ Due date 1 January 2023. (4 months)
 
 The website would receive bug fixes but no new features. Building new websites and apps on the same protocol would be preferable.
 
-The rust ENS crate would require mininal maintenance as the smart-contracts don't change much.
+The rust ENS crate would require mininal maintenance as the smart-contracts don't change much or be maintained by the rust-web3 community if merged.
 
 The main crate (lib) would hopefully attract contributors, lessening the load on myself as it would be used by multiple apps and websites.
 
@@ -127,5 +129,5 @@ I've been working on the protocol, in my spare time, since HackFS 2020, a lot ha
 
 ## Team code repositories
 
-[Decentralized Influencer Toolkit](https://github.com/SionoiS/dit)
+[Defluencer](https://github.com/Defluencer)
 
