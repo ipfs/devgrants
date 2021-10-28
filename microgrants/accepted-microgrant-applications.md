@@ -49,4 +49,5 @@ This page provides an overview of accepted applications and a link to their GitH
 | @i-m-aditya | Deagle | [Github](https://github.com/i-m-aditya/Deagle) | [#103](https://github.com/ipfs/devgrants/issues/103) |
 | @jordaniza  | Rhada | [Github](https://github.com/RhadaPay) | [#106](https://github.com/ipfs/devgrants/issues/106) |
 | @tjayrush | TrueBlocks | [Github](https://github.com/TrueBlocks/trueblocks-core) | [#109](https://github.com/ipfs/devgrants/issues/109) |
+| @poojitha611 | Socio Dapp | [Github](https://github.com/MohinishTeja/celo_project) | [#115](https://github.com/ipfs/devgrants/issues/115) |
 | @msanket9 | PaperHouse | [Github](https://github.com/Paper-House/PaperHouse) | [#117](https://github.com/ipfs/devgrants/issues/117) |
