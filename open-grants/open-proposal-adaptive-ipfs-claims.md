@@ -2,6 +2,8 @@
 
 **Proposer:** [Evan Powlowsky](https://github.com/PowVT)
 
+**Table of Contents**
+
 - [Description](#project-description)
 - [Value](#value)
 - [Deliverables](#deliverables)
