@@ -9,7 +9,7 @@
 - [Deliverables](#deliverables)
 - [Milestones and Funding](#milestones-and-funding)
   - [Total Budget Requested](#total-budget-requested)
-- [Maintenance and Upgrade Plans](#maintenance-and-upgrade-plans)
+- [Maintenance and Future Plans](#maintenance-and-upgrade-plans)
   - [Operations](#operations)
   - [Big Picture](#big-picture)
 - [Team](#team)
@@ -67,7 +67,7 @@ Milestone | Description | Hrs | Cost
 
 - **Total Funding Amount:** $13,500
 
-## Maintenance and Upgrade Plans
+## Maintenance and Future Plans
 
 ### Operations
 
