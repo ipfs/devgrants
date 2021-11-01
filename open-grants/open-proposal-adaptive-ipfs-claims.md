@@ -1,6 +1,6 @@
 # Open Grant Proposal: `DeFi for Sustainable Supply Chains`
 
-- **Proposer:** [Evan Powlowsky](https://github.com/PowVT)
+**Proposer:** [Evan Powlowsky](https://github.com/PowVT)
 
 - [Description](#project-description)
 - [Value](#value)
