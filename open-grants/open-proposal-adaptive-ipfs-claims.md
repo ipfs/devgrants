@@ -16,7 +16,7 @@
   - [Team Members](#team-members)
 - [Adaptive Website](#team-website)
 - [Relevant Experience](#relevant-experience)
-- [Team Code Repositories](#team-code-repositories)
+- [Code Repositories](#team-code-repositories)
 - [Support and Funding](#support-and-funding)
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** YES
