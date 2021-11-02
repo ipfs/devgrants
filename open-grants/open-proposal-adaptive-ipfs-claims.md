@@ -25,20 +25,21 @@
 
 The global innovation economy depends on components made with critical minerals and metals such as tantalum, cobalt, and gold. Demand for these minerals is expected to rise rapidly over the coming years with expanded battery storage and renewable energy utilization. At the same time, it is common for the individuals who extract these resources, essential to humanity's clean energy future, to face poverty, poor labor conditions, and health and safety risks. The complexity of multi-tiered supply chains also makes it difficult for downstream brands (technology companies, battery manufacturers, jewelers etc.) to contribute to solutions in a meaningful manner.
 
-Adaptive seeks to make supply chains more transparent and fair for producers. The Adaptive protocol is a framework of blockchain smart contracts that generate non-fungible ‘claim tokens’ representing an underlying physical asset. Tokens will be bought by downstream supply chain actors. Claim creators in this protocol must meet specific responsible sourcing guidelines for onboarding. Claim creators will be rewarded for meeting these standards, creating claim tokens, and using the application.
+Adaptive seeks to make supply chains more transparent and fair for producers. The Adaptive protocol is a framework of blockchain smart contracts that generate non-fungible ‘claim tokens’ representing an underlying physical asset. Tokens will be purchased and traded by downstream supply chain actors. Claim creators in this protocol must meet specific responsible sourcing guidelines for onboarding. Claim creators will be rewarded for meeting these standards, creating claim tokens, and using the application.
 
-As a claim token is sold and transferred downstream through the supply chain, the producers of the claim and associated civil society actors known as “Beneficiaries”, who will be compensated for participation. This can be used to finance mine site improvements and to drive the adoption of “due diligence” practices that make improvements across the value chain. The beneficiaries along with the physical properties of the asset are recorded in the claim token and stored immutably on the blockchain.
+As a claim token is sold and transferred downstream through the supply chain, the producers of the claim and associated civil society actors - known as “Beneficiaries” - will be compensated for participation in the Claim Application. This can be used to finance mine site improvements, increase worker pay, and drive the adoption of “due diligence” practices that make improvements across the value chain. The beneficiaries along with the physical properties of the asset are recorded in the claim token and stored immutably on the blockchain.
 
-When a claim is purchased on the Adaptive Marketplace, the beneficiaries recorded in the claim token itself are credited with a percentage of the sale proceeds. Upon completion of a claim token sale, the seller of a claim receives 50% of the claim token’s value. While the remaining 50% profit is divided between any Beneficiaries recorded in the claim, a local cooperative, and Adaptive for funding the auditing process. The beneficiaries, cooperative, or Adaptive can withdraw their individual proceeds from downstream token sales at any time.
+When a claim is purchased on the Adaptive Marketplace, the beneficiaries recorded in the claim token itself are credited with a percentage of the sale proceeds. Upon completion of a claim token sale, the seller of a claim receives a percentage of the claim token’s value. The remaining profit will be divided between Beneficiaries recorded in the claim. The beneficiaries can withdraw their individual proceeds from downstream token sales at any time.
 
 ## Value
 
-Currently, the target users of the application largely rely on paper based certificate systems.There is no software that currently exists which can store the data in a decentralized and transparent manner reliably. We hope to pioneer the usage of IPFS for supply chain traceability and provide a secure way to store the claim data. Adaptive seeks to be the first actor to expose responsible sourcing stakeholders to the distributed web through IPFS.
+Currently, the target users of the application largely rely on paper based certificate systems that do not store data in a decentralized and transparent manner. We hope to pioneer the usage of IPFS for supply chain traceability and provide a secure way to store all claim data. Adaptive seeks to expose responsible sourcing stakeholders to the distributed web through IPFS.
 
 We plan to develop tooling around IPFS which makes it easier for auditors on our platform to view important claim information and validate claims. This will take form as a javascript implementation and finalize in a npm package called ‘ipfs-claims’.
-Additionally, Adaptive heavily uses IPFS to pin and retrieve claim documents to/from the network. Adaptive wants to increase its IPFS node swarm with grant funding to decrease reliance on central providers like Pinata and Infura. Further strengthening the IPFS Filecoin ecosystem.
 
-Due to the unique nature of this claim system it is important we have measures in place to train users on setting up their digital wallets and interacting with the application. We believe that the application must be simple and intuitive for an everyday user. Our initial execution becomes very important in showing a new beneficiary the value of upon every claim token transfer they will receive a cut of the profit. The more beneficiaries attracted to the platform will naturally grow the claims ecosystem.
+Additionally, Adaptive relies on IPFS to pin and retrieve claim documents to/from the network. Adaptive wants to increase its IPFS node swarm with grant funding to decrease reliance on central providers like Pinata and Infura. Further strengthening the IPFS Filecoin ecosystem.
+
+Due to the unique nature of this claim system it is important we have measures in place to train users on setting up their digital wallets and interacting with the application. The more beneficiaries attracted to the platform, the larger the claims ecosystem will become.
 
 ## Deliverables
 
@@ -53,15 +54,17 @@ Due to the unique nature of this claim system it is important we have measures i
 ## Milestones and Funding
 
 Work for milestones will begin on December 1st, 2021
-The Adaptive team will be in Uganda in 2021 and 2022 to work with pilot project stakeholders and to pilot test the application while development is concurrently ongoing.
-Milestone | Description | Hrs | Cost
---------- | ----------- | --- | ----
-1 | npm package for verifying claims data on IPFS | 60 | 4500
-2 | CLI tools for testing npm package and auditing claims | 15 | 1125
-3 | Front end claims dashboard to improve user experience | 30 | 2250
-4 | Beneficiaries dashboard for UX and marketing | 30 | 2250
-5 | Automated testing scripts for dashboards using hardhat.js + IPFS local test environment | 30 | 2250
-6 | Scientific report on IPFS implementation, claims creation, and auditing | 15 | 1125
+
+The Adaptive team seeks to pilot the application at selected mine site (gold) and associated supply chain as soon as feasible. During this pilot period development of the application will be ongoing concurrently.
+
+| Milestone | Description                                                                             | Hrs | Cost |
+| --------- | --------------------------------------------------------------------------------------- | --- | ---- |
+| 1         | npm package for verifying claims data on IPFS                                           | 60  | 4500 |
+| 2         | CLI tools for testing npm package and auditing claims                                   | 15  | 1125 |
+| 3         | Front end claims dashboard to improve user experience                                   | 30  | 2250 |
+| 4         | Beneficiaries dashboard for UX and marketing                                            | 30  | 2250 |
+| 5         | Automated testing scripts for dashboards using hardhat.js + IPFS local test environment | 30  | 2250 |
+| 6         | Scientific report on IPFS implementation, claims creation, and auditing                 | 15  | 1125 |
 
 ### Total Budget Requested
 
@@ -75,7 +78,7 @@ The smart contracts are currently deployed and upgradable. There should be littl
 
 ### Big Picture
 
-Adaptive seeks to develop partnerships with industry associations, certification programs, and auditing bodies that will benefit from the Adaptive Claim system. In the beginning we may only have a few actors onboarded, but as others in the region learn about the positive impact, they will also feel the need to participate in the new claims system. Additionally, we will continue to seek additional grant funding and support from development agencies and foundations who seek to drive due diligence and responsible sourcing through supply chains.
+Adaptive seeks to develop partnerships with private sector companies, industry associations, certification programs, and auditing bodies that will benefit from the Adaptive Claim system. As stakeholders in the region and internationally learn about the positive impact, we hope to rapidly grow the claims system network. Additionally, we will seek additional grant funding and support from development agencies and foundations who seek to drive due diligence and responsible sourcing through supply chains.
 
 ## Team
 
@@ -100,4 +103,4 @@ The team has extensive experience in responsible minerals and renewable energy. 
 
 ## Support and Funding
 
-This grant is privately funded by advisors Jonathan Ellermann and Dave Snow.
+This grant is privately funded.
