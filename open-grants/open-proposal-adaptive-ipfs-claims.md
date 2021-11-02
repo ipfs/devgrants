@@ -9,7 +9,7 @@
 - [Deliverables](#deliverables)
 - [Milestones and Funding](#milestones-and-funding)
   - [Total Budget Requested](#total-budget-requested)
-- [Maintenance and Future Plans](#maintenance-and-upgrade-plans)
+- [Maintenance and Future Plans](#maintenance-and-future-plans)
   - [Operations](#operations)
   - [Big Picture](#big-picture)
 - [Team](#team)
