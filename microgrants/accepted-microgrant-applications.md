@@ -54,3 +54,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @poojitha611 | Socio Dapp | [Github](https://github.com/MohinishTeja/celo_project) | [#115](https://github.com/ipfs/devgrants/issues/115) |
 | @msanket9 | PaperHouse | [Github](https://github.com/varkiwi/git3-frontend) | [#117](https://github.com/ipfs/devgrants/issues/117) |
 | @electrone901  | Community Garden | [Github](https://github.com/electrone901/plant-doctor) | [#118](https://github.com/ipfs/devgrants/issues/118) |
+| @hackyguru  | Flutter IPFS Plugin | [Github](https://github.com/hackyguru/IPFS-Flutter) | [#121](https://github.com/ipfs/devgrants/issues/121) |
