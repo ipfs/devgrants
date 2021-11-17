@@ -55,3 +55,5 @@ This page provides an overview of accepted applications and a link to their GitH
 | @msanket9 | PaperHouse | [Github](https://github.com/varkiwi/git3-frontend) | [#117](https://github.com/ipfs/devgrants/issues/117) |
 | @electrone901  | Community Garden | [Github](https://github.com/electrone901/plant-doctor) | [#118](https://github.com/ipfs/devgrants/issues/118) |
 | @hackyguru  | Flutter IPFS Plugin | [Github](https://github.com/hackyguru/IPFS-Flutter) | [#121](https://github.com/ipfs/devgrants/issues/121) |
+| @Mr-Cryptocoder   | Covision| [Github](https://github.com/Mr-Cryptocoder) | [#119](https://github.com/ipfs/devgrants/issues/119) |
+| @hackyguru   | Flutter IPFS Plugin| [Github](https://github.com/hackyguru/IPFS-Flutter) | [#121](https://github.com/ipfs/devgrants/issues/121) |
