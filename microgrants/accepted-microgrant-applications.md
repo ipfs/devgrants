@@ -58,3 +58,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @Mr-Cryptocoder   | Covision| [Github](https://github.com/Mr-Cryptocoder) | [#119](https://github.com/ipfs/devgrants/issues/119) |
 | @hackyguru   | Flutter IPFS Plugin| [Github](https://github.com/hackyguru/IPFS-Flutter) | [#121](https://github.com/ipfs/devgrants/issues/121) |
 | @SomajitDey  | IPNS-Link | [Github](https://github.com/ipns-link) | [#122](https://github.com/ipfs/devgrants/issues/122) |
+| @mrodriguez3313 | IPNSGoServer | [Github](https://github.com/mrodriguez3313/IPNSGoServer) | [#123](https://github.com/ipfs/devgrants/issues/123) |
