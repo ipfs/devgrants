@@ -59,3 +59,10 @@ This page provides an overview of accepted applications and a link to their GitH
 | @hackyguru   | Flutter IPFS Plugin| [Github](https://github.com/hackyguru/IPFS-Flutter) | [#121](https://github.com/ipfs/devgrants/issues/121) |
 | @SomajitDey  | IPNS-Link | [Github](https://github.com/ipns-link) | [#122](https://github.com/ipfs/devgrants/issues/122) |
 | @mrodriguez3313 | IPNSGoServer | [Github](https://github.com/mrodriguez3313/IPNSGoServer) | [#123](https://github.com/ipfs/devgrants/issues/123) |
+
+# 2022
+
+## :surfing_woman: First Half 2022
+| Team | Project | Link | Application Issue Link | 
+| :--- | :------ | :--- | :--------: | 
+| @shivani7q | ETH My Song | [Github](https://github.com/shivani7q/ETH_my_Song) | [#126](https://github.com/ipfs/devgrants/issues/126) |
