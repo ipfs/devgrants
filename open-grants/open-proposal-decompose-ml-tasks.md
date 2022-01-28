@@ -72,15 +72,29 @@ Specifically, we will focus on the following milestones:
 This will include applying our technique to existing pre-trained models and analyzing the results.
 Most of this analysis will be qualitative.
 We have preliminary code implementing this functionality, but we will also work to mature the codebase to make it easier to develop more advanced methods.
-1. Developing methods for recombining decomposed submodels (2 months).
+Deliverables at the end of this milestone will be: 
+  - A codebase for analyzing the subtasks learned by a model
+  - Qualitative analysis of at least two public pre-trained language models (e.g. BERT and RoBERTa) on at least 8 NLP tasks (e.g. tasks from the GLUE and SuperGLUE benchmarks)
+  - Preliminary investigation into design factors that improve the decomposition of different tasks.
+2. Developing methods for recombining decomposed submodels (2 months).
 This will primarily require mapping back from the decomposition of parameter gradients to parameter values.
 We will make use of our past work on [merging models](https://arxiv.org/abs/2111.09832).
-1. Evaluate our proposed approach on standard NLP benchmarks (2 months).
+Deliverables at the end of this milestone will be:
+  - A method that can produce a model that produces a certain set of (decomposed) gradients.
+  - Implementation of the method in our codebase.
+  - Proof-of-concept experiments showing that aforementioned models can be decomposed and reconstructed.
+3. Evaluate our proposed approach on standard NLP benchmarks (2 months).
 We will make use of pre-trained models from the [Hugging Face model hub](https://huggingface.co/models) and evaluate on standard NLP datasets from the [datasets library](https://github.com/huggingface/datasets).
 Our codebase will aim to be a lightweight layer on top of these existing tools so that it can be easily integrated into other codebases that make use of them.
-1. Write paper and prepare code for release (2 months).
+Deliverables at the end of this milestone will be: 
+  - Evaluation results from the aforementioned NLP benchmarks.
+  - Updated public codebase.
+4. Write paper and prepare code for release (2 months).
 We will submit our work to a top-tier machine learning venue.
 We will also release our codebase with clear documentation to make it easily applicable for practitioners.
+Deliverables at the end of this milestone will be: 
+  - A publication posted publicly and submitted to a top-tier machine learning venue.
+  - A well-tested and documented codebase.
 
 ## Total Budget Requested
 
