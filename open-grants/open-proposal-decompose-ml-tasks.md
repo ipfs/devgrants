@@ -71,7 +71,7 @@ Specifically, we will focus on the following milestones:
 
 ## Total Budget Requested
 
-We request a budget of $30,000. The entirety of this budget will go towards support of the graduate research assistant.
+We request a budget of $50,000. The entirety of this budget will go towards [support](https://cs.unc.edu/research/research-support/proposal-prep/student-compensation/) of a single graduate research assistant for one year.
 
 ## Maintenance and Upgrade Plans
 
