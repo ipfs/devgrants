@@ -26,7 +26,9 @@ Currently, existing browsers with IPFS support either only work on desktop envir
 
 Agregore Mobile will run a local IPFS node and enable communities to publish and load content using [the ipfs:// protocol scheme](https://github.com/ipfs-shipyard/ipfs-protocol-compliance-suite/) within browsers on local networks without needing any extra infrastructure.
 
-In addition, we will be hosting a co-design workshop with participants from various community-based connectivity initiatives around the world to demonstrate the software and better understand how the approach can enable underserved communities to be more resilient. 
+In addition, we will be hosting a co-design workshop with participants from various community-based connectivity initiatives around the world to demonstrate the software and better understand how the approach can enable underserved communities to be more resilient.
+
+As we complete parts of the project, we will be periodically posting blog updates on https://agregore.mauve.moe
 
 ## Value
 
@@ -69,6 +71,7 @@ Please describe in details what your final deliverable for this project will be.
 - IPFS pinning services integrated with the nimble for servicing ad-hoc community networks
 - Example application which enables people to share media such as images/text/audio
 - Two workshops that will teach a focus group of community-based connectivity advocates how to use the browser and how to share information using the example app and will collect information on pain points they have within their networks + potential future applications of the technology.
+- Blog post documenting our progress as we go.
 
 ## Development Roadmap
 
@@ -104,7 +107,9 @@ Milestone 6: (4 weeks) Preparing and running workshops
 
 Total = 150h * 65 = 9750
 
-We will be forking the Kiwi Browser and doing a loose integration with a go-ipfs node which will use the `http://localhost/` gateway to load content from IPFS. We will also edit the branding to look more like Kiwi 
+We will be forking the Kiwi Browser and doing a loose integration with a go-ipfs node which will use the `http://localhost/` gateway to load content from IPFS. We will also edit the branding to look more like Agregore Desktop. We will also take this time to review our strategy for the coming milestones. This is where we'll review the approaches taken in the Brave Browser and the work of Igalia and compare it to the approach we're going to take based on Electron's protocol handler API.r
+
+**Reusable outputs:**: Other browser projects could fork from what we develop if they wish to use the gomobile-ipfs method.
 
 - Android Dev:
     - Fork kiwi browser and get it compiling (20h) (2 weeks)
@@ -129,6 +134,8 @@ Total = 360h * $65/h = $23400
 We will create patches for the chromium source code to add IPFS and IPNS as protocol handlers, and implement a custom mutable gateway which will be invoked by the protocol handlers. Then, we will test out the IPFS protocol compliance suite against them (including mutable IPFS/IPNS) and make sure a large portion of the tests are passing (enough for the next milestone). We will also integrate a UI for Android's Wifi Peer to Peer API that will attempt to connect to local phones. 
 
 Based on this: https://hackmd.io/chATmkpvQh6sifBxBfKU9g
+
+**Reusable outputs:**: Open source browser structure to add custom protocol handlers, reusable protocol handler code in Go, reusable Wifi P2P code for Android apps
 
 - C++ dev: Register custom protocol
     - [Register protocol with registry](https://chromium.googlesource.com/chromium/src/+/HEAD/chrome/browser/custom_handlers/protocol_handler_registry.h) (20) (1 week)
@@ -184,6 +191,8 @@ Total = 120h * $65/h = $7800
 
 We will ensure that Agregore Mobile passes the same amount (or more) tests as Agregore Desktop for the [IPFS protocol compliance suite](https://github.com/ipfs-shipyard/ipfs-protocol-compliance-suite/). We will also make it easier to download and test the app via Github releases and APKs published on IPNS.
 
+**Reusable outputs:** updated IPFS Protocol Compliance Suite with more examples of how it works
+
 - C++/Golang devs: Run the general and mutable protocol test suite and fix bugs (40h) / (40h)
     - Ensure the suite is still working in Agregore
     - Visually check that everything is passing and performant
@@ -203,6 +212,8 @@ Total = 90h * $65/h = 5850
 We will put together a basic peer to peer web app which will showcase a micro-blog-like interface where users will be able to create posts using markdown and upload images to create a simple blog. Blogs will be easy to share using QR codes via [a web extension](https://chrome.google.com/webstore/detail/qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp) and people will be able to bookmark blogs that they might frequently visit.
 This will showcase publishing and loading content while being fairly basic so that people can extend their own versions out and using the browser's existing functionality as much as possible.
 
+**Reusable outputs:** A reusable app to showcase publishing content to IPFS via protocol handlers, potentially reusable web components and patterns.
+
 - Tech Lead:
     - Initial mock up (10h)
         - Figure out data architecture
@@ -213,7 +224,7 @@ This will showcase publishing and loading content while being fairly basic so th
             - Image/File upload?
         - What do you see on the "homepage" (titles of latest posts?)
     - Support web dev on post composing, start working on documentation (10h)
-    - Support web dev on homepage, test QR code generators/scanner extensions and bookmarking flow
+    - Support web dev on homepage, test QR code generators/scanner extensions and bookmarking flow (10h)
 - Web Dev
     - Initial mock up (20h)
         - Learn about p2p web tech
@@ -239,12 +250,14 @@ The nimble is an open source, portable, and offline-first wireless mesh network.
 
 For the purposes of this project, there is currently one nimble readily available for development and testing in South Africa.  A second unit should be built in Ottawa to enable makeworld to contribute to and expedite the development process.  This unit should cost in the range of $2000 CAD depending on supply issues.
 
+**Reusable outputs:** Scripts for setting up IPFS-Cluster for mesh networks, web extension for talking to pinning services (can be used across different browsers)
+
 - Linux sysadmin: Configure IPFS pinning service on Nimble
-    - Use [ipfs-cluster](https://github.com/ipfs/ipfs-cluster)
+    - Use [ipfs-cluster](https://github.com/ipfs/ipfs-cluster) (40h) (2 weeks)
         - Supports IPNS
         - Might want to [make it compliant with the spec](https://github.com/ipfs/ipfs-cluster/issues/1213)
-    - Hardcode pinning service in DNS
-    - Agregore downloads on captive portal?
+    - Hardcode pinning service in DNS (10h) (0.5 week)
+    - Agregore downloads on captive portal? (10h) (0.5 week)
 - Community Lead: Look at moderation and administrative needs for pinning services
     - Analyze administrative tools for IPFS-cluster / pain points / privacy considerations (20h) (1 weeks)
     - Write up findings in a blog post (10h) (1 week)
@@ -291,12 +304,14 @@ Participants will receive a small stipend for their participation and transcript
 
 These workshops open up the possibly of and provide a format for hosting future workshops in other community networks around the world.
 
+**Reusable outputs:**: Materials for running the workshop, results of the workshop posted on the blog
+
 - Community outreach:
-    - Identification of and communication with participants (30h) (3 weeks)
+    - Identification of and communication with participants (40h) (3 weeks)
         - Enlist participants active in community networks and brief the group on the project objectives and process
         - Coordinate workshop/meeting times and locations
         - Coordinate travel and logistics
-    - Followup on workshop (10h) (1 week)
+    - Followup on workshop (20h) (1 week)
         - Collect feedback from the workshops
         - Summarize what was learned / propose follow-up projects
 - Workshop facilitator:
