@@ -101,8 +101,8 @@ Milestone 6: (4 weeks) Preparing and running workshops
 
 ### Milestone 1: Browser with Go-IPFS node
 
-1 C++ dev 60h / 3 weeks
-1 Golang dev 60h / 3 weeks
+1 C++ dev 60h (Emmanuel) / 3 weeks
+1 Golang dev 60h (Makeworld) / 3 weeks
 1 Android dev 30h / 3 weeks
 
 Total = 150h * 65 = 9750
@@ -125,9 +125,9 @@ We will be forking the Kiwi Browser and doing a loose integration with a go-ipfs
 
 ### Milestone 2: Integrating custom protocol handlers
 
-1 C++ dev 120h / 6 weeks 
-1 Golang dev 120h / 6 weeks
-1 Android dev 120h / 6 weeks
+1 C++ dev 120h (Emmanuel) / 6 weeks 
+1 Golang dev 120h (Makeworld) / 6 weeks
+1 Android dev 120h (Mauve) / 6 weeks
 
 Total = 360h * $65/h = $23400
 
@@ -183,9 +183,9 @@ Based on this: https://hackmd.io/chATmkpvQh6sifBxBfKU9g
     
 ### Milestone 3: Passing IPFS protocol compliance suite
 
-1 C++ dev 40h / 2 weeks 
-1 Golang dev 40h / 2 weeks
-1 Android dev 40h / 2 weeks
+1 C++ dev 40h (Emmanuel) / 2 weeks 
+1 Golang dev 40h (Makeworld) / 2 weeks
+1 Android dev 40h (Mauve) / 2 weeks
 
 Total = 120h * $65/h = $7800
 
@@ -204,8 +204,8 @@ We will ensure that Agregore Mobile passes the same amount (or more) tests as Ag
    
 ### Milestone 4: Example app showcasing sharing data
 
-- 1 Web Dev 60h / 3 weeks
-- 1 Tech Lead 30h / 3 weeks
+- 1 Web Dev (Dirk) 60h / 3 weeks
+- 1 Tech Lead (Mauve) 30h / 3 weeks
 
 Total = 90h * $65/h = 5850 
 
@@ -238,9 +238,9 @@ This will showcase publishing and loading content while being fairly basic so th
 
 ### Milestone 5: IPFS pinning service UI / integration
 
-1 Linux sysadmin 60h / 3 weeks
-1 Web Dev  30h / 3 weeks
-1 Community Lead 30h / 3 weeks
+1 Linux sysadmin (Dirk) 60h / 3 weeks
+1 Web Dev (Mauve) 30h / 3 weeks
+1 Community Lead (Eric / Wakoma) 30h / 3 weeks
 
 Total = 120h * 65 = 7800
 
@@ -278,8 +278,8 @@ For the purposes of this project, there is currently one nimble readily availabl
 
 ### Milestone 6: Workshop for community networks
 
-1 Community outreach and coordination (Wakoma) 60h / 4 weeks
-1 Workshop facilitator (Wakoma) 80h / 4 weeks
+1 Community outreach and coordination (Eric / Wakoma) 60h / 4 weeks
+1 Workshop facilitator (Dirk) 80h / 4 weeks
 20 Focus Group participants: 80h * 15 USD/h = $1200
 Travel + Living Expenses: 3000 USD
 Workshop Equipment + Refreshments: 200 USD
@@ -320,7 +320,6 @@ These workshops open up the possibly of and provide a format for hosting future 
         - Prepare presentation and workshop plan
         - Prepare nimble units for workshops
         - Prepare questionnaires to ask participants for feedback
-    
     - Run Workshop 1 (10h) 1 week
         - Schedule meetup with Cape Town group
         - Run workshop with participants
