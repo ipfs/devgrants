@@ -69,3 +69,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @eerkaijun | Blockchain Ticketing | [Github](https://github.com/eerkaijun/tixlab) | [#127](https://github.com/ipfs/devgrants/issues/127) |
 | @robin-thomas | Phi | [Github](https://github.com/robin-thomas/phi) | [#128](https://github.com/ipfs/devgrants/issues/128) |
 | @melwong | Lifefram | [Github](https://github.com/lifefram/lf/) | [#133](https://github.com/ipfs/devgrants/issues/133) |
+| @MOUNIKASIMHADRI17 | Slick | [Github](https://github.com/MohinishTeja/Slick) | [#135](https://github.com/ipfs/devgrants/issues/135) |
