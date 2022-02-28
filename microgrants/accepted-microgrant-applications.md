@@ -69,6 +69,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @eerkaijun | Blockchain Ticketing | [Github](https://github.com/eerkaijun/tixlab) | [#127](https://github.com/ipfs/devgrants/issues/127) |
 | @robin-thomas | Phi | [Github](https://github.com/robin-thomas/phi) | [#128](https://github.com/ipfs/devgrants/issues/128) |
 | @melwong | Lifefram | [Github](https://github.com/lifefram/lf/) | [#133](https://github.com/ipfs/devgrants/issues/133) |
+| @CreativerseMC | Creativerse - Minecraft on Ethereum | [Github](https://github.com/CreativerseMC/CreativerseMC-Plugin) | [#134](https://github.com/ipfs/devgrants/issues/134) |
 | @MOUNIKASIMHADRI17 | Slick | [Github](https://github.com/MohinishTeja/Slick) | [#135](https://github.com/ipfs/devgrants/issues/135) |
 | @Josiassejod1 | realityDapp | [Github](https://github.com/Josiassejod1/realityDapp) | [#136](https://github.com/ipfs/devgrants/issues/136) |
 | @Shachindra | NetSepio | [Github](https://github.com/NetSepio/ChromiumExtension) | [#137](https://github.com/ipfs/devgrants/issues/137) |
