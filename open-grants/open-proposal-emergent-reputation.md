@@ -1,25 +1,39 @@
-To submit a proposal, please create a PR adding a file to this folder filling out this template. Please title your file `open-proposal-title.md`, replacing `title` with the name of your project.
+# Open Grant Proposal: `Emergent Reputation`
 
-# Open Grant Proposal: `Project Title`
+**Name of Project:** Emergent Reputation
 
-**Name of Project:**
+**Proposer:** `@ckartik`
 
-**Proposer:** `replace with your GitHub username`
-
-**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
+**Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Yes
 
 # Project Description
 
-Please describe exactly what you are planning to build. Make sure to include the following:
-- Start with the need or problem you are trying to solve with this project.
-- Describe why your solution is going to adequately solve this problem.
+## Problem Statment
+**Cyberspace** can abstractly be seen as a means of infomation distribution.
+In a general sense, most applications can be broken down to two key objects: 
+**Users & Content**. The focus of current network infrastructure (layers below Application on OSI the Model)
+ has been **content**, ensuring the content is _Authenticated (Certificates), Available,
+and holds Integirty (Hashes)_. However, it failed to provide any similar cryptographic provisions for the **Users** 
+creating & consuming this content leading internet engineers to overload this into the Application Layer.
+The provisions relevant to Users are _Reputation & Trust_. Because of these being held at application layer, 
+monoplistic organizations _(Twitter, Meta)_ have gained **intitutionalized control** over these attributes without governance.
 
-This section should be 2-3 paragraphs long.
+The **monoplistic** nature of these organizations has lead them to create suboptimal solutions to _Reputation & Trust_ for users.
+The instablility this creates leaves significant slack left for leveraging the Internet as large-scale social coordination system.
+This RFC presents a solution to this problem through the development of a **distributed graph data-structure** that mimics
+single-degree trust relationships held in the physical world for each user. This would help emerge a web-of-trust that is highly composable
+at the application layer of traditional applications. Through the development of IPLD as a basis for distributing a decentralized data-structure
+such as the social graph, and the proliferation of wallets & blockchains as a mechanism for providing signing capabilities to browsers, this 
+is the first time that a viable solution that could be adopted with low friction has ever been possible.
+
+
 
 ## Value
 
 Please describe in more detail why this proposal is valuable for the IPFS ecosystem. Answer the following questions:
 - What are the benefits to getting this right?
+    - Will breed broader adoption for IPFS in most systems, as this idea is 
+    useful as a foundational technology for a variety of technologies.
 - What are the risks if you don't get it right?
 - What are the risks that will make executing on this project difficult?
 
