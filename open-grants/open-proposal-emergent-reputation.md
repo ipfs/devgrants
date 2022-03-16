@@ -21,12 +21,19 @@ monoplistic organizations _(Twitter, Meta)_ have gained **intitutionalized contr
 The **monoplistic** nature of these organizations has lead them to create suboptimal solutions to _Reputation & Trust_ for users.
 The instablility this creates leaves significant slack left for leveraging the Internet as large-scale social coordination system.
 This RFC presents a solution to this problem through the development of a **distributed graph data-structure** that mimics
-single-degree trust relationships held in the physical world for each user. This would help emerge a web-of-trust that is highly composable
+single-degree trust relationships held in the physical world for each user. This would help emerge a larger a web-of-trust that is highly composable
 at the application layer of traditional applications. Through the development of IPLD as a basis for distributing a decentralized data-structure
 such as the social graph, and the proliferation of wallets & blockchains as a mechanism for providing signing capabilities to browsers, this 
 is the first time that a viable solution that could be adopted with low friction has ever been possible.
 
-
+There are three key components to the imlementation of the solution, for which a working POC has been enabled on testnet.
+1. The **edges** of the graph will be stored on IPLD, we will call these attestations.
+2. The **nodes** will be as a keys to a map stored on a Smart Contract, and will be drived from the wallet account number.
+3. An **engine** will be provided in the library to provide the following functionality:
+    - Addition of nodes & attestations
+    - Revocation of attestations
+    - Graph algorithims for driving proxy determinations of trust (Shortest Path, K-connectedness, etc)
+    - If possible, we would also like to conduct research into mechanisms for zero knowledge transfer of trust information.
 
 ## Value
 
