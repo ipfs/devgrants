@@ -26,7 +26,7 @@ at the application layer of traditional applications. Through the development of
 such as the social graph, and the proliferation of wallets & blockchains as a mechanism for providing signing capabilities to browsers, this 
 is the first time that a viable solution that could be adopted with low friction has ever been possible.
 
-There are three key components to the imlementation of the solution, for which a working POC has been enabled on testnet.
+There are three key components to the imlementation of the solution, for which a working [POC (here)](https://github.com/ckartik/Emergent-Reputation) has been enabled on testnet.
 1. The **edges** of the graph will be stored on IPLD, we will call these attestations.
 2. The **nodes** will be as a keys to a map stored on a Smart Contract, and will be drived from the wallet account number.
 3. An **engine** will be provided in the library to provide the following functionality:
