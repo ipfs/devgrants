@@ -35,8 +35,8 @@ There are three key components to the imlementation of the solution, for which a
     - Graph algorithims for driving proxy determinations of trust (Shortest Path, K-connectedness, etc)
     - If possible, we would also like to conduct research into mechanisms for zero knowledge transfer of trust information.
 
-## Value
-
+<!-- ## Value
+TODO: @ckartik
 Please describe in more detail why this proposal is valuable for the IPFS ecosystem. Answer the following questions:
 - What are the benefits to getting this right?
     - Will breed broader adoption for IPFS in most systems, as this idea is 
@@ -91,4 +91,4 @@ Please provide links to your team's prior code repos for similar or related proj
 
 # Additional Information
 
-Please include any additional information that you think would be useful in helping us to evaluate your proposal.
+Please include any additional information that you think would be useful in helping us to evaluate your proposal. -->
