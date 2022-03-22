@@ -35,6 +35,7 @@ This page provides an overview of accepted applications and a link to their GitH
 
 | Team | Project | Link | Application Issue Link | 
 | :--- | :------ | :--- | :--------: | 
+| @Adithya-adi-Menon | Evido | [Github](https://github.com/Adithya-adi-Menon/ipfs-evido)| [#81](https://github.com/ipfs/devgrants/issues/81) |
 | @anudit | Convo | [Website](https://theconvo.space/)| [#82](https://github.com/ipfs/devgrants/issues/82) |
 | @ysongh | Codework NFT | [Github](https://github.com/ysongh/Codework-NFT)| [#83](https://github.com/ipfs/devgrants/issues/83) |
 | @optimus789 | Decentralized Broadcast & Stream for Audius | [Github](https://github.com/Rishikeshk9/DBS-Decentralized-Broadcaster-Streamer)| [#84](https://github.com/ipfs/devgrants/issues/84) |
