@@ -29,10 +29,8 @@ Grant applications are typically reviewed every 2 weeks.
 
 ## Apply
 
-1. Add your project to the IPFS Community Showcase by following the instructions in [ipfs/community](https://github.com/ipfs/community/blob/master/README.md#ecosystem-projects).
-2. Register your project for the [IPFS ecosystem database](https://airtable.com/shrjwvk9pAeAk0Ci7).
-3. Fill out this [VERY SHORT survey](https://airtable.com/shrDZMizx03jOa4mQ) about your experience building on IPFS.
-4. ONLY once your ipfs/community PR has been merged, [**APPLY HERE**](https://github.com/protocol/ipfs-grants/issues/new?assignees=mishmosh&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E)
+1. Fill out this [VERY SHORT survey](https://airtable.com/shrDZMizx03jOa4mQ) about your experience building on IPFS.
+2. Apply for a grant using our [Next Step Microgrant Template](https://github.com/protocol/ipfs-grants/issues/new?assignees=mishmosh&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E).
 
 ## FAQ
 
