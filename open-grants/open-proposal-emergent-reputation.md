@@ -8,7 +8,7 @@
 
 # Project Description
 
-## Problem Statment
+## Problem Statement
 **Cyberspace** can abstractly be seen as a means of infomation distribution.
 In a general sense, most applications can be broken down to two key objects: 
 **Users & Content**. The focus of current network infrastructure (layers below Application on OSI the Model)
@@ -59,13 +59,13 @@ Please describe in details what your final deliverable for this project will be.
 
 |                          Milestone                           |                           Details                            | Hours & Expected Completion |         Assignees          | Funding | 
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :---: | :------------------------: | :-----: |
-|                   Library Architecture                   | Look into high-level architecture for the final library. This stage will help in determining access patterns for the core social graph. It will entail usability research.|  50 hours - May 10, 2022 |       `ckartik`        |  $3000  |
-|                       Composable Library V0                   |       Convert POC into easily useable npm module architecture    |  40 hours - May 25, 2022  | `ckartik` |  $2000  |
-|                       Composable Library V0.1                 |       Add several graph algorithims for proxy determinations of reputation   |  50 hours - June 28, 2022 | `ckartik` |  $3000  |
-|                       Composable Library V1.1                 |       Deploy contract to Testnet & Provide mechanisms to easily connect.    |  40 hours - July 28, 2022  | `ckartik` |  $2000  |
-|                       Composable Library V1.2                 |       Deploy the contract to mainnet, and allow library to connect to both Testnet & Mainnet    |  50 hours - August 28, 2022   | `ckartik` |  $2000  |
-|                     Cryptonomics Research                    | Complete research around the cryptonomics that would drive meaninful attestations and mechanisms for incentivising business to compensate the graph for usablilty. Publish this research into public domain. |  150 hours - June 28, 2022    |       `ckartik`        |  $8000  |
-|                Hypergraph Research for ZK                | Hypergraphs are a generalization of a graph where the edges can be of arbitrary size. An edge in a typical graph is restricted to two. There is intutively a credible mechanism for providing levels of privacy by turning highly connected regions of this social graph automatically into hyperedges. |  180 hours - July 15, 2022   | `ckartik`|  $8500  |
+|                   Library Architecture                     | Look into high-level architecture for the final library. This stage will help in determining access patterns for the core social graph. It will entail usability research. |  50 hours - May 10, 2022 |       `ckartik`        |  $3000  |
+|                   Composable Library V0                    | Convert POC into easily useable npm module architecture.    |  40 hours - May 25, 2022  | `ckartik` |  $2000  |
+|                   Composable Library V0.1                  | Add several graph algorithims for proxy determinations of reputation.   |  50 hours - June 28, 2022 | `ckartik` |  $3000  |
+|                   Composable Library V1.1                  | Deploy contract to Testnet & Provide mechanisms to easily connect.|  40 hours - July 28, 2022  | `ckartik` |  $2000  |
+|                   Composable Library V1.2                  | Deploy the contract to mainnet, and allow library to connect to both Testnet & Mainnet. |  50 hours - August 28, 2022   | `ckartik` |  $2000  |
+|                   Cryptonomics Research                    | Complete research around the cryptonomics that would drive meaninful attestations and mechanisms for incentivising business to compensate the graph for usablilty. Publish this research into public domain. |  150 hours - June 28, 2022    |       `ckartik`        |  $8000  |
+|                   Hypergraph Research for ZK               | Hypergraphs are a generalization of a graph where the edges can be of arbitrary size. An edge in a typical graph is restricted to two. There is intutively a credible mechanism for providing levels of privacy by turning highly connected regions of this social graph automatically into hyperedges. |  180 hours - July 15, 2022   | `ckartik`|  $8500  |
 
 
 # Team
@@ -77,10 +77,6 @@ Please describe in details what your final deliverable for this project will be.
 
 <!-- ## Value
 TODO: @ckartik
-
-This section should be 1-3 paragraphs long.
-
-
 
 ## Total Budget Requested
 
