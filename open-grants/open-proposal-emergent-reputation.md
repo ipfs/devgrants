@@ -65,7 +65,7 @@ Please describe in detail what your final deliverable for this project will be. 
 |                   Composable Library V1.1                  | Deploy contract to Testnet & Provide mechanisms to easily connect.|  40 hours - July 28, 2022  | `ckartik` |  $2000  |
 |                   Composable Library V1.2                  | Deploy the contract to mainnet, and allow the library to connect to both Testnet & Mainnet. |  50 hours - August 28, 2022   | `ckartik` |  $2000  |
 |                   Cryptonomics Research                    | Complete research around the cryptonomics that would drive meaningful attestations and mechanisms for incentivizing businesses to compensate the graph for usability. Publish this research into the public domain. |  150 hours - June 28, 2022    |       `ckartik`        |  $8000  |
-|                   Hypergraph Research for ZK               | Hypergraphs is a generalization of a graph where the edges can be of arbitrary size. An edge in a typical graph is restricted to two. There is intuitively a credible mechanism for providing levels of privacy by turning highly connected regions of this social graph automatically into hyperedges. |  180 hours - July 15, 2022   | `ckartik`|  $8500  |
+|                   Hypergraph Research for ZK               | Hypergraphs are a generalization of a graph where the edges can be of arbitrary cardinality. An edge in a typical graph is restricted to be a subset of two objects from the vertext set. There is intuitively a credible mechanism for providing levels of privacy by turning highly connected regions of this social graph automatically into hyperedges. |  180 hours - July 15, 2022   | `ckartik`|  $8500  |
  
  
 # Team
