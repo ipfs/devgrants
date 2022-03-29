@@ -74,7 +74,22 @@ Please describe in details what your final deliverable for this project will be.
 
 - Kartik Chopra [Linkedin Profile](https://www.linkedin.com/in/mathbiz/) | [Github Profile](https://github.com/ckartik)
 
+## Team Website
+- [Link](https://showcase.ethglobal.com/buildquest/tki-trust-key-infrastructure-er66f) to ETHGlobal showcase.
 
+## Relevant Experience
+- Kartik has a junior background in Applied Cryptography & Network engineering.
+- Kartik previously worked:
+    - As a Programmer for the Canadian Military
+    - A Network Security Developer at [ISARA Corporation](https://www.isara.com/) with a focus on Network Cryptography & authentication systems like PKI.
+    - Currently works at FinTech as a backend engineer, researching cryptocurrencies.
+    - Has an academic background in Computer Science from the University of Waterloo with a focus on Network Security & Cryptography
+
+## Team code repositories
+- Here are some of Kartik's Repositories:
+    - [Emergent Repuatation POC](https://github.com/ckartik/Emergent-Reputation)
+    - [A system for tracking CIDs to implementing Versioning on IPFS](https://github.com/DougAnderson444/HydroFile)
+    - [Enterprise NFT platform](https://showcase.ethglobal.com/roadtoweb3/nft-bridge)
 <!-- ## Value
 TODO: @ckartik
 
