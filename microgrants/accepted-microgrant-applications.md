@@ -77,6 +77,7 @@ This page provides an overview of accepted applications and a link to their GitH
 | @Josiassejod1 | realityDapp | [Github](https://github.com/Josiassejod1/realityDapp) | [#136](https://github.com/ipfs/devgrants/issues/136) |
 | @Shachindra | NetSepio | [Github](https://github.com/NetSepio/ChromiumExtension) | [#137](https://github.com/ipfs/devgrants/issues/137) |
 | @RichuAK | Prānah | [Github](https://github.com/pranah/DBM-client) | [#141](https://github.com/ipfs/devgrants/issues/141) |
+| @estebanabaroa | plebbit | [Github](https://github.com/plebbit/plebbit-js#schema) | [#143](https://github.com/ipfs/devgrants/issues/143) |
 | @lmedury | Auction House | [Github](https://github.com/lmedury/auctionhouse) | [#145](https://github.com/ipfs/devgrants/issues/145) |
 | @noryev | Statistical Data Viewer on IPFS | [Github](https://github.com/galaxyxone/glsx_live2.2) | [#146](https://github.com/ipfs/devgrants/issues/146) |
 | @badkk | IPFS Scan | [Github](https://github.com/crustio/ipfsscan) | [#147](https://github.com/ipfs/devgrants/issues/147) |
