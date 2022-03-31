@@ -81,3 +81,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @lmedury | Auction House | [Github](https://github.com/lmedury/auctionhouse) | [#145](https://github.com/ipfs/devgrants/issues/145) |
 | @noryev | Statistical Data Viewer on IPFS | [Github](https://github.com/galaxyxone/glsx_live2.2) | [#146](https://github.com/ipfs/devgrants/issues/146) |
 | @badkk | IPFS Scan | [Github](https://github.com/crustio/ipfsscan) | [#147](https://github.com/ipfs/devgrants/issues/147) |
+| @Barabazs | py-is_ipfs| [Github](https://github.com/Barabazs/py-is_ipfs) | [#152](https://github.com/ipfs/devgrants/issues/152) |
