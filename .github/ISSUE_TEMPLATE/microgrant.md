@@ -28,11 +28,6 @@ assignees: erinocon
 ### 6. Links and submissions
 <!-- Complete each step, and include the link of the published submission (or "Yes" if there is no URL) -->
   
-* Have you submitted to the IPFS Community Showcase ([instructions](https://github.com/ipfs/community/blob/master/README.md#showcase-your-project))?
-  <!-- Once your PR is merged, include the link here -->
-
-* Have you added your project to the [IPFS Ecosystem Directory](https://airtable.com/shrjwvk9pAeAk0Ci7)? <!-- Submit the form, then change this text to "Yes" -->
-  
 * If your project began at a hackathon, have you submitted it for the relevant Protocol Labs prizes? Include links here if available:
   
 * Have you filled out the [Interplanetary Builder Feedback Survey](https://airtable.com/shrDZMizx03jOa4mQ)? 
