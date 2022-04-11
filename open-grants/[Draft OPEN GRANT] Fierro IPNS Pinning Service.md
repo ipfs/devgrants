@@ -149,5 +149,6 @@ I am the right person to lead this project, because I have spent the last 4-5 mo
 https://github.com/mrodriguez3313
 
 # Additional Information
+I have applied for LLC status in California. And I created a youtube channel to post my first video which you can find here: [How to publish a website with Fierro](https://youtu.be/LN4dXO6sYe4).
 
 <!-- Please include any additional information that you think would be useful in helping us to evaluate your proposal. -->
