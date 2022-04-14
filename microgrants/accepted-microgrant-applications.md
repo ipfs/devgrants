@@ -82,4 +82,5 @@ This page provides an overview of accepted applications and a link to their GitH
 | @noryev | Statistical Data Viewer on IPFS | [Github](https://github.com/galaxyxone/glsx_live2.2) | [#146](https://github.com/ipfs/devgrants/issues/146) |
 | @badkk | IPFS Scan | [Github](https://github.com/crustio/ipfsscan) | [#147](https://github.com/ipfs/devgrants/issues/147) |
 | @poolsar42 | Sytime | [Github](https://github.com/ThirdRockEngineering/Sytime) | [#148](https://github.com/ipfs/devgrants/issues/148) |
+| @codeyager | DExplorer | [Github](https://github.com/codeyager/Dexplorer) | [#151](https://github.com/ipfs/devgrants/issues/151) |
 | @Barabazs | py-is_ipfs| [Github](https://github.com/Barabazs/py-is_ipfs) | [#152](https://github.com/ipfs/devgrants/issues/152) |
