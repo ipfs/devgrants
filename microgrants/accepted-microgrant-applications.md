@@ -84,5 +84,6 @@ This page provides an overview of accepted applications and a link to their GitH
 | @poolsar42 | Sytime | [Github](https://github.com/ThirdRockEngineering/Sytime) | [#148](https://github.com/ipfs/devgrants/issues/148) |
 | @codeyager | DExplorer | [Github](https://github.com/codeyager/Dexplorer) | [#151](https://github.com/ipfs/devgrants/issues/151) |
 | @Barabazs | py-is_ipfs| [Github](https://github.com/Barabazs/py-is_ipfs) | [#152](https://github.com/ipfs/devgrants/issues/152) |
+| @b-rad-c | dBranch News| [Github](https://github.com/b-rad-c/dbranch-desktop) | [#155](https://github.com/ipfs/devgrants/issues/155) |
 | @slonigiraf  | SLON| [Github](https://github.com/slonigiraf/slon-ui) | [#156](https://github.com/ipfs/devgrants/issues/156) |
 | @yehia67 | NFT-House for NFTs renting| [Github](https://github.com/yehia67/nft-house) | [#158](https://github.com/ipfs/devgrants/issues/158) |
