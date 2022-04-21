@@ -17,7 +17,7 @@ assignees: erinocon
 <!-- Clear and concise description of the planned next step(s) or improvements for which you are seeking grant support -->
  
 ### 3. Will the work be Open Source?
-<!-- MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content. -->
+<!-- MIT, APACHE2, GPL license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content. -->
 
 ### 4. If selected, do you agree to complete weekly updates and a grant report upon conclusion?
 <!-- Include progress or results of your microgrant-funded work, any IPFS technical or usage guidance requests, and a description of your experience building on IPFS, including any challenges or shortcomings encountered. -->
