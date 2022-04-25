@@ -6,61 +6,76 @@
 
 **Proposer:** `mrodriguez3313`
 
-**(Optional) Technical Sponsor:** `If you have previously discussed this project with a member of the IPFS or Filecoin project teams and they have agreed to be a technical sponsor, include their name and/or github handle here`
+**(Optional) Technical Sponsor:** 
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
 
 `Yes`
 
-# Project Description
+# Project Description 💬
 
 <!-- Please describe exactly what you are planning to build. Make sure to include the following: -->
 <!-- - Start with the need or problem you are trying to solve with this project. -->
 
-Fierro is a web API implemented in Go that enables developers to create, publish, re-publish, and track IPNS records. If someone wants to publish a website on IPFS they will have to direct users to the specific Content Identifier (CID) where they can download the site. If the Original Poster (OP) makes any changes to that site, they will get a completely different CID that they need to redirect their users to. The same goes to the problem of dynamic NFTs, if they wish to change a CID in a smart contract, that is a costly operation in more ways than one. IPNS solves this problem by offering one easy to read CID that can be updated. The records have to be republished by their expiration date to maintain discoverability and security. But it is not always possible for the OP to be online to republish the record. The problem today with IPNS is the revival of IPNS records, discovery time, and library support.
+Fierro is a web API implemented in Go that enables developers to create, publish, re-publish, and track IPNS records. Adin from Protocol Labs wrote a synopsis on the on the status of IPNS here: [IPNS Overview & FAQ - Notion](https://pl-strflt.notion.site/IPNS-Overview-and-FAQ-071b9b14f12045ea842a7d51cfb47dff). In this synopsis, he clearly states the problems to address, with the intent to create community dialogue, to bring wider adoption of IPNS. Adin concisely shows the main problems with IPNS are: slow resolution times of records, JS support (without delegating work to a go node outside the browser), third party republishing, & "safe" vs "old" content (reffering to content retrieved after a record has expired). Fierro would solve many problems including: resolution time, browser support, and third party republishing. As a central api, users would be able to publish to our node with their own key or one provided to them. This will allow users to resolve the content much faster as well as allow third party republishing. As an API, inputs and outputs can be operated by most languages, thus allowing support for js in browser and most backend lanugages. Fierro's main purpose will be to enable devs to make use of the IPNS library through the API, but also allow users to publish content directly through the site.
 
-**Currently, there is no way to "pin" IPNS records. IPNS pinning is more of an umbrella term because the idea is that a user wants their content to be available when they go offline**. This means either they want to authorize someone else to republish the content or they want to have a remote node simply track the latest version. Lastly. it is not possible to create IPNS records through the js-ipfs implementation (the browser or node.js) and that is why this project is important. 
+### Why an IPNS Pinning Service ? 💁
+**Currently, there is no way to "pin" IPNS records. IPNS pinning is more of an umbrella term because the idea is that a user wants their content to be available when they go offline**. This means either they want to authorize someone else to republish the content or they want to have a remote node simply track the latest version (as explained by Jorropo in this [discuss.ipfs.io thread | ipns-beyond-the-basics-no-ipns-pinning-service-any-docs-on-this](https://discuss.ipfs.io/t/ipns-beyond-the-basics-no-ipns-pinning-service-any-docs-on-this/13424/2)). In this thread, Jorropo and others offer reasons why there has yet to be an IPNS pinning service. The reasons include a variety of problems with the library including: multiple nodes publishing to the same record causing nonce collisions and any user to potentially recieve incorrect content (if two nodes have the same private key, a problem caused by sharing a key) and horrible propagation time on a single local node.
 
-Fierro will let a client request keys and publish IPNS records over the web. This way, it can enable dapp development from the browser as well as not needing to run their own ipfs node. They will also be able to hand over control to the API say if they no longer want to maintain their own records and data. These features will enable republishing records, track records to maintain up-to-date content on our node, and enable users to operate IPNS completely without operating their own IPFS node. This is something many users have asked for, for example: [discuss.ipfs.io/ipns-use-cases-what-is-dragging-down-ipns](https://discuss.ipfs.io/t/ipns-use-cases-what-is-dragging-down-ipns/9817). Adin from Protocol Labs has even wrote a synopsis on the topic [here](https://pl-strflt.notion.site/IPNS-Overview-and-FAQ-071b9b14f12045ea842a7d51cfb47dff).
+To create the first third party IPNS Pinning service, IPNS record following and third party republishing are critical. This will allow current users of IPFS to pin their mutable content like websites, dapps, dynamic NFTs, software, et cetera to an easily find-able place. Making it quicker to retreive others' content. Of course, if some content gets popular enough, then going through the service wouldn't be needed as the record would be easily discoverable.
 
-<!-- This section should be 2-3 paragraphs long. -->
+To enable user development, Fierro will let a client request keys from a go-ipfs node and publish IPNS records through the node with those keys. Current users of IPFS will also be able to hand over control of their records; say they have to go offline for extended period of time or simply don't want to maintain their node anymore. 
 
-## Value
+Implementing these features will enable third party republishing of records, follow/track records to maintain up-to-date content on our node, and enable users to operate IPNS completely without operating their own IPFS node. This is something many users have asked for, for example: [discuss.ipfs.io/ipns-use-cases-what-is-dragging-down-ipns](https://discuss.ipfs.io/t/ipns-use-cases-what-is-dragging-down-ipns/9817). The most simple reason why people haven't made an IPNS pinning service seems to be that it would be just too big an inconvience to create. But Fierro is already at the MVP stage.
+
+## Value :scroll:
 
 <!-- Please describe in more detail why this proposal is valuable for the Filecoin ecosystem. Answer the following questions: -->
 <!-- - What are the benefits to getting this right? -->
 <!-- - What are the risks if you don't get it right? -->
 <!-- - What are the risks that will make executing on this project difficult? -->
 
->While something like [pinata](https://www.pinata.cloud/) can pin IPFS hashes, there [apparently ](https://discuss.ipfs.io/t/is-there-any-website-provide-ipns-service/9721) is no service that can “pin” IPNS records.
+>While something like [pinata](https://www.pinata.cloud/) can pin IPFS hashes, there [apparently](https://discuss.ipfs.io/t/is-there-any-website-provide-ipns-service/9721) is no service that can “pin” IPNS records.
 [quote="pmorch, post:1, topic:13424" site="discuss.ipfs.io"](https://discuss.ipfs.io/t/ipns-beyond-the-basics-no-ipns-pinning-service-any-docs-on-this/13424)
+
+IPNS uses a nodes' public key to create a static address that can point to different IPFS Content Identifiers (CIDs). Consider this situation, a user wanting to take advantage of what IPFS has to offer, but they don't want to own their a node because they (the Original Publisher (OP)) know it will not always be possible to be online. Now, if they want to publish a website on IPFS they will have to direct users to the specific CID where they can download the site. If the OP makes any changes to that site, they will get a completely different CID. And now their prior CID is out-of-date, thus necessitating the need to tell their users of the new CID. 
+
+The same goes with the problem of dynamic NFTs, if they wish to change a CID in a smart contract, that is a costly operation in more ways than one. With IPNS, the OP can publish their images and corresponding metadata to individual IPNS records, and simply update the CID when they want to change the image or metadata content. This could be based on certain contidions in contract or dependent on some other creator constructs. **With Fierro, they could publish and keep their content alive all in one place.**
 
 IPNS is an underutilized library of IPFS. Not only would this project bring more awareness to the library and IPFS as a whole. Getting this right would give the community their first option for storing IPNS Records remotely. No other service is currently allowing IPNS record tracking or republishing. These features would enable all kinds of applications and if anyone wanted to also host their own IPNS publishing nodes for faster retrieval. They would be able to spin up their own server from this project repo. Not only that, but it would create discourse in feature requests for the protocol upstream. Currently, many issues have to be worked around, regarding IPNS, with a project like this and others. Getting this right would allow myself and team members to focus on and help out with core protocol problems. 
 
-Not getting this right would at least measure real world demand for a project or service like this. This could open up avenues for other companies or devs to leapfrog off of or learn from. In my opinion, there is demand for a service like this and it would let down a huge audience. I have faith in my own abilities as a developer and learner. What I don't know, I can find someone or somewhere to ask. Lack of team members, financial resources, and time, so to capitalize on momentum, are also risks that may affect the project's success. In the end, this project will be sucessful in bringing in more people to the IPFS community and generating more data on the network.
+The biggest roadblock will be addressing the shared keys problems (nonce collisions, security of shared private keys, medium of sharing keys) and "safe" vs "old" problem. There are certain situations where retrieving the "old" content of an expired record would be the best solution. While in others, it would be safer to not get anything back. For example in software, where a logic bug is a prevalent risk.
 
-<!-- This section should be 1-3 paragraphs long. -->
+Sharing keys is not a problem, and there are ways to share keys without others knowing what they are; the problem arises when you are permitted to publish on behalf of others. It can lead to a multitude of attacks. The problem we can avoid in Fierro is the security risk of transmission of keys and permissions to use those keys. With the introduction of User Controlled Authorization Networks (UCANs) pioneered by Fission, we have a web3 authentication method of permitting another entity to access secret data that we own. Consider this scenario, a user wants to transfer to us the ability to republish their record on their behalf. They would have to share with us their private key and with that (theoretically) comes unrestricted access to publish at any time for however long we want. But with UCANs, the user is in control of their shared key still and can revoke the service's access to it at any time. This is a plan we have in mind for a subsequent deliverable.
 
-## Deliverables
+## Deliverables :envelope:
 
 <!-- Please describe in details what your final deliverable for this project will be. Include a specification of the project and what functionality the software will deliver when it is finished. -->
 
 The final deliverable for this project will be a web API that is being hosted in the cloud. The product will consit of these features: 
 
+Backend:
 - keystore operands: 
    - key generation 
    - key import and export 
 - Adding a file to IPFS network 
+- Add directories to IPFS
 - Publishing records to IPNS
+- Updating records on IPNS
 - Viewing published IPNS records 
 - Record tracking
 - Record republishing
 
-- Documentation:
+Frontend:
+- add files to IPFS
+- add directories to IPFS
+- form for providing keys to publishing content on remote node
+
+Documentation:
    - OpenAPI specs
    - Docs website complete with examples
 
-## Development Roadmap
+## Development Roadmap :world_map:
 
 <!-- Please break up your development work into a clear set of milestones. This section needs to be very detailed (will vary on the project, but aim for around 2 pages for this section). -->
 
@@ -69,60 +84,91 @@ The final deliverable for this project will be a web API that is being hosted in
 <!-- - How many people will be working on each milestone and their roles -->
 <!-- - The amount of funding required for each milestone -->
 <!-- - How much time this milestone will take to achieve (using real dates) -->
+### Phase 1 -  A web2 story
+1. Front end
+   * Add files to IPFS page
+   * Publish content to IPNS page
+   * Follow and stop following page
+   * Login page 
+   * Design and implementation
+   
+Marco Rodriguez, Lead Engineer will be working on milestone 1. This will be a 2 week long milestone. With a budget of $3,040.
 
-1. Documentation
-   a. Docs site generated from github docs
-   b. Open API Spec sheet
-   c. Examples:
-    - Curl request examples 
-    - Use case examples
-    - Launch own node
- 
-Marco Rodriguez, Lead Engineer will be working on milestone 1. This will be a 3 week long milestone. With a budget of $4,000.
+2. Documentation
+   * Docs site generated from github docs
+   * Open API Spec sheet
+   * Examples:
+       * Video and written docs on how to publish content to IPNS through Fierro using Curl examples
+       * "     " using frontend
+       * Docs on how to get your own node up and running
+       * All in one page for resources on IPNS
+      
+Marco Rodriguez, Lead Engineer will be working on milestone 2. This will be a 3 week long milestone. With a budget of $4,560.
 
-2. Finish development on API
-   a. Implement API keys
-   b. Security:
-     - secure key transmission between client and server
-     - input validation
-     - key encryption
-    c. Marketing push and announcements
+3. Finish development on API
+   * Implement API keys
+       * private key encryption
+       * API key mappings
+   * Security:
+       * secure key transmission between client and server
+       * input validation
+   * Marketing push and announcements
+   
+Marco Rodriguez, Lead Engineer will be working on milestone 3. This will be a 8 week long milestone. With a budget of $12,160.
 
-Marco Rodriguez, Lead Engineer will be working on milestone 2. This will be a 8 week long milestone. With a budget of $10,000.
-
-3. Deploy & testing 
-   a. Deploy on cloud service
-      - Cloud service security things
-   b. Test endpoints 
+4. QA testing & Deploy
+   * Deploy on cloud service
+      - Cloud service security permissions
+   * Test endpoints
      - unit testing
      - stress tests
-   c. Debugging as needed
+   * Debugging
+   
+Marco Rodriguez, Lead Engineer will be working on milestone 4. This will be a 6 week long milestone. With a budget of $11,120.
 
-Marco Rodriguez, Lead Engineer will be working on milestone 3. This will be a 3 week long milestone. With a budget of $8,000.
-
-4. Beta
-   a. Open beta to >100 users
-   b. Debugging and Maintaining
-   c. Documentation
-
-Marco Rodriguez, Lead Engineer will be working on milestone 4. This will be a 8 week long milestone. With a budget of $28,000.
+5. Beta
+   * Open beta to 100 users
+   * Customer feedback & debugging loop
+   * Documentation
+   
+Marco Rodriguez, Lead Engineer will be working on milestone 5. This will be a 6 week long milestone. With a budget of $14,120.
 
 ## Total Budget Requested
 
 <!--Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds. -->
 
-$50,000
+$38/hr->$1,520/week->25 weeks * $1,520 = $38,000
+
+Total= ~$7,000 server costs + $38,000 = **$45,000**
+
 Breakdown:
-Milestone 1: living costs & expenses, development
-Milestone 2: living costs & expenses, development, learning materials, and human resources
-Milestone 3: living costs & expenses, development, learning materials, human resources, and server costs
-Milestone 4: living costs & expenses, development, human resources, and server costs
+* Front-end: living costs & expenses, development
+* Documentation: ":point_up:", and learning materials
+* API Development: ":point_up:", and human resources
+* QA Testing & Deployment: ":point_up:", and server costs
+* Beta: living costs & expenses, development, human resources, and server costs
 
 ## Maintenance and Upgrade Plans
 
 <!-- Specify your team's long-term plans to maintain this software and upgrade it over time. -->
+### Phase 2 - :rocket: to web3 (Future work, out of scope of grant)
 
-The goal is to get feedback and data from the beta phase and use that to be able to create an paid option for the API. With profits from the API, we will develop the security and features of the project. Ultimately, I would the new information gained to help in contributing to the IPNS protocol.
+1. UCANs - a new mvp
+   * Gain a deeper understanding of UCANs
+   * Get a users private key from go node to UCAN jwt
+   * Permit Fierro access to key from UCAN
+   * Document process for users to follow
+   * test publishing with UCAN
+2. Ground up
+   * Strip off web2 security and authentication
+   * Login & identify a user by their UCAN and which records they can manipulate on remote node
+   * Create new endpoints to support same functions so to not break anything. OR rework endpoints to support both
+3. Support both API implementations
+   * Roll in support for UCANs to service
+   * Add UCAN education and documentation to site
+   * unit & stress test new system
+   * 
+The goal for the deliverable is to get feedback and data from the beta phase and use that to be able to create a paid option for the API. The goal for future plans is to address user's worry of sharing private keys explicitly. Ultimately, I would use the new information gained to help in contributing to the IPNS protocol. 
 
 # Team
 
@@ -142,7 +188,7 @@ https://www.fierro.io/
 
 <!-- Please describe (in words) your team's relevant experience, and why you think you are the right team to build this project. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc. -->
 
-I am the right person to lead this project, because I have spent the last 4-5 months involving myself in the community everyday and finding out what the people want in an IPNS pinning service. Even if I don't participate in every conversation, I am reading the comments of every user wanting IPNS support. Since I have been the one to tackle the problem, I need to see it through. I am an adept learner and socialize well. Since graduating college two years ago, my passion for distributed/decentralized systems has grown and led me to participate and win prizes in many hackathons, participate in a web3 fellowship to develop my first project on IPFS, and meet many amazing people around the world. I am a recipient of the next-steps microgrant, I have been working on this project Jan-March. The project is at the mvp stage and after milestones 1 and 2 it will be beta ready.
+I have spent the last 4-5 months involving myself in the community everyday and finding out what the people want in an IPNS pinning service. Even if I don't participate in every conversation, I am reading the comments of every user wanting IPNS support. I am a recipient of the next-steps microgrant, I have been working on this project Jan-March. The project is at the mvp stage and after milestone 3 it will be beta ready. Since I have been the one to tackle the problem, I need to see it through. I am an adept learner and socialize well. Since graduating college two years ago, my passion for distributed/decentralized systems has grown and led me to participate and win prizes in many hackathons, participate in a web3 fellowship to develop my first project on IPFS, and meet many amazing people around the world. I worked with the Fission team to contribute to the redirects project for go-ipfs. The task was to follow Netlify's redirects spec, thus allowing dapps on IPFS to not error out on page refreshes.
 
 ## Team code repositories
 
@@ -150,5 +196,3 @@ https://github.com/mrodriguez3313
 
 # Additional Information
 I have applied for LLC status in California. And I created a youtube channel to post my first video which you can find here: [How to publish a website with Fierro](https://youtu.be/LN4dXO6sYe4).
-
-<!-- Please include any additional information that you think would be useful in helping us to evaluate your proposal. -->
