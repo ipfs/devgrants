@@ -92,3 +92,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @Sergei-Udris | Cara-Dune| [Github](https://github.com/Sergei-Udris/Karga) | [#164](https://github.com/ipfs/devgrants/issues/164)|
 | @jgarciajovel | Vortex| [Github](https://github.com/jgarciajovel/vortex) | [#165](https://github.com/ipfs/devgrants/issues/165) |
 | @TheGodOfAwesome  | Caste| [Github](https://github.com/TheGodOfAwesome/Caste) | [#166](https://github.com/ipfs/devgrants/issues/166) |
+| @rhdeck | Time Limited Tokens Specification and Web3BnB Reference Implementation | [Github](https://github.com/rhdeck/time-limited-tokens) | [#167](https://github.com/ipfs/devgrants/issues/167) |
