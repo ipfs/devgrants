@@ -88,5 +88,6 @@ This page provides an overview of accepted applications and a link to their GitH
 | @slonigiraf  | SLON| [Github](https://github.com/slonigiraf/slon-ui) | [#156](https://github.com/ipfs/devgrants/issues/156) |
 | @yehia67 | NFT-House for NFTs renting| [Github](https://github.com/yehia67/nft-house) | [#158](https://github.com/ipfs/devgrants/issues/158) |
 | @Brilliant497705 | Sympodium| [Github](https://github.com/mendsalbert/sympodiumCoin) | [#161](https://github.com/ipfs/devgrants/issues/161) |
+| @TheWeb3DAO  | TheWeb3Portal from Web3DAO| [Github](https://github.com/ipfs/devgrants/issues/163) | [#163](https://github.com/Web3-Portal/TheWeb3Portal) |
 | @Sergei-Udris  | Cara-Dune| [Github](https://github.com/Sergei-Udris/Karga) | [#164](https://github.com/ipfs/devgrants/issues/164) |
 | @TheGodOfAwesome  | Caste| [Github](https://github.com/TheGodOfAwesome/Caste) | [#166](https://github.com/ipfs/devgrants/issues/166) |
