@@ -52,7 +52,7 @@ Further updates anticipated during this grant include the development of a “co
 
 ## Milestones and Funding
 
-Work for milestones will begin on Oct. 1st, 2022
+Work for milestones will begin on July 1st, 2022
 
 | Milestone | Description                                                                             | Hrs | Cost |
 | --------- | --------------------------------------------------------------------------------------- | --- | ---- |
