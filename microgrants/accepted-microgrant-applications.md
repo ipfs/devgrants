@@ -93,3 +93,4 @@ This page provides an overview of accepted applications and a link to their GitH
 | @jgarciajovel | Vortex| [Github](https://github.com/jgarciajovel/vortex) | [#165](https://github.com/ipfs/devgrants/issues/165) |
 | @TheGodOfAwesome  | Caste| [Github](https://github.com/TheGodOfAwesome/Caste) | [#166](https://github.com/ipfs/devgrants/issues/166) |
 | @rhdeck | Time Limited Tokens Specification and Web3BnB Reference Implementation | [Github](https://github.com/rhdeck/time-limited-tokens) | [#167](https://github.com/ipfs/devgrants/issues/167) |
+| @vasanthsteve23 | IPFS-DROP | [Github](https://github.com/vasanthsteve23/IPFS_DROP) | [#171](https://github.com/ipfs/devgrants/issues/171) |
