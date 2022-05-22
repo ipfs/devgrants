@@ -159,9 +159,11 @@ We're part of Akash Community Awards Board (CAB). A proposal for $100k USD in AK
 
 **Details:**
 
-| Organization | Amount                                                                 | Received |
-| ---- |------------------------------------------------------------------------| ------ |
-| Akash Network - Open Cloud Hackathon Winners | $10k USD in AKT                                                        | ✅ |
-| Akash Network - CAB Funding Round 1 | $1k USD in AKT                                                         |  ✅ |
-| Akash Network - CAB Funding Round 2 | $10k USD in AKT                                                        | ✅ |
-| Akash Network - CAB Funding Round 3 | $100k USD in AKT (Received 72,454 AKT) | In-progress|
+| Organization | Amount                            | Received |
+| ---- |-----------------------------------| -- |
+| Akash Network - Open Cloud Hackathon Winners | $10k USD in AKT                   | ✅ |
+| Akash Network - CAB Funding Round 1 | $1k USD in AKT                    |  ✅ |
+| Akash Network - CAB Funding Round 2 | $10k USD in AKT                   | ✅ |
+| Akash Network - CAB Funding Round 3 | $35,000 USD (Received 72,454 AKT) | ✅ |
+
+*Note* - The Round 3 of grant funding was supposed to be a $100,000 USD but due to the current downfall of market it's only worth $35,000 USD.  
