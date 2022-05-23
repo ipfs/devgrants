@@ -1,6 +1,6 @@
 ---
 name: RFP Proposal
-about: A proposal fulfilling an RFP
+about: A proposal fulfilling an RFP ⚠️ on hold until Q1 2021 ⚠️
 title: 'RFP Proposal: <Your Project Title>'
 labels: type:RFP
 assignees: ''

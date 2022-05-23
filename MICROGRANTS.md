@@ -1,36 +1,74 @@
-# Adoption Microgrants
+
+# Next Step Microgrants
 
 ## About
 
-The IPFS Adoption Microgrants are intended to encourage experimentation with, and adoption of IPFS across a range of fields. They are offered with the understanding that decentralized technologies are a rapidly developing field with many unknowns, and do not make complete technical success of the proposal a prerequisite for the award.
+IPFS Next Step Microgrants are available to support taking the _Next Step_ after building an initial prototype with IPFS. They are offered with the understanding that decentralized technologies are a rapidly developing field with many unknowns. Next Step Microgrants seek to match the pace, breadth, and experimental nature of this work.
 
-Microgrants aligned with this quarter's [Focus Area](FOCUS.md) will be given priority consideration.
+From time-to-time, we may announce a [focus area](FOCUS.md) (such as offline use, GIS, digital democracy, etc) for priority consideration. However, all submissions will always be reviewed.
 
 ### Intended Audience
-These grants are intended for independent developers, small studios, non-profits, activists, and researchers. The ideal candidate is a domain expert exploring integrating decentralized technologies into their work, particularly broadly used tools or frameworks. Open Source work is preferred, but exceptions can be made on a case-by-case basis.
-
-Additionally, each quarter we may announce a theme (such as offline use, GIS, digital democracy, etc). Projects in this field will be given first consideration.
+These grants are intended for independent developers, small studios, non-profits, activists, researchers... and you! 
 
 ### Award
-The grants are awarded in the amount of **$1000**. Approximately 10 grants are awarded every quarter.
+Next Step Microgrants are awarded in the amount of **$5,000**, paid in FIL tokens. The entire grant amount be used to support work related to integrating or improving IPFS, such as developer time, hosting services, relevant hardware such as a raspberry pi, etc. 
 
-### Applying and Reporting
-The microgrants are intended to be easy to apply for, evaluate, and administer. The [application](../../issues/new?assignees=parkan&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E) consists of a brief description of your current practice and the intended IPFS integration project, plus some biographical info.
+### Program Qualifications
+Next Step Microgrants are intended to be easy to apply for, evaluate, and administer. Projects must meet these 5 criteria:
 
-The principal condition of receiving the award is that the entire amount be used to support work related to integrating or improving IPFS, such as developer time, hosting services, relevant hardware such as a raspberry pi, etc. We may ask for documentation of how the money was spent. 
+1. You've already built something with IPFS (or closely related technologies such as IPLD, libp2p, or frameworks such as OrbitDB, Textile, etc.), independently or as part of a course or hackathon.
+1. You can provide a clear and straightforward description of the _Next Step_ you plan to take with grant support.
+1. You can complete this work within 3 months. 
+1. You agree to open-source this work, via MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content.
+1. You agree to complete weekly updates and a grant report upon conclusion, with the results of your microgrant-funded work as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered.
 
-One month after the grant is awarded, or once your project is complete (whichever comes first), you'll be asked to provide a report describing your experience building on IPFS, including details of any technical or documentation shortcomings encountered. If your project is successful, we may contact you about promoting the resulting work, including coverage on [the IPFS Blog](https://blog.ipfs.io/) or social media.
+We may also contact you about promoting the resulting work, including coverage on [the IPFS Blog](https://blog.ipfs.io/) or social media.
 
-
-### Cadence
-The grants are currently awarded on a rolling basis, though we may switch to fixed quarterly cohorts in the future.
+### Timelines
+Grant applications are typically reviewed every 2 weeks.
 
 ## Apply
 
-[**Apply Here**](https://github.com/protocol/ipfs-grants/issues/new?assignees=parkan&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E)
+1. Fill out this [VERY SHORT survey](https://airtable.com/shrDZMizx03jOa4mQ) about your experience building on IPFS.
+2. Apply for a grant using our [Next Step Microgrant Template](https://github.com/protocol/ipfs-grants/issues/new?assignees=mishmosh&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E).
+
+## FAQ
+
+* Q: My project publishes data or files to IPFS, does it qualify?
+  * A: Yes
+
+* Q: My project uses OrbitDB, Textile, nft.storage, or other framework or service, not IPFS directly. Does it qualify?
+  * A: Yes
+
+* Q: My project saves data to, or retrieves data from the Filecoin network, does it qualify?
+  * A: Yes
+
+* Q: Do you pay out in other currencies besides FIL?
+  * A: No
+
+* Q: Should I send the payment information and W8/9 forms to you over email?
+  * A: No. We will reply to selected grantees with a form to submit that information.
+
+* Q: Which Filecoin wallet should I use?
+  * A: Any valid Filecoin address can be used. You can read more about Filecoin wallets [in the documentation](https://docs.filecoin.io/reference/#wallets). We are not responsible for any use of the FIL once the deposit has been made to the wallet address you provided.
+
+* Q: When is the Filecoin payment made, at what price, and will I be notified?
+  * A: Protocol Labs processes Filecoin payments twice monthly, and there is a short validation period for transactions. Typically you will not have to wait longer than three weeks once your application has been submitted. The Filecoin price at the end of the prior day is used to determine the amount; however, this may vary based on market conditions. You will receive an email notifying you that your deposit has been made.
+
+* Q: Can someone join the team who was not part of the original hackathon? Or can I switch with someone? Or can only a subset of the original team still participate?
+  * A: Yes! All team permutations are ok as long as there is only one submission per original hackathon project.
+
+* Q: What if my "next step" is significantly different from the original project? Can I apply for multiple "next step" grants?
+  * A: Next Step Microgrants are intended to build upon prior work. If you're unsure, go ahead and [apply](https://github.com/ipfs/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E), but add a section explaining the situation with links to any prior grant applications or code. We will review on a case-by-case basis. In some cases, we will recommend that you apply for an [Open Grant](open-grants/) instead.
+
+* Q: I'm not a coding participant; I coordinated or made videos or helped in other ways. Am I eligible?
+  * A: YES! In real life, successful products are the result of many roles, skills, backgrounds and disciplines... not just coding. You are an INSTRUMENTAL part of your team, and are eligible to receive the grant as well.
+
+* Q: What if we don't finish the work and run off with the money?
+  * A: You will carry the weight of your actions for the rest of your days, and may be reborn in the next life as a hungry ghost.
 
 ## Support
-The grant fund is contributed by [Protocol Labs](https://protocol.ai/) on a quarterly basis.
+Support for Next Step Microgrants is contributed by [Protocol Labs](https://protocol.ai/) on a quarterly basis.
 
-## Note
-Adoption migrogrants are just one aspect of the IPFS project's overall grant program. Check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants) to see the big picture.
+
+_For more information on the IPFS project's overall grant program, including other grant types, check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants)_

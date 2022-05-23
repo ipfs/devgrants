@@ -4,7 +4,7 @@
 The COVID-19 pandemic and quarantine have created numerous challenges. We'll be giving special consideration to proposals using IPFS to combat the effects of the crisis, such as:
 
 * Direct relief efforts
-* Epidemiological Data durability and dissemenation
+* Epidemiological Data durability and dissemination
 * Supply chain reorganization
 * Remote work
 * Community support networks and resilience
@@ -15,7 +15,7 @@ _(see also [COVID-19 Open Innovation Grants](https://research.protocol.ai/posts/
 ## Previous
 
 ### Q1 2020: Hello World
-For the soft launch of the Grants Plantform in early 2020 our focus was simple: listen to our community members, invite them to the table, and concentrate on the projects that address the biggest community needs.
+For the soft launch of the Grants Platform in early 2020 our focus was simple: listen to our community members, invite them to the table, and concentrate on the projects that address the biggest community needs.
 
 #### Highlights:
 * [Rust IPFS](https://github.com/ipfs/devgrants/tree/master/open-grants/ipfs-rust) implementation addressing demand from embedded and web3 developers
