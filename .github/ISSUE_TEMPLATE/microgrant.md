@@ -35,4 +35,4 @@ assignees: erinocon
 * If your project was created as part of an event or hackathon:
   * What was the name of the event? (e.g. ETHGlobal NFTHack, Cal Hacks hello:world, Chainlink, CivHacks, GameDevJ, ETHGlobal Scaling Ethereum)
   * Please link to your hackathon submission
-\
+
