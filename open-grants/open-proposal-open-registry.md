@@ -11,7 +11,7 @@ We are already building under Apache2.0 License
 
 OpenRegistry is a decentralised container registry fully compliant with OCI Distribution Specification. The specification provides similar capabilities as that of the Docker Registry HTTP API V2 protocol and more.
 
-For the longest time Docker has run DockerHub (their hosted container registry) and it’s been the most popular platform by far. Majority of the people rely on Docker’s Container Registry, even in the WEB3 world where every component must be decentralised and the need for centralised platform should be as little as possible.
+For the longest time Docker has run DockerHub (their hosted container registry) and it’s been the most popular platform by far. Majority of the people rely on Docker’s Container Registry, even in the Web3 world where every component must be decentralised and the need for centralised platform should be as little as possible.
 Here are a few reasons why **THIS** project comes to life:
 - Docker Hub is run by a corporate, who’s biggest (but not only) goal is to make profit.
 - When DockerHub goes down, it causes a lot of service degradation for it’s peers, we can show the tech industry how resilient and robust OpenRegistry can be, with the support of decentralised and Web3 native protocols like IPFS.
@@ -19,12 +19,12 @@ Here are a few reasons why **THIS** project comes to life:
 - With OpenRegistry, we want to establish a trust factor among tech communities that it doesn't have to be centralised to build a powerful product like DockerHub.
 - Run by the Open Cloud, powered by Open Technologies. We’re planning to add IPFS support soon after the initial launch.
 
-Currently, OpenRegistry is being built on top of Skynet for the storage backend but the OCI Distribution Spec defines the backend to be pluggable simply by satisfying the `storage.StorageDriver` backend. Now that our MVP is ready, we'd like to add IPFS storage backend to make OpenRegistry more flexible to the demanding world of technologies.
+Currently, OpenRegistry is being built on top of Skynet for the storage backend but the OCI Distribution Spec defines the backend to be pluggable simply by satisfying the `storage.StorageDriver` interface. Now that our MVP is ready, we'd like to add IPFS storage backend to make OpenRegistry more flexible to the demanding world of technologies.
 
 ### Usage
 
-**Q.** How difficult it would be to use this OpenRegistry as our Container Registry of choice?
-**Answer:** OpenRegistry is fully compliant with The OCI Distribution Spec, and we've received the Certification from the Open Containers Initiative Organisation as well, check it out on the [Official OCI Conformance Website](https://conformance.opencontainers.org/). This means that your existing workflow would remain exactly how it is.
+**Q.** How difficult it would be to use OpenRegistry as Container Registry of our choice?
+**Answer:** OpenRegistry is fully compliant with The OCI Distribution Spec, and we've received the Certification from the Open Containers Initiative Organization as well, check it out on the [Official OCI Conformance Website](https://conformance.opencontainers.org/). This means that your existing workflow would remain exactly how it is.
 
 ## Value
 
@@ -32,61 +32,58 @@ Containers are the building blocks of modern infrastructure and distributing the
 
 We believe that a Container Registry is one of the best use cases for a decentralised storage system like IPFS. OpenRegistry with IPFS has potential to be used by millions of developers everyday, which would roughly translate to Terrabytes of data being transferred daily. This makes it a perfect collaboration/opportunity to highlight the scalability and resiliency of the IPFS Network.
 
-Developers can use OpenRegistry to share their private code-bases, secrets, and other sensitive information while still being in full control of all the data they share. Knowing it all is protected, and being distributed reliably with a transparent system of decentralised storage, all without the involvement of any centralised entitiy.
+Developers can use OpenRegistry to share their private code-bases, secrets, and other sensitive information while still being in full control of all the data they share. Knowing it all is protected, and being distributed reliably with a transparent system of decentralised storage, all without the involvement of any centralised entity.
 
 **- What are the benefits to getting this right?**
-If OpenRegistry is a success (which we're gonna make sure it is), Web3 will have it's own Container Registry, fully compliant with OCI Distribution Conformance Spec, which literally means you can do anything that you would do on DockerHub,GHCR,etc. Owned and operated completely by the Open Source Web3 Communities.
+If OpenRegistry is a success (which we're gonna make sure it is), Web3 will have it's own Container Registry, fully compliant with OCI Distribution Conformance Spec, which literally means you can do anything that you would do on DockerHub, GHCR, etc. Owned and operated completely by the Open Source Web3 Communities.
 
 **- What are the risks if you don't get it right?**
 We hope we never come to this but however if in some alternate reality this does happen, we'll always be listening to our users and the communities we participate in and try to rectify any issues or obstacles that might be in the way OpenRegistry vision.
 
 **- What are the risks that will make executing on this project difficult?**
-The biggest risk so far is that we do not have enough funds to run and manage OpenRegistry. Along with that, we also want to hire another engineer to work with us. We want to start incentivizing developers that build OpenRegistry so that they don't have to think about full-time job or contracting somewhere to make ends meet.
+The biggest risk so far is that we do not have enough funds to run and manage OpenRegistry. Along with that, we also want to hire another engineer to work with us. We want to start incentivising developers that build OpenRegistry so that they don't have to think about full-time job or contracting somewhere to make ends meet.
 We want to pursue this dream aggressively
 
 ## Deliverables
 
-1. OCI Distribution Specification comliant backend and get the certification from them.
-2. Web interface with search autocompletion, GitHub OAuth2.0 support, and 3 blogs.
-3. Collaboration with IPFS and Filebase. WebAuthN, Vulnerability scanning for container images, PASTEO and SPIFEE based access management.
+1. OCI Distribution Specification compliant backend and get the certification from them.
+2. Web interface with search auto-completion, GitHub OAuth2.0 support, and 3 blogs.
+3. Collaboration with IPFS and Filebase. WebAuthN, Vulnerability scanning for container images, PASETO and SPIFEE based access management.
 
 ## Development Roadmap
 
 ### Milestone 1 - Q4 2021
 
 > After successful completion of this **Milestone**, a user should be able to: Push, Pull, Search and Manage their container images on OpenRegistry. Any container engines (like nerdctl or docker cli) should also be able to use HTTP Basic and JWT Authentication. A basic form of Web Interface will also be ready to use. In addition to this, We should have received Certification from Open Containers Initiative Organization for implementing Distribution Spec.
-
-|OCI Disttribution Spec Implementation|AuthN & AuthZ|APIs, Web Interface, & Integration|
+|OCI Distribution Spec Implementation|AuthN & AuthZ|APIs, Web Interface, & Integration|
 |----|----|---|
 |✅ Push Container Images|✅ Implement Registry Spec Compliant Authentication Protocol|✅ Catalog API for Listing Container Images|
 |✅ Push Container Manifests|✅ Server Side Network and bandwidth Optimization|✅ System Wide Logging|
-|✅ Pull Contianer Images |✅ Migrate KV Store to PostgreSQL|✅ List Tags API|
+|✅ Pull Container Images |✅ Migrate KV Store to PostgreSQL|✅ List Tags API|
 |✅ Pull Container Image Manifests|✅ JWT Support|✅ Basic Web Interface|
 |✅ Content Discovery & Management|✅ HTTPS - Basic Authentication|✅ Release Closed Beta Program|
-|✅ OCI Conformance Ceritification|||
+|✅ OCI Conformance Certification|||
 
 **Engineers Working on this:** Gunjan Valecha & Jasdeep Singh <br>
 **Funding Requested: $30k USD**
 
 ### Milestone 2 - Q1 2022
 
-> After successful completion of this **Milestone**, we'll have a brand new designs implemented. A state-of-the-art Web Interface will be released along with personalised blog posts, Login With Github, Autocompletion for searching container images and an Uptime status page to monitor OpenRegistry's uptime.
-
+> After successful completion of this **Milestone**, we'll have a brand new designs implemented. A state-of-the-art Web Interface will be released along with personalised blog posts, Login With Github, Autocompletion for searching container images and an Up-time status page to monitor OpenRegistry's up-time.
 |Web App Development|Workflows & Developer Experience|New Release and the way forward|
 |----------|--------|----------|
 |✅ Design Logo & Web Interface |✅ Logs & Metrics collection \w FluentBit and Grafana|◻︎ Cut a new release|
 |✅ New Home Page for OpenRegistry|✅ Uptime Status Page|✅ Integrate Email Service with OpenRegistry|
 |✅ OpenRegistry Dashboard View|✅ OAuth2.0 /w GitHub|✅ Enable Sign In & Sign up on Web Interface|
 |✅ Settings & Profile Page|✅ New Blogs about OpenRegistry & collaborations|◻︎ Load & Performance Testing|
-|✅ Search With Autocomplete|✅ Documentations|◻︎ Collect Feedback|
+|✅ Search With Auto-complete|✅ Documentations|◻︎ Collect Feedback|
 
 **Engineers Working on this:** Gunjan Valecha & Jasdeep Singh <br>
 **Funding Requested: $30k USD**
 
 ### Milestone 3 - Q2 2022
 
-> Upon successful completion of this **Milestone**, OpenRegistry will have multiple storage backends, thorough collaborations with IPFS and Filebase. These backends will be configurable by the end user. We'll also build an OpenSource TUS Protocol Client Library, which helps with uploading large files efficiently to servers that support TUS. We're looking forward to bring WebAuthN to OpenRegistry as it will eliminate any need to collect PII. Along with this, we're also expecting Vulnerability scanning, Bring your own encryption keys and more.
-
+> Upon successful completion of this **Milestone**, OpenRegistry will have multiple storage backends, thorough collaborations with IPFS and Filebase. These backends will be configurable by the end user. We'll also build an Open-Source TUS Protocol Client Library, which helps with uploading large files efficiently to servers that support TUS. We're looking forward to bring WebAuthN to OpenRegistry as it will eliminate any need to collect PII. Along with this, we're also expecting Vulnerability scanning, Bring your own encryption keys and more.
 |Web3 integrations|New Features & Enhancements|Ecosystem Building|
 |------|--------|-------|
 |◻︎ TUS Protocol Client Implementation|◻︎ Vulnerability Scanning for Container Images|◻︎ SPIFEE based resource access|
@@ -122,7 +119,7 @@ Sum up the total requested budget across all milestones, and include that figure
 
 ## Maintenance and Upgrade Plans
 
-We've already laid out our plan for next 2 quarters but it doesn't end there. We want to build a complete ecosystem around OpenRegistry and add a bunch of complimentry features and products. We're currently running a Open Beta Program to join and check OpenRegistry out.
+We've already laid out our plan for next 2 quarters but it doesn't end there. We want to build a complete ecosystem around OpenRegistry and add a bunch of complimentary features and products. We're currently running a Open Beta Program to join and check OpenRegistry out.
 
 We're soon to release OpenRegistry for Public use and once OpenRegistry is stable enough, We'd like to shift focus towards building a Desktop App along the lines of Docker Desktop and Rancher Desktop. With this product, we'll be able to make real use-case of P2P container image distribution, with fine grained ACLs.
 
@@ -142,9 +139,9 @@ https://app.openregistry.dev/about
 Our team is small but versatile. We have combined experience in multiple technologies like Blockchain, Backends, UI/UX, DevOps and more. We're passionate about Web3 and want to make a dent in the large world of corporate data stealing.
 
 - I (Jasdeep) have over 5 years of experience in Go, SvelteKit, TailwindCSS, TypeSript, Blockchain, DevOps and Cloud Technologies.
-I've also done couple of bounties with Protocol Labs in the past, noticiably **CLI Tutor Mode** in the IPFS WebUI [Link](https://github.com/ipfs/ipfs-webui/pull/1572). Along with that, I've donated an OpenSource Library to ENSDomains, it's a lightweight JavaScript Lib, which is used for encoding/decoding different blockchain addresses (https://www.npmjs.com/package/crypto-addr-codec)
+I've also done couple of bounties with Protocol Labs in the past, noticeably **CLI Tutor Mode** in the IPFS WebUI [Link](https://github.com/ipfs/ipfs-webui/pull/1572). Along with that, I've donated an OpenSource Library to ENSDomains, it's a lightweight JavaScript Lib, which is used for encoding/decoding different blockchain addresses (https://www.npmjs.com/package/crypto-addr-codec)
 
-- Gunjan Valecha (Guacamole) has more than 6 years of Enterprise Networking, UI/UX, SvelteKit, TailwindCSS, Backends with Go and PostgreSQL. Along with that, she has a natural  talent for Designing beautiful Animations, Illustrations, UX and Merch.
+- Gunjan Valecha (Guacamole) has more than 6 years of Enterprise Networking, UI/UX, SvelteKit, TailwindCSS, Backends with Go and PostgreSQL. Along with that, she has a natural  talent for Designing beautiful Animations, Illustrations, and merchandise.
 She's has contributed to Hashicorpt Vault, been a member of Community Awards Board at Akash Network (which works towards funding projects that build on and help Akash Network grow) and is part of their Akash Insiders Program. She's quit her job to help build OpenRegistry full-time.
 
 ## Team code repositories
@@ -155,9 +152,7 @@ She's has contributed to Hashicorpt Vault, been a member of Community Awards Boa
 
 # Additional Information
 
-We're part of Akash Community Awards Board (CAB). A proposal for $100k USD in AKT has already been approved and is staged for OpenRegistry. This fund gets disbursed for OpenRegistry in Milestones.
-
-**Details:**
+We're part of Akash Community Awards Board (CAB). Following are the details of grant funds we have received so far:
 
 | Organization | Amount                            | Received |
 | ---- |-----------------------------------| -- |
@@ -166,4 +161,3 @@ We're part of Akash Community Awards Board (CAB). A proposal for $100k USD in AK
 | Akash Network - CAB Funding Round 2 | $10k USD in AKT                   | ✅ |
 | Akash Network - CAB Funding Round 3 | $35,000 USD (Received 72,454 AKT) | ✅ |
 
-*Note* - The Round 3 of grant funding was supposed to be a $100,000 USD but due to the current downfall of market it's only worth $35,000 USD.  
