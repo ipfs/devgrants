@@ -6,7 +6,7 @@
 
 **Proposer:** `mrodriguez3313`
 
-**(Optional) Technical Sponsor:** 
+**(Optional) Technical Sponsor:** @lidel
 
 **Do you agree to open source all work you do on behalf of this RFP and dual-license under MIT and APACHE2 licenses?:** Please respond with either "Yes" or "No"
 
@@ -46,7 +46,7 @@ IPNS is an underutilized library of IPFS. Not only would this project bring more
 
 The biggest roadblock will be addressing the shared keys problems (nonce collisions, security of shared private keys, medium of sharing keys) and "safe" vs "old" problem. There are certain situations where retrieving the "old" content of an expired record would be the best solution. While in others, it would be safer to not get anything back. For example in software, where a logic bug is a prevalent risk.
 
-Sharing keys is not a problem, and there are ways to share keys without others knowing what they are; the problem arises when you are permitted to publish on behalf of others. It can lead to a multitude of attacks. The problem we can avoid in Fierro is the security risk of transmission of keys and permissions to use those keys. With the introduction of User Controlled Authorization Networks (UCANs) pioneered by Fission, we have a web3 authentication method of permitting another entity to access secret data that we own. Consider this scenario, a user wants to transfer to us the ability to republish their record on their behalf. They would have to share with us their private key and with that (theoretically) comes unrestricted access to publish at any time for however long we want. But with UCANs, the user is in control of their shared key still and can revoke the service's access to it at any time. This is a plan we have in mind for a subsequent deliverable.
+Sharing keys is not a problem, there is functionality in go-ipfs to permit that; there are ways to share keys without others knowing what they are. The problem arises when you are permitted to publish on behalf of others. It can lead to a multitude of attacks. The problem we can avoid in Fierro is the security risk of transmission of keys and permissions to use those keys. With the introduction of User Controlled Authorization Networks (UCANs) pioneered by Fission, we have a web3 authentication method of permitting another entity to access secret data that we own. Consider this scenario, a user wants to transfer to us the ability to republish their record on their behalf. They would have to share with us their private key and with that (theoretically) comes unrestricted access to publish at any time for however long we want. But with UCANs, the user is in control of their shared key still and can revoke the service's access to it at any time. This is a plan we have in mind for a subsequent deliverable.
 
 ## Deliverables :envelope:
 
@@ -54,7 +54,7 @@ Sharing keys is not a problem, and there are ways to share keys without others k
 
 The final deliverable for this project will be a web API that is being hosted in the cloud. The product will consit of these features: 
 
-Backend:
+Backend - Basic API service that works better and more secure than current mvp:
 - keystore operands: 
    - key generation 
    - key import and export 
@@ -65,14 +65,16 @@ Backend:
 - Viewing published IPNS records 
 - Record tracking
 - Record republishing
+- all following upgraded pinning service specification
 
-Frontend:
+Frontend - to interact with records pinned with a GUI:
 - add files to IPFS
 - add directories to IPFS
 - form for providing keys to publishing content on remote node
 
-Documentation:
-   - OpenAPI specs
+Documentation - to give support in video and text format to developers:
+   - add IPNS support to current [IPFS pinning service specs](https://ipfs.github.io/pinning-services-api-spec/) 
+   - extended IPNS API to create a custom docs for extended features Fierro API supports
    - Docs website complete with examples
 
 ## Development Roadmap :world_map:
@@ -84,7 +86,29 @@ Documentation:
 <!-- - How many people will be working on each milestone and their roles -->
 <!-- - The amount of funding required for each milestone -->
 <!-- - How much time this milestone will take to achieve (using real dates) -->
-### Phase 1 -  A web2 story
+### Phase 1 - A thousand words and a picture
+
+1. Documentation
+   * Docs site generated from github docs
+   * Add on IPNS pinning documentation to existing [pinning specifications](https://ipfs.github.io/pinning-services-api-spec/)
+   * Extend above pinning service api spec with endpoints Fierro offers
+   * Examples:
+       * Video and written docs on how to publish content to IPNS through Fierro using Curl examples
+       * "     " using frontend
+       * Docs on how to get your own node up and running
+       * All in one page for resources on IPNS
+
+Marco Rodriguez, Lead Engineer will be working on Phase 1 milestone 1. This will be a 4 week long milestone. With a budget of $6,000.
+
+2. Implement API spec in Fierro
+   * Pin and PinStatus objects
+   * Error responses
+   * Fix all endpoints to work with changes
+   * Testing code
+      
+Marco Rodriguez, Lead Engineer will be working on Phase 1 milestone 2. This will be a 6 week long milestone. With a budget of $9,000.
+
+### Phase 2 -  A web2 story
 1. Front end
    * Add files to IPFS page
    * Publish content to IPNS page
@@ -92,20 +116,9 @@ Documentation:
    * Login page 
    * Design and implementation
    
-Marco Rodriguez, Lead Engineer will be working on milestone 1. This will be a 2 week long milestone. With a budget of $3,040.
+Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 1. This will be a 4 week long milestone. With a budget of $6,000.
 
-2. Documentation
-   * Docs site generated from github docs
-   * Open API Spec sheet
-   * Examples:
-       * Video and written docs on how to publish content to IPNS through Fierro using Curl examples
-       * "     " using frontend
-       * Docs on how to get your own node up and running
-       * All in one page for resources on IPNS
-      
-Marco Rodriguez, Lead Engineer will be working on milestone 2. This will be a 3 week long milestone. With a budget of $4,560.
-
-3. Finish development on API
+2. Finish development on API
    * Implement API keys
        * private key encryption
        * API key mappings
@@ -113,10 +126,11 @@ Marco Rodriguez, Lead Engineer will be working on milestone 2. This will be a 3 
        * secure key transmission between client and server
        * input validation
    * Marketing push and announcements
+   * Medium posts, other blog posts, twitter spaces, 
    
-Marco Rodriguez, Lead Engineer will be working on milestone 3. This will be a 8 week long milestone. With a budget of $12,160.
+Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 2. This will be a 10 week long milestone. With a budget of $15,000.
 
-4. QA testing & Deploy
+3. QA testing & Deploy
    * Deploy on cloud service
       - Cloud service security permissions
    * Test endpoints
@@ -124,24 +138,26 @@ Marco Rodriguez, Lead Engineer will be working on milestone 3. This will be a 8 
      - stress tests
    * Debugging
    
-Marco Rodriguez, Lead Engineer will be working on milestone 4. This will be a 6 week long milestone. With a budget of $11,120.
+Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 3. This will be a 7 week long milestone with server costs. With a budget of $10,500.
 
-5. Beta
+4. Beta
    * Open beta to 100 users
    * Customer feedback & debugging loop
    * Documentation
    
-Marco Rodriguez, Lead Engineer will be working on milestone 5. This will be a 6 week long milestone. With a budget of $14,120.
+Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 4. This will be a 6 week long milestone with server costs. With a budget of $14,000.
 
 ## Total Budget Requested
 
 <!--Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds. -->
 
-$38/hr->$1,520/week->25 weeks * $1,520 = $38,000
+$50/hr, 30hrs/week -> $1,500/week -> 37 weeks * $1,500 = $55,500
 
-Total= ~$7,000 server costs + $38,000 = **$45,000**
+Total= ~$7,000 server costs + $55,500 = **$62,500**
 
 Breakdown:
+* Api spec: living costs & expenses
+* Implementation: living costs & expenses
 * Front-end: living costs & expenses, development
 * Documentation: ":point_up:", and learning materials
 * API Development: ":point_up:", and human resources
@@ -151,9 +167,9 @@ Breakdown:
 ## Maintenance and Upgrade Plans
 
 <!-- Specify your team's long-term plans to maintain this software and upgrade it over time. -->
-### Phase 2 - :rocket: to web3 (Future work, out of scope of grant)
+### Phase 3 - :rocket: to web3 (Future work, in no specific order, out of scope of grant)
 
-1. UCANs - a new mvp
+1. UCANs
    * Gain a deeper understanding of UCANs
    * Get a users private key from go node to UCAN jwt
    * Permit Fierro access to key from UCAN
@@ -167,7 +183,9 @@ Breakdown:
    * Roll in support for UCANs to service
    * Add UCAN education and documentation to site
    * unit & stress test new system
-   * 
+4. Tackle native trustless solutions for go-ipfs
+   * Research and collaborate with community and core developers
+   
 The goal for the deliverable is to get feedback and data from the beta phase and use that to be able to create a paid option for the API. The goal for future plans is to address user's worry of sharing private keys explicitly. Ultimately, I would use the new information gained to help in contributing to the IPNS protocol. 
 
 # Team
@@ -195,4 +213,4 @@ I have spent the last 4-5 months involving myself in the community everyday and 
 https://github.com/mrodriguez3313
 
 # Additional Information
-I have applied for LLC status in California. And I created a youtube channel to post my first video which you can find here: [How to publish a website with Fierro](https://youtu.be/LN4dXO6sYe4).
+I have applied for LLC status in California as Fierro-Labs, LLC. And I created a youtube channel to post my first video which you can find here: [How to publish a website with Fierro](https://youtu.be/LN4dXO6sYe4).
