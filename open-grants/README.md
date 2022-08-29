@@ -3,26 +3,33 @@
 ## About
 Open grants are for novel ideas that advance the IPFS ecosystem, bring significant new usage, or directly [advance the IPFS mission statemnent](https://github.com/ipfs/roadmap#ipfs-mission-statement).
 
-If your project is smaller in scope and less well-defined, you may want to consider [the microgrant program](../MICROGRANTS.md) instead. Open Grants aligned with this quarter's [Focus Area](../FOCUS.md) will be given priority consideration.
+If your project is smaller in scope and less well-defined, you may want to consider [the microgrant program](../MICROGRANTS.md) instead.
 
-## Proposal Process
-To submit an open grant proposal, PR a proposal for the suggested improvement to this folder following the [open grant proposal template](open-proposal-template.md). Please cover the project being proposed (including value to the IPFS ecosystem, deliverables, development, roadmap, and budget), and the team making the proposal (including your expertise and past work).
+## 📋 How to apply
+                                    
+To submit an Open Grant proposal, [create a new issue](https://github.com/ipfs/devgrants/issues/new?assignees=realChainLife&labels=Open+Grant&template=open-grant.md&title=) using the Open Grants Proposal template. Please cover the project being proposed (including value to the IPFS ecosystem, deliverables, development, roadmap, and budget), and the team making the proposal (including your expertise and past work).
+                                                                                                                    
+Draft submissions are welcome and encouraged to gauge community interest and begin discussion, even if you are uncertain of the suitability of your proposal.
 
-If you are uncertain of the suitability of your proposal, draft PRs are welcome and encouraged, in order to gauge community interest and begin discussion.
+Open Grant proposals are reviewed monthly.
 
-## Approval Process
-### PR Acceptance
-The first stage of approving an open grant is merging it into the repo. The goal of the review process is ensuring that the proposal is well formulated, serves the needs of the IPFS community, and meets the grant program [TERMS](../TERMS.md). Accepting the PR means that the proposal is well-formed and ready to be funded, but it does **not** mean that funding is allocated. 
+## ⌛ After you apply
 
-Once the proposal is accepted, a tracking issue will be opened to discuss and coordinate funding.
+After you submit your proposal, you can expect the following to occur:
 
-### Funding
-Accepted grant PRs are available for funding by the community. You should include [organizations](../FUNDING.md) that are likely to be interested in supporting your project (for example, Protocol Labs, Web3 Foundation, etc) in the proposal (see template). Funding organizations may request further clarification or modification to your proposal.
+- We will review your application. During review, we will add comments, questions, change requests, et cetera on your team's submission.
+- After a few round trips of discussion, our team will make a decision on which proposals to fund and which not to. <!--Accepted proposals will be merged into the appropriate directory, i.e. either [`open-grant`](https://github.com/filecoin-project/devgrants/tree/master/open-grant) or [`rfp-proposals`](https://github.com/filecoin-project/devgrants/tree/master/rfp-proposals).-->
+- During the discussion and review phase, we will contact your team for financial and legal follow-ups, such as to confirm milestones and funding, your team's legal structure, etc.
+- If your team is accepted, we will ask you to sign our Open Source Software Grant Agreement, which will include a copy of the work plan and funding milestones. 
+- We aim to complete all review within a few weeks after the wave deadline, so please stay vigilant on GitHub.
 
-Proposals that do not receive funding within 3 months of submission will be archived.
+Please reach out #grants-questions on Filecoin Slack ([invite](http://filecoin.io/slack)) or email grants@filecoin.org with any questions.
 
-## Cadence
-Grants are currently evaluated for acceptance and funding on a rolling basis. We may switch to quarterly cohorts depending on the application volume.
+## ℹ️ Help
+
+If you have any questions, please ask them!
+- File an issue in this repo
+- Join our [community chat](https://github.com/filecoin-project/community#chat)
 
 ## Note
 Open grants are just one aspect of the IPFS project's overall grant program. Check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants) to see the big picture.
