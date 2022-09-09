@@ -55,6 +55,7 @@ We want to pursue this dream aggressively
 ### Milestone 1 - Q4 2021
 
 > After successful completion of this **Milestone**, a user should be able to: Push, Pull, Search and Manage their container images on OpenRegistry. Any container engines (like nerdctl or docker cli) should also be able to use HTTP Basic and JWT Authentication. A basic form of Web Interface will also be ready to use. In addition to this, We should have received Certification from Open Containers Initiative Organization for implementing Distribution Spec.
+
 |OCI Distribution Spec Implementation|AuthN & AuthZ|APIs, Web Interface, & Integration|
 |----|----|---|
 |✅ Push Container Images|✅ Implement Registry Spec Compliant Authentication Protocol|✅ Catalog API for Listing Container Images|
@@ -70,6 +71,7 @@ We want to pursue this dream aggressively
 ### Milestone 2 - Q1 2022
 
 > After successful completion of this **Milestone**, we'll have a brand new designs implemented. A state-of-the-art Web Interface will be released along with personalised blog posts, Login With Github, Autocompletion for searching container images and an Up-time status page to monitor OpenRegistry's up-time.
+
 |Web App Development|Workflows & Developer Experience|New Release and the way forward|
 |----------|--------|----------|
 |✅ Design Logo & Web Interface |✅ Logs & Metrics collection \w FluentBit and Grafana|◻︎ Cut a new release|
@@ -84,6 +86,7 @@ We want to pursue this dream aggressively
 ### Milestone 3 - Q2 2022
 
 > Upon successful completion of this **Milestone**, OpenRegistry will have multiple storage backends, thorough collaborations with IPFS and Filebase. These backends will be configurable by the end user. We'll also build an Open-Source TUS Protocol Client Library, which helps with uploading large files efficiently to servers that support TUS. We're looking forward to bring WebAuthN to OpenRegistry as it will eliminate any need to collect PII. Along with this, we're also expecting Vulnerability scanning, Bring your own encryption keys and more.
+
 |Web3 integrations|New Features & Enhancements|Ecosystem Building|
 |------|--------|-------|
 |◻︎ TUS Protocol Client Implementation|◻︎ Vulnerability Scanning for Container Images|◻︎ SPIFEE based resource access|
