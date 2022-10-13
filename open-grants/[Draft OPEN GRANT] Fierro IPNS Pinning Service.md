@@ -55,22 +55,13 @@ Sharing keys is not a problem, there is functionality in go-ipfs to permit that;
 The final deliverable for this project will be a web API that is being hosted in the cloud. The product will consit of these features: 
 
 Backend - Basic API service that works better and more secure than current mvp:
-- keystore operands: 
-   - key generation 
-   - key import and export 
-- Adding a file to IPFS network 
-- Add directories to IPFS
-- Publishing records to IPNS
-- Updating records on IPNS
-- Viewing published IPNS records 
-- Record tracking
-- Record republishing
-- all following upgraded pinning service specification
+   - Viewing published IPNS records
+   - Record tracking
+   - All following upgraded pinning service specification
 
 Frontend - to interact with records pinned with a GUI:
-- add files to IPFS
-- add directories to IPFS
-- form for providing keys to publishing content on remote node
+   - Sign up for API
+   - Form to view records tracked on Fierro
 
 Documentation - to give support in video and text format to developers:
    - add IPNS support to current [IPFS pinning service specs](https://ipfs.github.io/pinning-services-api-spec/) 
@@ -98,7 +89,7 @@ Documentation - to give support in video and text format to developers:
        * Docs on how to get your own node up and running
        * All in one page for resources on IPNS
 
-Marco Rodriguez, Lead Engineer will be working on Phase 1 milestone 1. This will be a 4 week long milestone. With a budget of $6,000.
+Marco Rodriguez, Lead Engineer will be working on Phase 1 milestone 1. This will be a 2 month long milestone.
 
 2. Implement API spec in Fierro
    * Pin and PinStatus objects
@@ -106,29 +97,25 @@ Marco Rodriguez, Lead Engineer will be working on Phase 1 milestone 1. This will
    * Fix all endpoints to work with changes
    * Testing code
       
-Marco Rodriguez, Lead Engineer will be working on Phase 1 milestone 2. This will be a 6 week long milestone. With a budget of $9,000.
+Marco Rodriguez, Lead Engineer will be working on Phase 1 milestone 2. This will be a 3 month long milestone.
 
 ### Phase 2 -  A web2 story
 1. Front end
-   * Add files to IPFS page
-   * Publish content to IPNS page
    * Follow and stop following page
    * Login page 
    * Design and implementation
    
-Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 1. This will be a 4 week long milestone. With a budget of $6,000.
+Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 1. This will be a 2 month long milestone.
 
 2. Finish development on API
    * Implement API keys
-       * private key encryption
-       * API key mappings
    * Security:
-       * secure key transmission between client and server
+       * client and server
        * input validation
    * Marketing push and announcements
    * Medium posts, other blog posts, twitter spaces, 
    
-Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 2. This will be a 10 week long milestone. With a budget of $15,000.
+Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 2. This will be a 3 month long milestone.
 
 3. QA testing & Deploy
    * Deploy on cloud service
@@ -138,22 +125,20 @@ Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 2. This will
      - stress tests
    * Debugging
    
-Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 3. This will be a 7 week long milestone with server costs. With a budget of $10,500.
+Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 3. This will be a 2 month long milestone with server costs. With a budget of $7,000.
 
 4. Beta
    * Open beta to 100 users
    * Customer feedback & debugging loop
    * Documentation
    
-Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 4. This will be a 6 week long milestone with server costs. With a budget of $14,000.
+Marco Rodriguez, Lead Engineer will be working on Phase 2 milestone 4. This will be a 2 month long milestone with server costs.
 
 ## Total Budget Requested
 
 <!--Sum up the total requested budget across all milestones, and include that figure here. Also, please include a budget breakdown to specify how you are planning to spend these funds. -->
 
-$50/hr, 30hrs/week -> $1,500/week -> 37 weeks * $1,500 = $55,500
-
-Total= ~$7,000 server costs + $55,500 = **$62,500**
+Total= $7,000 for server costs
 
 Breakdown:
 * Api spec: living costs & expenses
@@ -206,7 +191,7 @@ https://www.fierro.io/
 
 <!-- Please describe (in words) your team's relevant experience, and why you think you are the right team to build this project. You can cite your team's prior experience in similar domains, doing similar dev work, individual team members' backgrounds, etc. -->
 
-I have spent the last 4-5 months involving myself in the community everyday and finding out what the people want in an IPNS pinning service. Even if I don't participate in every conversation, I am reading the comments of every user wanting IPNS support. I am a recipient of the next-steps microgrant, I have been working on this project Jan-March. The project is at the mvp stage and after milestone 3 it will be beta ready. Since I have been the one to tackle the problem, I need to see it through. I am an adept learner and socialize well. Since graduating college two years ago, my passion for distributed/decentralized systems has grown and led me to participate and win prizes in many hackathons, participate in a web3 fellowship to develop my first project on IPFS, and meet many amazing people around the world. I worked with the Fission team to contribute to the redirects project for go-ipfs. The task was to follow Netlify's redirects spec, thus allowing dapps on IPFS to not error out on page refreshes.
+I have spent the last 4-5 months involving myself in the community everyday and finding out what the people want in an IPNS pinning service. Even if I don't participate in every conversation, I am reading the comments of every user wanting IPNS support. I am a recipient of the next-steps microgrant, I have been working on this project Jan-March. The project is at the mvp stage and after milestone 3 it will be beta ready. Since I have been the one to tackle the problem, I need to see it through. I am an adept learner and socialize well. Since graduating college two years ago, my passion for distributed/decentralized systems has grown and led me to participate and win prizes in many hackathons, participate in a web3 fellowship to develop my first project on IPFS, and meet many amazing people around the world. I worked with the Fission team to contribute to the redirects project for go-ipfs. The task was to follow Netlify's redirects spec, thus allowing gateways on IPFS to not error out on page refreshes.
 
 ## Team code repositories
 
