@@ -1,3 +1,5 @@
+Please note that the review for all grants submitted after December 16th, 2022 will be on hold until January 6, 2023. Thank you!
+
 # ipfs-grants
 
 | 📣 As of May 2021, several grant types have re-opened to applications. |
