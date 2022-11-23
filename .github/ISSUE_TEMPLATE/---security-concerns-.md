@@ -1,6 +1,6 @@
 ---
 name: "⚠️ Security Concerns?"
-about: DO NOT USE THIS REPO! Any sensitive concerns should be emailed to security@protocol.ai
+about: DO NOT USE THIS REPO! Any sensitive concerns should be emailed to security@ipfs.io
 title: ''
 labels: ''
 assignees: ''
