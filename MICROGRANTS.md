@@ -25,7 +25,7 @@ Next Step Microgrants are intended to be easy to apply for, evaluate, and admini
 We may also contact you about promoting the resulting work, including coverage on [the IPFS Blog](https://blog.ipfs.io/) or social media.
 
 ### Timelines
-Grant applications are typically reviewed every 2 weeks.
+Grant applications are typically reviewed every 3 weeks.
 
 ## Apply
 
