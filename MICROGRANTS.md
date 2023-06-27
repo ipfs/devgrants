@@ -1,74 +1,54 @@
+## Thank you for your interest in our grants program! We are currently reviewing a high volume of proposals. Please wait 30 days before checking in on the status of your grant request.
 
-# Next Step Microgrants
-
-## About
-
-IPFS Next Step Microgrants are available to support taking the _Next Step_ after building an initial prototype with IPFS. They are offered with the understanding that decentralized technologies are a rapidly developing field with many unknowns. Next Step Microgrants seek to match the pace, breadth, and experimental nature of this work.
-
-From time-to-time, we may announce a focus area (such as offline use, GIS, digital democracy, etc) for priority consideration. However, all submissions will always be reviewed.
-
-### Intended Audience
-These grants are intended for independent developers, small studios, non-profits, activists, researchers... and you! 
-
-### Award
-Next Step Microgrants are awarded in the amount of **$5,000**, paid in FIL tokens. The entire grant amount be used to support work related to integrating or improving IPFS, such as developer time, hosting services, relevant hardware such as a raspberry pi, etc. 
-
-### Program Qualifications
-Next Step Microgrants are intended to be easy to apply for, evaluate, and administer. Projects must meet these 5 criteria:
-
-1. You've already built something with IPFS (or closely related technologies such as IPLD, libp2p, or frameworks such as OrbitDB, Textile, etc.), independently or as part of a course or hackathon.
-1. You can provide a clear and straightforward description of the _Next Step_ you plan to take with grant support.
-1. You can complete this work within 3 months. 
-1. You agree to open-source this work, via MIT license for code or [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license for content.
-1. You agree to complete weekly updates and a grant report upon conclusion, with the results of your microgrant-funded work as well as a description of your experience building on IPFS, including any challenges or shortcomings encountered.
-
-We may also contact you about promoting the resulting work, including coverage on [the IPFS Blog](https://blog.ipfs.io/) or social media.
-
-### Timelines
-Grant applications are typically reviewed every 3 weeks.
-
-## Apply
-
-1. Fill out this [VERY SHORT survey](https://airtable.com/shrDZMizx03jOa4mQ) about your experience building on IPFS.
-2. Apply for a grant using our [Next Step Microgrant Template](https://github.com/protocol/ipfs-grants/issues/new?assignees=mishmosh&labels=microgrant&template=microgrant.md&title=%5BMICROGRANT%5D+%3CYour+Title+Here%3E).
-
-## FAQ
-
-* Q: My project publishes data or files to IPFS, does it qualify?
-  * A: Yes
-
-* Q: My project uses OrbitDB, Textile, nft.storage, or other framework or service, not IPFS directly. Does it qualify?
-  * A: Yes
-
-* Q: My project saves data to, or retrieves data from the Filecoin network, does it qualify?
-  * A: Yes
-
-* Q: Do you pay out in other currencies besides FIL?
-  * A: No
-
-* Q: Should I send the payment information and W8/9 forms to you over email?
-  * A: No. We will reply to selected grantees with a form to submit that information.
-
-* Q: Which Filecoin wallet should I use?
-  * A: Any valid Filecoin address can be used. You can read more about Filecoin wallets [in the documentation](https://docs.filecoin.io/reference/#wallets). We are not responsible for any use of the FIL once the deposit has been made to the wallet address you provided.
-
-* Q: When is the Filecoin payment made, at what price, and will I be notified?
-  * A: Protocol Labs processes Filecoin payments twice monthly, and there is a short validation period for transactions. Typically you will not have to wait longer than three weeks once your application has been submitted. The Filecoin price at the end of the prior day is used to determine the amount; however, this may vary based on market conditions. You will receive an email notifying you that your deposit has been made.
-
-* Q: Can someone join the team who was not part of the original hackathon? Or can I switch with someone? Or can only a subset of the original team still participate?
-  * A: Yes! All team permutations are ok as long as there is only one submission per original hackathon project.
-
-* Q: What if my "next step" is significantly different from the original project? Can I apply for multiple "next step" grants?
-  * A: Next Step Microgrants are intended to build upon prior work. If you're unsure, go ahead and [apply](https://github.com/ipfs/devgrants/issues/new?assignees=mishmosh&labels=type%3Amicrogrant&template=microgrant.md&title=Next+Step+Microgrant%3A+%3CYour+Title+Here%3E), but add a section explaining the situation with links to any prior grant applications or code. We will review on a case-by-case basis. In some cases, we will recommend that you apply for an [Open Grant](open-grants/) instead.
-
-* Q: I'm not a coding participant; I coordinated or made videos or helped in other ways. Am I eligible?
-  * A: YES! In real life, successful products are the result of many roles, skills, backgrounds and disciplines... not just coding. You are an INSTRUMENTAL part of your team, and are eligible to receive the grant as well.
-
-* Q: What if we don't finish the work and run off with the money?
-  * A: You will carry the weight of your actions for the rest of your days, and may be reborn in the next life as a hungry ghost.
-
-## Support
-Support for Next Step Microgrants is contributed by [Protocol Labs](https://protocol.ai/) on a quarterly basis.
+# Filecoin Grants
 
 
-_For more information on the IPFS project's overall grant program, including other grant types, check out the top level of the [IPFS Grant Platform repo](https://github.com/ipfs/devgrants)_
+Welcome to the Filecoin Grant Platform! The Filecoin Grant Platform connects grant makers with builders and researchers in the Filecoin community. Whether you represent a foundation that wants to move the space forward, a company looking to accelerate development on the features your application needs, or a dev team itching to hack on Filecoin tools, you've come to the right place. Take a look at the supported grant types and available opportunities below.
+
+## Grant Types
+
+---
+
+### Next Step Microgrants
+
+Grants of $5,000 in FIL are available to support those taking the _next step_ after creating an initial prototype with Filecoin, IPFS, or related technologies.
+
+Since January 27, 2023, microgrants are exclusively awarded for projects within rotating [Microgrant focus areas](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md#focus-areas). Applications for the most recent focus area, [Filecoin Virtual Machine](https://fvm.filecoin.io/), are currently being processed. 
+
+If you have (1) a working prototype that matches the current focus area and (2) concrete _next steps_ for your project, consider applying for a microgrant!
+
+This program is intended for early stage projects. If your project has already received more than $30,000 USD from any source, please apply for an open grant (details below) rather than a microgrant.
+
+[**LEARN MORE AND APPLY FOR A MICROGRANT**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/microgrants.md) • [**See Accepted Microgrant Proposals**](https://github.com/filecoin-project/devgrants/blob/master/microgrants/accepted-microgrant-applications.md) 
+
+---
+
+### Open Grant
+Do you have an idea for pushing the Filecoin ecosystem forward? Grants of $10,000+ are available to support novel ideas that advance the Filecoin ecosystem, bring significant new usage, or directly advance the Filecoin mission statement.
+
+
+[**LEARN MORE ABOUT OPEN GRANTS**](https://github.com/filecoin-project/devgrants/tree/master/open-grants) **AND** [**APPLY FOR AN OPEN GRANT**](https://github.com/filecoin-project/devgrants/issues/new?assignees=&labels=&template=open-grant-application.md&title=)
+
+
+---
+
+### Requests for Proposals (RFPs)
+RFPs are grants for specific development work. As the name suggests, we are requesting proposals from teams that want to complete the work specified in each RFP. In these grants, we generally have clearly scoped deliverables, milestones, and funding limits. Some RFPs will ask you to propose your own milestones and funding needs. While there is some flexibility in RFP deliverables, we expect teams will deliver what is in scope in the RFP. Any deviations from the specified scope must be approved between your team and ours before we can approve funding. RFPs may be funded by Protocol Labs, other community members, or a consortium of interested parties.
+
+OPEN RFPs:
+
+* [Filecoin-solidity Phase II: Optimization, improvements and maintenance](https://github.com/filecoin-project/devgrants/blob/master/rfps/Filecoin-solidity-Optimization.md) RFP **New! 2023-05-05 **
+ 
+* [**FVM Project Ideas**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-rfp-ideas.md) 
+
+CLOSED RFPs:
+
+* [**FVM Tooling & Infrastructure**](https://github.com/filecoin-project/devgrants/blob/master/rfps/fvm-open-tools-infra.md) **This RFP is currently closed.**
+* [**Green Grants**](https://github.com/filecoin-project/devgrants/blob/master/rfps/green-grants.md) RFP - **The RFP is currently closed.**
+
+
+
+---
+
+### Don't see your grant type?
+Is your organization interested in offering a grant that doesn't fit into any of the above categories? [Email us directly](mailto:grants@filecoin.org) with your idea.
