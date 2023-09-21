@@ -73,6 +73,8 @@ For each milestone, please describe:
 
 ### Milestone 1 - IPLD Schema and MVP implementation
 
+RELEVANT PR: https://github.com/ipld/ipld/pull/254
+
 Outputs: A detailed specification for IPLD Prolly Trees complete with an IPLD Schema for how the data should be structured, documentation describing how to create and balance these trees, and an initial Golang implementation using the schema and balancing to create trees in memory. A document comprising the research materials that were used to come up with the implementation.
 
 Engineering: People working on this: 5
@@ -94,6 +96,8 @@ ETA 2 months
 
 ### Milestone 2 - Golang implementation of Prolly Tree spec
 
+RELEVANT REPOSITORY: https://github.com/kenlabs/go-ipld-prolly-trees/
+
 Outputs: A high-level Golang library which implements an IPLD ADL based on the initial implementation along with unit tests and documentation on how to use the library. A set of benchmarks for the 
 
 People working on this: 3
@@ -109,6 +113,8 @@ Total: 360 Hours, 9 Weeks * 3 + 90h, 9 weeks = 1080 + 90 = 1170 hours, 9 weeks
 ETA 2 months
 
 ### Milestone 3 - Golang IPLD indexer library
+
+IN PROGRESS
 
 Outputs: A golang library for creating indexes from IPLD objects based on fields to index as well as an API for searching through said indexes. This will come with unit tests and documentation that describes how the indexes work and how to use the library.
 
