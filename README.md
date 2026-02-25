@@ -1,10 +1,12 @@
-## IPFS Devgrants
+## IPFS Devgrants — Archived
 
-Developer grants for IPFS are currently on hold during the development of [the new governance structure][governance-post] for the protocol. We look forward to your ideas and projects to make IPFS ever better when we re-open in 2024!
+This repository has been archived. Thank you to all the developers who built new tooling and apps through this programme — your contributions have been invaluable to the IPFS ecosystem.
 
-For now, share your ideas on the [IPFS forum][ipfs-discourse], [Discord][ipfs-discord] or [Matrix][ipfs-matrix].
+---
 
-IPFS developer grants currently funded by the [Filecoin Grant Platform][ff-grants] will continue until completed, but no new proposals will be accepted. New proposals that do not have a Filecoin component will be evaluated by the respective IPFS and libp2p foundations once they are launched.
+As part of [the new governance structure][governance-post] for the protocol, grants for IPFS are now focused on integrations, extensions, and new implementations that make IPFS accessible across a variety of languages, platforms, and systems — rather than individual apps. From time to time, targeted RFPs will be posted on the [IPFS Implementations Grants website][ipfs-grants].
+
+In the meantime, share your ideas on the [IPFS forum][ipfs-discourse], [Discord][ipfs-discord] or [Matrix][ipfs-matrix].
 
 [governance-post]: https://protocol.ai/blog/advancing-ipfs-and-libp2p-governance/
 [ipfs-discourse]: https://discuss.ipfs.tech/
