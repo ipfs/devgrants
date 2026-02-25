@@ -9,6 +9,7 @@ As part of [the new governance structure][governance-post] for the protocol, gra
 In the meantime, share your ideas on the [IPFS forum][ipfs-discourse], [Discord][ipfs-discord] or [Matrix][ipfs-matrix].
 
 [governance-post]: https://protocol.ai/blog/advancing-ipfs-and-libp2p-governance/
+[ipfs-grants]: https://ipfsgrants.io/
 [ipfs-discourse]: https://discuss.ipfs.tech/
 [ipfs-discord]: https://discord.gg/vZTcrFePpt
 [ipfs-matrix]: https://matrix.to/#/#ipfs-space:ipfs.io
